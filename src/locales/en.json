@@ -1,0 +1,2844 @@
+{
+  "common": {
+    "buttons": {
+      "edit": "Edit",
+      "send": "Send ",
+      "invite": "Invite"
+    },
+    "status": {
+      "active": "Active",
+      "pending": "Pending",
+      "blocked": "Blocked"
+    },
+    "auth": {
+      "emailLabel": "Email address",
+      "emailPlaceholder": "Enter your email",
+      "passwordLabel": "Password",
+      "passwordPlaceholder": "Enter your password",
+      "allFieldsRequiredError": "All fields are required!",
+      "emailRequired": "Please enter your email address. It is required to proceed.",
+      "passwordRequired": "Please enter your password. This field cannot be left empty.",
+      "newPasswordRequired": "Please enter your new password. This field cannot be left empty.",
+      "confirmPasswordRequired": "Please confirm your new password. This field cannot be left empty.",
+      "passwordsDontMatch": "The new password and confirmation password do not match. Please try again."
+    },
+    "label": {
+      "confirm": "Confirm",
+      "confirming": "Confirming...",
+      "age": "Age",
+      "grade": "Grade",
+      "name": "Name"
+    }
+  },
+
+  "navbar": {
+    "home": "Home",
+    "features": "Features",
+    "pricingPlans": "Pricing Plans",
+    "contact": "Contact",
+    "login": "Login"
+  },
+
+  "home": {
+    "getStarted": "Get Started",
+    "hero": {
+      "title": "The Future of ",
+      "title-span": "Parent-School",
+      "title-br": "Interaction",
+      "description": "A modern, digital solution for hassle-free payments, resource booking, and parent engagement.",
+      "button": {
+        "watchDemo": "Watch Free Demo",
+        "requestDemo": "Request a Demo"
+      }
+    },
+    "features": {
+      "badgeLabel": "Features",
+      "headingTitle": "A Smarter School Payment System Built for Everyone",
+      "headingDescription": "Finally, a Payment System That Works for You",
+      "features": {
+        "flexible": {
+          "title": "Flexible Payment Solutions",
+          "description": "Manage school fees, invoices, and payments in one place."
+        },
+        "comprehensive": {
+          "title": "Comprehensive Event Management",
+          "description": "Plan, schedule, and track events with real-time updates."
+        },
+        "powerful": {
+          "title": "Powerful Reporting & Insights",
+          "description": "Gain actionable insights into student performance and school operations."
+        },
+        "seamless": {
+          "title": "Seamless Booking System",
+          "description": "Effortlessly schedule meetings, parent-teacher conferences, and school facility reservations."
+        }
+      },
+      "buttons": {
+        "learnMore": "Learn More",
+        "seeDemo": "See Demo"
+      }
+    },
+    "education": {
+      "badgeLabel": "All-in-One Solution",
+      "headingTitle": "Empower Your Institution with Pulisync",
+      "headingDescription": "Say goodbye to messy spreadsheets, scattered emails, and miscommunications. Pulisync",
+      "headingDescriptionBr": "gives schools, teachers, and parents a central hub for everything they need.",
+
+      "features": {
+        "schools": {
+          "title": "For Schools",
+          "description": "Control every aspect of school management effortlessly."
+        },
+        "teachers": {
+          "title": "For Teachers",
+          "description": "Focus on teaching while automating grading, attendance & communication."
+        },
+        "parents": {
+          "title": "For Parents",
+          "description": "Stay connected to your child's education with real-time updates."
+        },
+        "students": {
+          "title": "For Students",
+          "description": "Keep track of assignments, schedules, and progress reports in one place."
+        }
+      },
+      "buttons": {
+        "learnMore": "Learn More",
+        "watchNow": "Watch Now"
+      }
+    },
+    "testimonial": {
+      "subheading": "3940+ Happy Pulisync Users",
+      "description": "Schools That Switched to Pulisync—",
+      "heading": "And Never Looked Back",
+      "testimonials": {
+        "one": {
+          "text": "We used to process payments manually, and it was chaos. With Pulisync, everything is automated, transparent, and easy to track. It has completely changed how we manage finances.",
+          "name": "Michael R.",
+          "position": "Director of School Operations"
+        },
+        "two": {
+          "text": "Parents love it because they can pay for everything in one place. Our administrative team loves it because they no longer have to chase late payments. Win-win.",
+          "name": "Devon Lane",
+          "position": "School Finance Manager"
+        },
+        "three": {
+          "text": "Pulisync has made tuition payments effortless for our school. Parents appreciate the convenience, and we love the accuracy and real-time tracking.",
+          "name": "Sarah P.",
+          "position": "Principal"
+        },
+        "four": {
+          "text": "Switching to Pulisync was the best decision we made this year. Our finance department is finally stress-free, and our processes are more efficient than ever.",
+          "name": "Jonathan K.",
+          "position": "Finance Director"
+        }
+      }
+    },
+
+    "explorer": {
+      "badgeLabel": "Explore",
+      "title": "Simplify School Payments",
+      "description": "Pulisync is crafted to enhance payment processing for schools and childcare centers, offering effortless fee collection, clear transaction tracking, and a smooth experience for both parents and administrators.",
+      "features": {
+        "watchNow": {
+          "title": "Watch Now",
+          "description": "Discover how Pulisync transforms payment management, providing secure transactions, automated reminders, and comprehensive financial reporting.",
+          "buttonLabel": "Play Video"
+        },
+        "getStarted": {
+          "title": "Get Started",
+          "description": "Sign up for Pulisync today and enjoy a unified platform for managing payments, events, and administrative duties with ease.",
+          "buttonLabel": "Get Started"
+        }
+      }
+    },
+
+    "pricing": {
+      "header": {
+        "title": "Choose the Right Plan for",
+        "titleBr": "Your Institution",
+        "description": "Flexible and scalable plans designed to match your institution's size and requirements."
+      },
+      "billingToggle": {
+        "monthly": "Pay Monthly",
+        "yearly": "Pay Yearly",
+        "saveMessage": "Save 10% with yearly billing"
+      },
+      "billingPeriod": {
+        "monthly": "/ Month",
+        "yearly": "/ Month (billed yearly)"
+      },
+      "plans": {
+        "starter": {
+          "name": "Starter Plan",
+          "description": "Designed for small schools and institutions starting with streamlined management tools.",
+          "limit": "up to 100 students",
+          "monthlyPrice": 49,
+          "yearlyPrice": 44,
+          "features": [
+            "Parent Pay System",
+            "Event Management",
+            "Attendance Tracking",
+            "Basic Student Information Management"
+          ]
+        },
+        "growth": {
+          "name": "Growth Plan",
+          "description": "Ideal for growing institutions needing advanced tools for student performance and management.",
+          "limit": "up to 300 students",
+          "monthlyPrice": 99,
+          "yearlyPrice": 89,
+          "isPopular": true,
+          "features": [
+            "Everything in Starter, plus:",
+            "Student Performance Tracking",
+            "Previous School Record Management",
+            "Lifetime Data Storage",
+            "Meal and Booking System",
+            "Customizable Reports"
+          ]
+        },
+        "elite": {
+          "name": "Elite Plan",
+          "description": "Designed for large institutions requiring advanced analytics and premium support.",
+          "limit": "unlimited students",
+          "monthlyPrice": 199,
+          "yearlyPrice": 179,
+          "features": [
+            "Everything in Growth, plus:",
+            "Advanced Analytics",
+            "Priority Support",
+            "Dedicated Account Manager"
+          ]
+        }
+      },
+      "button": {
+        "getStarted": "Get Started Now"
+      }
+    },
+    "eventManagement": {
+      "badgeLabel": "Explore",
+      "heading": "Seamless Event Management with Pulisync",
+      "description": "Pulisync's built-in Booking System allows you to schedule, manage, and track reservations effortlessly. No more double bookings, lost appointments, or manual tracking. It's all handled in one place.",
+      "buttons": {
+        "learnMore": "Learn More",
+        "contact": "Contact"
+      }
+    },
+    "faq": {
+      "header": {
+        "title": "User Manual & FAQs",
+        "description": "Reach out to ",
+        "descriptionLast": " for any queries",
+        "button_viewAll": "View all FAQs",
+        "seeFeatures": "See Features"
+      },
+      "faqItems": {
+        "one": {
+          "question": "What is Pulisync?",
+          "answer": "Pulisync is a comprehensive platform designed to simplify school and childcare management. From event scheduling to payment processing and real-time analytics, it brings all your operations into one easy-to-use solution."
+        },
+        "two": {
+          "question": "Is it secure?",
+          "answer": "Your Pulisync prioritizes data security with industry-leading encryption, regular audits, and compliance with global standards to ensure your data is always safe."
+        },
+        "three": {
+          "question": "How does pricing work?",
+          "answer": "We offer flexible pricing plans based on your institution's size and needs. Choose from our Starter, Growth, or Elite plans with monthly or yearly billing options."
+        },
+        "four": {
+          "question": "Can I get a demo?",
+          "answer": "Yes! We offer personalized demos to show you how Pulisync can benefit your institution. Schedule one through our contact form."
+        }
+      },
+      "contactSection": {
+        "title": "Still have questions?",
+        "description": "We're here to help you with any inquiries.",
+        "buttonLabel": "Contact Now"
+      }
+    },
+    "collaborate": {
+      "heading": "Stay Connected",
+      "headingSpan": "with your",
+      "headingBr": "School Community",
+      "description": "Pulisync isn't just about management—it's about building a stronger school ecosystem.",
+      "buttonLabel": "Try Pulisync Today"
+    },
+    "contact": {
+      "badgeLabel": "Contact",
+      "header": {
+        "title": "Get in Touch",
+        "description": "We're here to assist you with any inquiries."
+      },
+      "methods": {
+        "e-title": "Email",
+        "e-description": "Reach us at the following email address.",
+        "l-title": "Live Support",
+        "l-description": "Chat with our team for immediate assistance.",
+        "l-contact": "Start Chat",
+        "p-title": "Phone",
+        "p-description": "Call us for quick support and inquiries.",
+        "p-contact": "+1 (555) 123-4567"
+      }
+    }
+  },
+
+  "footer": {
+    "subscribeMessage": "Subscribe to our newsletter for updates",
+    "emailPlaceholder": "Your email address",
+    "join": "Join",
+    "consentMessage": "By subscribing, you agree to our Privacy Policy and consent to receive updates from Pulisync.",
+    "copyright": "© 2025 Pulisync. All rights reserved.",
+    "links": {
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service",
+      "legalPolicy": "Legal Policy",
+      "cookieSettings": "Cookie Settings"
+    }
+  },
+
+  "loginPage": {
+    "title": "Login",
+    "description": "Enter your email and password to login",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter your email",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "showPassword": "Show Password",
+    "hidePassword": "Hide Password",
+    "loginButton": "Login",
+    "loggingIn": "Logging in...",
+    "loginSuccess": "Logged in successfully",
+    "forgotPassword": "Forgot your password?",
+    "resetPasswordLink": "Reset it here"
+  },
+  "forgotPasswordPage": {
+    "title": "Reset Password",
+    "description": "Enter your email to receive a password reset code link",
+    "emailLabel": "Email address",
+    "emailPlaceholder": "Enter your email",
+    "submitButton": "Send Reset Link",
+    "sendingResetEmail": "Sending a reset email...",
+    "successMessage": "Reset email sent successfully!",
+    "errorMessage": "An error occurred while sending the reset email.",
+    "backToLogin": "Back to login",
+    "rememberPassword": "Remember your password?"
+  },
+  "verifyCodePage": {
+    "title": "Verify Your Email",
+    "description": "Please enter the verification code sent to your email",
+    "verifyButton": "Verify Code",
+    "resendCode": "Resend Code",
+    "resendFailed": "Resend faild",
+    "resending": "Resending...",
+    "waitMessage": "Wait {seconds}s",
+    "lockedMessage": "Too many attempts. Please wait {minutes} minutes.",
+    "verifyingCode": "Verifying your code...",
+    "successMessage": "Verification code resent successfully!",
+    "verificationCodeRequired": "Please enter a valid 6-digit verification code.",
+    "errorMessage": "Failed to resend code. Try again later.",
+    "tooManyAttempts": "Too many attempts! Please wait 10 minutes before retrying.",
+    "invalidCodeMessage": "Please enter a valid 6-digit verification code.",
+    "didNotReceiveCode": "Didn't receive the code?"
+  },
+  "resetPasswordPage": {
+    "title": "Password Reset",
+    "description": "Enter your email and set a new password to reset your account.",
+    "newPasswordLabel": "New Password",
+    "confirmPasswordLabel": "Confirm Password",
+    "sendingResetEmail": "Sending a reset email...",
+    "newPasswordPlaceholder": "Enter new password",
+    "confirmPasswordPlaceholder": "Re-enter new password",
+    "submitButton": "Reset Password",
+    "resetingMessage": "message reset...",
+    "successMessage": "Password reset successfully!",
+    "errorMessage": "An error occurred while resetting your password.",
+    "passwordMismatchError": "Passwords don't match!",
+    "forgotPasswordLink": "Forgot your password?",
+    "helpLink": "Get help here"
+  },
+  "changePasswordPage": {
+    "title": "Change Password",
+    "description": "Enter your current password and set a new password to update your account.",
+    "currentPasswordLabel": "Current Password",
+    "newPasswordLabel": "New Password",
+    "currentPasswordPlaceholder": "Enter current password",
+    "newPasswordPlaceholder": "Enter new password",
+    "submitButton": "Change Password",
+    "successMessage": "Password changed successfully!",
+    "errorMessage": "Failed to change password. Please try again.",
+    "allFieldsRequiredError": "All fields are required!",
+    "passwordLengthError": "New password must be at least 8 characters.",
+    "forgotPasswordLink": "Forgot your password?",
+    "helpLink": "Get help here"
+  },
+
+  "authFooter": {
+    "copyright": "© 2025 PuliKidz ParentPay. All rights reserved.",
+    "links": {
+      "helpCenter": "Help Center",
+      "privacyPolicy": "Privacy Policy",
+      "termsOfService": "Terms of Service"
+    }
+  },
+
+  "dashboard": {
+    "children": {
+      "title": "Children",
+      "description": "View and manage your children's profiles and payments",
+      "attendanceRate": "Attendance Rate",
+      "dueAmount": "Due Amount",
+      "viewProfile": "View profile",
+      "payNow": "Pay now",
+      "paid": "Paid",
+      "due": "Due",
+      "grade": "Grade",
+      "cgpa": "CGPA"
+    },
+    "parent": {
+      "details": {
+        "title": "Contact Information",
+        "email": "Email",
+        "phone": "Phone",
+        "address": "Address"
+      },
+      "children": {
+        "title": "Children",
+        "age": "Age"
+      },
+      "payments": {
+        "title": "Recent Payments",
+        "columns": {
+          "date": "Date",
+          "paidFor": "Paid For",
+          "amount": "Amount",
+          "transactionId": "Transaction ID",
+          "paymentMethod": "Payment Method",
+          "status": "Status",
+          "details": "Details"
+        }
+      },
+      "inviteParent": {
+        "buttonText": "Invite Parent",
+        "title": "Invite Parent",
+        "emailPlaceholder": "New parent's email address",
+        "submitButtonText": "Invite"
+      },
+      "parentAddEditForm": {
+        "title": "Edit Profile",
+        "profilePicture": "Profile Picture",
+        "changePicture": "Change Picture",
+        "personalInformation": "Personal Information",
+        "firstName": "First Name",
+        "lastName": "Last Name",
+        "dateOfBirth": "Date of Birth",
+        "contactNumber": "Contact Number",
+        "gender": "Gender",
+        "male": "Male",
+        "female": "Female",
+        "other": "Other",
+        "personalAddress": "Personal Address",
+        "street": "Street",
+        "city": "City",
+        "region": "Region",
+        "postalCode": "Postal Code",
+        "country": "Country",
+        "selectCountry": "Select Country",
+        "submitTextAdd": "Add Parent",
+        "submitTextEdit": "Save"
+      },
+      "parentDetails": {
+        "title": "Parent Details",
+        "editProfileButton": "Edit Profile",
+        "sendMessageButton": "Send Message",
+        "contactInformation": "Contact Information",
+        "emailLabel": "Email",
+        "addressLabel": "Address",
+        "phoneLabel": "Phone",
+        "childrenSection": "Children",
+        "childStatus": "Status",
+        "childGrade": "Grade",
+        "childAge": "Age",
+        "manageChildButton": "Manage",
+        "recentPayments": "Recent Payments",
+        "viewAllPayments": "View All Payments",
+        "paymentColumns": {
+          "date": "Date",
+          "paidFor": "Paid For",
+          "amount": "Amount",
+          "transactionId": "Transaction ID",
+          "paymentMethod": "Payment Method",
+          "status": "Status",
+          "details": "Details"
+        },
+        "errorMessages": {
+          "loadingError": "Error: Failed to load parent details",
+          "notFound": "Parent not found",
+          "updateError": "Failed to update profile"
+        },
+        "successMessages": {
+          "profileUpdated": "Profile updated successfully"
+        }
+      },
+      "parentList": {
+        "errorLoadingParents": "Error: Failed to load parent data",
+        "searchPlaceholder": "Search by Parent Name or ID",
+        "pagination": {
+          "previous": "Previous",
+          "next": "Next",
+          "pageText": "Page {currentPage} of {totalPages}",
+          "itemsPerPage": "Items per page"
+        }
+      },
+      "parentTable": {
+        "title": "Parent List",
+        "searchPlaceholder": "Parent Name, ID...",
+        "headers": {
+          "name": "Name",
+          "address": "Address",
+          "email": "Email",
+          "children": "Children",
+          "phone": "Phone",
+          "status": "Status"
+        },
+        "actions": {
+          "view": "View",
+          "edit": "Edit"
+        },
+        "statusOptions": {
+          "active": "Active",
+          "pending": "Pending",
+          "blocked": "Blocked"
+        },
+        "confirmationDialog": {
+          "title": "Update Status",
+          "message": "Are you sure you want to change the status to {status}?",
+          "confirmText": "Update"
+        },
+        "errorMessages": {
+          "updateStatusError": "Failed to update status"
+        }
+      }
+    },
+    "paymentTable": {
+      "title": "Recent Payments",
+      "button_viewAll": " View All Payments",
+      "columns": {
+        "date": "Date",
+        "studentName": "Student Name",
+        "amount": "Amount",
+        "transactionId": "Transaction ID",
+        "paymentMethod": "Payment Method",
+        "status": "Status",
+        "details": "Details"
+      },
+      "searchPlaceholder": "Tran. , ID...",
+      "exportButton": "Export Data",
+      "statusLabels": {
+        "paid": "Paid",
+        "pending": "Pending",
+        "due": "Due"
+      }
+    },
+    "paymentLineChart": {
+      "title": "Payments Trends",
+      "titleP": "Month-wise Spending",
+      "tooltip": {
+        "totalPayment": "Total Payment:",
+        "successful": "Successful:",
+        "failed": "Failed:"
+      }
+    },
+    "paymentMethodDistributionChart": {
+      "title": "Payment Distribution",
+      "legend": {
+        "credit": "Credit",
+        "debit": "Debit",
+        "banktransfer": "Bank Transfer",
+        "paypal": "PayPal",
+        "others": "Others"
+      }
+    },
+    "quickAction": {
+      "title": "Quick Actions",
+      "actions": {
+        "generateSummary": "Generate Summary",
+        "manageRefund": "Manage Refund",
+        "feesConfiguration": "Fees Configuration",
+        "manageNotification": "Manage Notification"
+      }
+    },
+    "feesConfiguration": {
+      "pageTitle": "Fees Configuration",
+      "breadcrumb": {
+        "payments": "Payments",
+        "feesConfiguration": "Fees Configuration"
+      },
+      "gradeDetails": {
+        "feesConfigurationTitle": "Fees Configuration",
+        "paymentSettingsTitle": "Payment Settings",
+        "generalSettingsTitle": "General Settings",
+        "paymentMethodsTitle": "Payment Methods",
+        "notificationsTitle": "Notifications",
+        "fields": {
+          "admissionFee": "Admission Fee",
+          "oneTimeFee": "One Time Fee",
+          "monthlyTuitionFee": "Monthly Tuition Fee",
+          "labFee": "Lab Fee",
+          "maintenanceCharge": "Maintenance Charge",
+          "paymentDueDate": "Payment Due Date",
+          "lateFees": "Late Fees (Per days)"
+        },
+        "paymentMethods": {
+          "creditCard": "Credit Card",
+          "paypal": "PayPal",
+          "googlePay": "Google Pay",
+          "cash": "Cash",
+          "bankTransfer": "Bank Transfer"
+        },
+        "notifications": {
+          "paymentReminders": "Payment Reminders",
+          "latePaymentAlerts": "Late Payment Alerts",
+          "receiptGeneration": "Receipt Generation"
+        },
+        "buttons": {
+          "discard": "Discard",
+          "saveChanges": "Save Changes"
+        },
+        "toasts": {
+          "changesSaved": "All changes saved successfully!",
+          "changesDiscarded": "All changes discarded"
+        }
+      },
+      "gradeItem": {
+        "fields": {
+          "admissionFee": "Admission Fee:",
+          "oneTimeFee": "One Time Fee:",
+          "monthlyTuition": "Monthly Tuition:",
+          "labFee": "Lab Fee:",
+          "maintenance": "Maintenance:"
+        }
+      }
+    },
+    "refundCardList": {
+      "pageTitle": "Payment Refund",
+      "amount": "Amount:",
+      "requestDate": "Request Date:",
+      "breadcrumb": {
+        "payments": "Payments",
+        "paymentRefundLists": "Payment Refund Lists"
+      },
+      "searchPlaceholder": "Search by name or ref#...",
+
+      "statusFilters": {
+        "all": "All",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected"
+      },
+      "pagination": {
+        "showingResults": "Showing {count} of {total} results",
+        "previous": "Previous",
+        "next": "Next"
+      },
+      "noDataMessage": "Data Not Found",
+      "viewDetails": "View Details"
+    },
+    "refundDetails": {
+      "pageTitle": "Payment Refund Request Details",
+      "breadcrumb": {
+        "payments": "Payments",
+        "paymentRefundLists": "Payment Refund Lists",
+        "requestDetails": "Request Details"
+      },
+      "button": {
+        "printRequested": "Print Requested"
+      },
+      "requestInformation": {
+        "title": "Request Information",
+        "fields": {
+          "requestId": "Request ID:",
+          "studentName": "Student Name:",
+          "parentName": "Parent Name:",
+          "grade": "Grade:",
+          "transactionId": "Transaction ID:",
+          "paidAmount": "Paid Amount:",
+          "refundAmount": "Refund Amount:",
+          "requestDate": "Request Date:",
+          "refundReason": "Refund Reason"
+        }
+      },
+      "paymentHistory": {
+        "title": "Payment History",
+        "columns": {
+          "date": "Date",
+          "amount": "Amount",
+          "method": "Method",
+          "status": "Status"
+        }
+      },
+      "actionStatus": {
+        "title": "Action Status",
+        "underReview": "Under Review",
+        "approveRefund": "Approve Refund",
+        "rejectRefund": "Reject Refund"
+      },
+      "adminComments": {
+        "title": "Admin Comments",
+        "placeholder": "Add a comment (max 100 words)",
+        "addComment": "Add Comment"
+      },
+      "notFoundMessage": "Refund Not Found"
+    },
+    "addNewCard": {
+      "title": "Save Cards",
+      "buttonLabel": "Add new Card",
+      "noCardsMessage": "No cards added yet. Click on 'Add new Card' to get started.",
+      "cardType": {
+        "visa": "VISA",
+        "mastercard": "MasterCard"
+      },
+      "toasts": {
+        "success": "New card added successfully!",
+        "error": "You can only add up to 2 cards."
+      }
+    },
+    "recentTransactions": {
+      "title": "Recent Transactions",
+      "tableHeaders": {
+        "childName": "Child Name",
+        "facility": "Facility",
+        "date": "Date",
+        "amount": "Amount"
+      },
+      "viewAllButton": "View All"
+    },
+    "childPaymentCard": {
+      "paymentStatus": {
+        "paid": "Paid",
+        "due": "Due"
+      },
+      "buttons": {
+        "pay": "Pay",
+        "payTotal": "Pay Total ${totalAmount}",
+        "viewMore": "View More"
+      }
+    },
+    "paymentMethod": {
+      "pageTitle": "Swimming Pool Monthly Fees Payment",
+      "breadcrumb": {
+        "payments": "Payments",
+        "monthlyFeePayment": "Swimming Pool Monthly Fee Payment - Ethan Coopers"
+      },
+      "paymentInformation": {
+        "title": "Payment Information",
+        "bookingFee": "Booking Fee",
+        "choosePaymentMethod": "Choose your Payment Method",
+        "fields": {
+          "cardNumber": "Card Number",
+          "expiryDate": "Expiry Date",
+          "cvv": "CVV",
+          "saveCard": "Save this card for later use"
+        }
+      },
+      "paymentMethods": {
+        "paypal": "PayPal",
+        "googlePay": "Google Pay",
+        "applePay": "Apple Pay",
+        "stripe": "Stripe"
+      },
+      "termsAndConditions": {
+        "agreeText": "I agree to the",
+        "termsLink": "terms and conditions"
+      },
+      "payButton": "Pay ${totalAmount}",
+      "paymentSummary": {
+        "title": "Payment Summary",
+        "fields": {
+          "category": "Category",
+          "facility": "Facility",
+          "bookingPlan": "Booking Plan",
+          "duration": "Duration",
+          "participants": "Participants",
+          "perDayExpense": "Per Day Expense",
+          "serviceFee": "Service Fee",
+          "tax": "Tax",
+          "subTotal": "Sub Total"
+        }
+      }
+    },
+    "successCard": {
+      "pageTitle": "Payment Confirmation",
+      "breadcrumb": {
+        "payments": "Payments",
+        "monthlyFeePayment": "Swimming Pool Monthly Fee Payment - Ethan Coopers"
+      },
+      "successMessage": {
+        "title": "Payment Successful",
+        "description": "Your payment has been successfully completed. Below are the details"
+      },
+      "paymentSummary": {
+        "title": "Payment Summary",
+        "fields": {
+          "category": "Category",
+          "facility": "Facility",
+          "bookingPlan": "Booking Plan",
+          "duration": "Duration",
+          "participants": "Participants",
+          "perDayExpense": "Per Day Expense",
+          "serviceFee": "Service Fee",
+          "tax": "Tax",
+          "bookingFee": "Booking Fee",
+          "subTotal": "Sub Total",
+          "total": "Total"
+        }
+      },
+      "buttons": {
+        "downloadInvoice": "Download Invoice"
+      }
+    },
+    "refundParentCardList": {
+      "pageTitle": "Payment Refund",
+      "breadcrumb": {
+        "payments": "Payments",
+        "manageRefund": "Manage Refund"
+      },
+      "searchPlaceholder": "Search by name or ref#...",
+      "buttons": {
+        "search": "Search",
+        "previous": "Previous",
+        "next": "Next",
+        "cancel": "Cancel",
+        "submitRequest": "Submit Request",
+        "viewDetails": "View Details"
+      },
+      "filters": {
+        "myRequests": "My Requests",
+        "pending": "Pending",
+        "approved": "Approved",
+        "rejected": "Rejected",
+        "all": "All"
+      },
+      "refundCard": {
+        "requestDate": "Request Date",
+        "refundReason": "Refund Reason",
+        "amount": "Amount"
+      },
+      "newRefundForm": {
+        "title": "Request New Refund",
+        "fields": {
+          "refNumber": "Reference Number",
+          "name": "Name",
+          "amount": "Amount",
+          "reason": "Reason for Refund",
+          "comments": "Additional Comments",
+          "selectName": "Select Name",
+          "selectReason": "Select Reason"
+        },
+        "reasons": {
+          "productDefective": "Product Defective",
+          "wrongItem": "Wrong Item",
+          "notDelivered": "Not Delivered"
+        }
+      },
+      "pagination": {
+        "results": "Showing {count} of {total} results"
+      },
+      "noDataMessage": "Data Not Found"
+    },
+    "attendance": {
+      "attendanceDistribution": {
+        "title": "Daily Summary",
+        "totalStudents": "Total Students",
+        "present": "Present",
+        "absent": "Absent",
+        "late": "Late",
+        "attendanceRate": "Attendance Rate",
+        "errorLoading": "Error loading daily summary"
+      },
+      "weeklyOverviewChart": {
+        "title": "Weekly Overview",
+        "noData": "No data available for this week",
+        "errorLoading": "Error loading weekly summary",
+        "legend": {
+          "present": "Present",
+          "absent": "Absent"
+        }
+      },
+      "gradeCards": {
+        "title": "Attendance Management Overview",
+        "searchPlaceholder": "Teacher, Name, Grade",
+        "filter": {
+          "all": "All",
+          "assigned": "Assigned",
+          "unassigned": "Unassigned"
+        },
+        "tableHeaders": {
+          "section": "Section",
+          "assignedTeacher": "Assigned Teacher",
+          "actions": "Actions"
+        },
+        "noData": "Data not found",
+        "errorLoading": "Error loading attendance management data",
+        "assignSuccess": "Assigning teacher with Email: {email} to {grade} Section {section}",
+        "modal": {
+          "title": "Change Assigned Teacher",
+          "confirm": "Confirm",
+          "cancel": "Cancel"
+        }
+      },
+      "attendanceDetailsView": {
+        "title": "{grade}-{section} Attendance",
+        "noClassIdError": "Error: No classId provided",
+        "loading": "Loading...",
+        "errorLoadingAttendance": "Error loading attendance data: {message}",
+        "errorLoadingSection": "Error loading section data: {message}",
+        "noSectionDataTitle": "No Section Data Available",
+        "noSectionDataDescription": "It looks like there's no data for this section yet. Please check back later or contact support if this persists!",
+        "backButton": "Back",
+        "breadcrumbs": {
+          "attendance": "Attendance",
+          "section": "{grade}-{section}"
+        }
+      },
+      "attendanceReportTable": {
+        "title": "Attendance Report",
+        "columns": {
+          "studentId": "Student ID",
+          "name": "Name",
+          "attendanceStatus": "Attendance Status",
+          "timeIn": "Time In",
+          "remarks": "Remarks"
+        },
+        "pagination": {
+          "showing": "Showing {current} of {total} results",
+          "previous": "Previous",
+          "next": "Next"
+        },
+        "actions": {
+          "export": "Export"
+        }
+      },
+      "teacherDetails": {
+        "classTeacherDetails": "Class Teacher Details",
+        "teacherName": "Name",
+        "teacherID": "ID",
+        "teacherEmail": "Email",
+        "teacherPhone": "Phone",
+        "noTeacherAssigned": "No teacher assigned.",
+        "changeTeacher": "Change Teacher",
+        "sendMessage": "Send Message"
+      },
+      "changeTeacherModal": {
+        "title": "Change Assigned Teacher",
+        "description": "You are about to change the assigned teacher for Section {section} - {grade}. Search for a teacher below.",
+        "searchPlaceholder": "Search teacher by name, ID, email, or phone...",
+        "noTeachersFound": "No teachers found",
+        "errorLoadingTeachers": "Error loading teachers",
+        "selectTeacherError": "Please select a teacher",
+        "assignError": "Failed to assign teacher. Please try again.",
+        "cancel": "Cancel",
+        "confirmChange": "Confirm Change",
+        "changing": "Changing..."
+      },
+      "assignTeacherModal": {
+        "title": "Assigned Teacher",
+        "description": "You are about to add the assigned teacher for Section {section} - {grade}. Search for a teacher below.",
+        "searchPlaceholder": "Search teacher by name, ID, email, or phone...",
+        "noTeachersFound": "No teachers found",
+        "errorLoadingTeachers": "Error loading teachers",
+        "selectTeacherError": "Please select a teacher",
+        "assignError": "Failed to assign teacher. Please try again.",
+        "cancel": "Cancel",
+        "confirmChange": "Confirm Change",
+        "assigning": "Assigning..."
+      },
+      "weeklyAttendanceReport": {
+        "title": "Weekly Attendance Report",
+        "errorLoading": "Error loading weekly attendance: {message}",
+        "legend": "Increased compared to baseline",
+        "tooltipAttendance": "Attendance"
+      },
+      "yearlyPresentTrend": {
+        "title": "Yearly Attendance Report",
+        "tooltipPresentDays": "Present Days",
+        "legend": "Increased compared to baseline"
+      },
+      "parentYearlyPresentTrend": {
+        "title": "Yearly Present Trends",
+        "legend": "Present days per month",
+        "tooltipPresentDays": "Present Days: {attendance}"
+      },
+      "overallAttendancePerformance": {
+        "title": "Overall Attendance Performance",
+        "legendPresent": "Present",
+        "legendAbsent": "Absent",
+        "legendLate": "Late",
+        "tooltipDays": "{value} days"
+      },
+      "mySectionAttendance": {
+        "title": "{grade}-{section} Attendance",
+        "exportButton": "Export",
+        "markAllPresent": "Mark All Present",
+        "clearButton": "Clear",
+        "attendanceSheet": "Attendance Sheet",
+        "studentId": "Student ID",
+        "name": "Name",
+        "attendanceStatus": "Attendance Status",
+        "timeIn": "Time In",
+        "remarks": "Remarks",
+        "actions": "Actions",
+        "present": "Present",
+        "absent": "Absent",
+        "late": "Late",
+        "notRecorded": "Not Recorded",
+        "addAttendance": "Add Attendance",
+        "update": "Update",
+        "showingStudents": "Showing {current} of {total} students",
+        "previous": "Previous",
+        "next": "Next",
+        "errorFetchingData": "Failed to fetch attendance data",
+        "attendanceAdded": "Attendance added successfully!",
+        "attendanceUpdated": "Attendance updated successfully!",
+        "allMarkedPresent": "All students marked as present!",
+        "attendanceCleared": "Attendance cleared for all students.",
+        "failedToAdd": "Failed to add attendance: {message}",
+        "failedToUpdate": "Failed to update attendance: {message}",
+        "failedToMarkAllPresent": "Failed to mark all present: {message}",
+        "failedToClear": "Failed to clear attendance: {message}"
+      },
+      "individualStudentAttendanceReport": {
+        "title": "Student Attendance Report - {studentName} ({grade}-{section})",
+        "breadcrumbAttendance": "Attendance",
+        "weeklyReportTitle": "Weekly Report",
+        "dateColumn": "Date",
+        "statusColumn": "Status",
+        "remarksColumn": "Remarks",
+        "noDataForWeek": "No data available for this week",
+        "statusPresent": "Present",
+        "statusAbsent": "Absent",
+        "statusLate": "Late",
+        "remarksNotAvailable": "N/A",
+        "noDataAvailable": "No data available for student with ID: {studentId}"
+      },
+      "attendanceParentView": {
+        "weeklyReportTitle": "Weekly Report",
+        "noDataForWeek": "No data available for this week",
+        "classTeacherDetailsTitle": "Class Teacher Details",
+        "sendMessageButton": "Send Message",
+        "noChildrenFound": "No children found for this account.",
+        "noDataForSelectedChild": "No data available for the selected child.",
+        "date": "Date",
+        "status": "Status",
+        "remarks": "Remarks"
+      }
+    },
+    "events": {
+      "eventStats": {
+        "loading": "Loading event dashboard...",
+        "error": "Error loading event dashboard",
+        "totalEvents": "Total Events",
+        "totalRevenue": "Total Revenue",
+        "activeEvents": "Active Events",
+        "upcomingEvents": "Upcoming Events"
+      },
+      "eventList": {
+        "title": "Event List",
+        "searchPlaceholder": "Event Name",
+        "columns": {
+          "name": "Event Name",
+          "date": "Date & Time",
+          "status": "Status",
+          "seats": "Seats",
+          "registered": "Registered",
+          "revenue": "Revenue",
+          "actions": "Actions"
+        },
+        "emptyState": "No events found",
+        "createEvent": "Create Event"
+      },
+      "eventAttendanceStats": {
+        "title": "Averages Attendance Rate"
+      },
+      "dashboardActivities": {
+        "title": "Recent Activities"
+      },
+      "eventDetailsStats": {
+        "titles": {
+          "totalAttendance": "Total Attendance",
+          "totalRevenue": "Total Revenue",
+          "attendanceRate": "Attendance Rate",
+          "waitlistCount": "Waitlist Count"
+        }
+      },
+      "participantsList": {
+        "title": "Participants",
+        "placeholder": "Student Name, ID...",
+        "columns": {
+          "name": "Name",
+          "role": "Role",
+          "grade": "Grade",
+          "registrationDate": "Reg. Date",
+          "fees": "Fees",
+          "status": "Status"
+        },
+        "emptyState": "No participants found",
+        "exportButtonText": "Export List"
+      },
+      "pushNotificationsForm": {
+        "title": "Push Notifications",
+        "targetOptions": {
+          "all": "All",
+          "registered": "Registered",
+          "notRegistered": "Not Registered",
+          "waitlist": "Waitlist"
+        },
+        "labels": {
+          "headline": "Headline",
+          "description": "Description"
+        },
+        "placeholders": {
+          "headline": "🌟 Get Ready for the Winter Tech Camp 2025! 🌟",
+          "description": "Join us for an exciting 3-day journey into the world of technology! 📱 January 25-27, 2025 | ⏰ 9:00 AM to 3:00 PM | 📍 Tech Innovation Center, New York."
+        },
+        "submitButtonText": "Send",
+        "successMessage": "Notification sent successfully!",
+        "errorMessage": "Failed to send notification. Please try again."
+      },
+      "EventDetails": {
+        "status": {
+          "published": "Published"
+        },
+        "editEvent": "Edit Event"
+      },
+      "eventForm": {
+        "title": "Event Details",
+        "createNewEvent": "Create New Event",
+        "published": "Published",
+        "eventName": "Event Name",
+        "eventNamePlaceholder": "Enter event name",
+        "eventDescription": "Event Description",
+        "eventDescriptionPlaceholder": "Enter event description",
+        "category": "Category",
+        "categoryStudents": "Students",
+        "categoryParents": "Parents",
+        "selectClassRange": "Select Class Range",
+        "selectIndividually": "Select Individually",
+        "startDate": "Start Date",
+        "startDatePlaceholder": "mm/dd/yyyy",
+        "endDate": "End Date",
+        "endDatePlaceholder": "mm/dd/yyyy",
+        "location": "Location",
+        "locationPlaceholder": "Enter location",
+        "seats": "Number of Seats",
+        "seatsPlaceholder": "Enter number of seats",
+        "enableWaitlist": "Enable Waitlist",
+        "limitRegistration": "Limit Registration",
+        "uploadEventImage": "Upload Event Image",
+        "discard": "Discard",
+        "loading": "Loading..."
+      },
+      "EventRegistrationForm": {
+        "participantDetails": "Participant Details",
+        "parentNameLabel": "Parent Name",
+        "parentNamePlaceholder": "Mathew Cooper",
+        "parentEmailLabel": "Parent Email",
+        "parentEmailPlaceholder": "parent@mail.com",
+        "participantNameLabel": "Participant Name",
+        "participantNamePlaceholder": "Ethan Cooper",
+        "participantGradeLabel": "Select Participant Grade",
+        "participantGradePlaceholder": "Grade - 9",
+        "additionalInformation": "Additional Information",
+        "emergencyContactLabel": "Emergency Contact Number",
+        "emergencyContactPlaceholder": "234-567-8901",
+        "dietaryPreferencesLabel": "Dietary Preferences",
+        "dietaryPreferencesPlaceholder": "No Specific Preferences",
+        "allergiesLabel": "Allergies or Special Requirements",
+        "allergiesPlaceholder": "Write your message",
+        "paymentInformation": "Payment Information",
+        "termsLabel": "I agree to the",
+        "terms": "terms and conditions",
+        "schedulePayment": "Schedule Payment",
+        "confirmRegistration": "Confirm Registration & Pay",
+        "addParticipant": "Add More Participant",
+        "dietaryNoPreference": "No Specific Preferences",
+        "dietaryVegetarian": "Vegetarian",
+        "dietaryVegan": "Vegan",
+        "dietaryGlutenFree": "Gluten Free",
+        "dietaryDairyFree": "Dairy Free",
+        "dietaryNutFree": "Nut Free"
+      }
+    },
+    "support": {
+      "supportRequestForm": {
+        "title": "Submit Support Request",
+        "subjectLabel": "Subject",
+        "categoryLabel": "Category",
+        "priorityLabel": "Priority",
+        "descriptionLabel": "Description",
+        "attachmentsLabel": "Attachments",
+        "emailUpdatesLabel": "Email me updates about this ticket",
+        "cancelButtonText": "Cancel",
+        "submitButtonText": "Submit Request",
+        "fileUploadPrompt": "Drop file or Browse",
+        "fileFormatInfo": "Format: JPG, PNG, JPEG • Max: 25MB",
+        "wordCountExceeded": "Description exceeds 100 words.",
+        "fileSizeError": "File size exceeds 25MB limit.",
+        "fileUploadedSuccess": "File uploaded successfully!",
+        "submitSuccess": "Support request submitted successfully!"
+      },
+      "quickHelp": {
+        "title": "Quick Help",
+        "popularFaqsTitle": "Popular FAQs",
+        "faqs": {
+          "resetPassword": "How to reset your password?",
+          "eventNotifications": "Setting up event notifications",
+          "manageStudentRecords": "How to manage student records?"
+        },
+        "contactInfoTitle": "Contact Information",
+        "workingHours": "Mon-Fri, 9:00 AM - 6:00 PM EST",
+        "responseTimeTitle": "Average Response Time",
+        "responseTimeText": "~{hours} hours",
+        "knowledgeBaseTitle": "Need immediate assistance?",
+        "knowledgeBaseDescription": "Check our comprehensive knowledge base for instant solutions to common issues.",
+        "visitKnowledgeBase": "Visit Knowledge Base"
+      },
+      "recentTickets": {
+        "title": "Recent Tickets",
+        "tableHeaders": {
+          "ticketId": "Ticket ID",
+          "subject": "Subject",
+          "status": "Status",
+          "lastUpdated": "Last Updated"
+        },
+        "ticketStatus": {
+          "open": "Open"
+        }
+      }
+    },
+    "dashboard": {
+      "yearlyRevenueChart": {
+        "title": "Yearly Revenue"
+      },
+      "accessPro": {
+        "title": "Upgrade to Pulisync+",
+        "subtitle": "More control. Less hassle.",
+        "description": "Automate tasks, track insights, and stay ahead.",
+        "buttonText": "Get Plus Now!"
+      },
+      "dashboardStaffDistribution": {
+        "title": "Staff Distribution",
+        "viewAll": "View All"
+      },
+      "recentActivities": {
+        "title": "Recent Activities"
+      },
+      "quickActions": {
+        "title": "Quick Actions",
+        "generateReport": "Generate Report",
+        "manageStudents": "Manage Students",
+        "manageClass": "Manage Class",
+        "scheduleEvents": "Schedule Events"
+      },
+      "quickActionsParent": {
+        "title": "Quick Actions",
+        "generateSummary": "Generate Summary",
+        "addChildren": "Add Children",
+        "examSchedule": "Exam Schedule",
+        "classSchedule": "Class Schedule"
+      },
+      "quickActionsTeacher": {
+        "title": "Quick Actions",
+        "markAttendance": "Mark Attendance",
+        "classSchedule": "Class Schedule",
+        "manageStudents": "Manage Students",
+        "studentPerformance": "Student Performance"
+      },
+      "cardsSection": {
+        "title": "Cards",
+        "addNewCard": "Add New Card",
+        "cardNotSave": "No cards added yet"
+      },
+      "childrenPayments": {
+        "title": "Children",
+        "payButtonText": "Pay {amount}",
+        "viewDetailsButtonText": "View Details",
+        "dueStatusText": "Due"
+      },
+      "recentTransactions": {
+        "recentTransactionTitle": "Recent Transaction",
+        "viewAllButtonText": "View All",
+        "allRecentTransactionsTitle": "Recent Payments",
+        "exportButtonText": "Export",
+        "backButtonText": "All Recent Transactions",
+        "headers": {
+          "childName": "Child Name",
+          "facility": "Facility",
+          "date": "Date",
+          "amount": "Amount",
+          "paidFor": "Paid For",
+          "transactions": "Transactions",
+          "paymentMethod": "Payment Method",
+          "status": "Status",
+          "details": "Details"
+        }
+      },
+      "performanceAnalytics": {
+        "title": "Performance Analytics",
+        "legend": {
+          "highPerformance": "High Performance",
+          "belowPercentage": "Below {percentage}%"
+        }
+      },
+      "attendanceOverview": {
+        "title": "Attendance Overview",
+        "legend": {
+          "present": "Present",
+          "absent": "Absent",
+          "late": "Late"
+        },
+        "summary": {
+          "month": "Month",
+          "present": "Present",
+          "absent": "Absent",
+          "late": "Late",
+          "attendanceRate": "Attendance Rate"
+        }
+      }
+    }
+  },
+
+  "legalPolicy": {
+    "policy": "Legal Policy for Pulisync",
+    "effectiveDate": "Effective Date: Feb 20, 2025",
+    "lastUpdate": "Last Update: Feb 20, 2035",
+    "introduction": "This Legal Policy governs the use of Pulisync and outlines the legal obligations, rights, and responsibilities of Pulisync, its users, and third-party service providers. By using Pulisync, you agree to abide by this Legal Policy in conjunction with our Privacy Policy, Terms of Service, and Cookie Policy. If you do not agree with any part of this Legal Policy, you must discontinue the use of Pulisync immediately.",
+    "sections": [
+      {
+        "title": "Legal Compliance & Jurisdiction",
+        "description": "1.1 Governing Law",
+        "subsections": [
+          {
+            "title": "",
+            "subSectionOptionalLines": [
+              {
+                "text": "These policies are governed by and construed in accordance with the laws of UK, without regard to its conflict of law principles."
+              }
+            ]
+          },
+          {
+            "title": "1.2 Regulatory Compliance",
+            "subSectionOptionalLines": [
+              {
+                "text": "Pulisync complies with the following regulations:"
+              }
+            ],
+            "subSubsections": [
+              {
+                "title": "1.2.1 Data Protection Laws",
+                "points": [
+                  "General Data Protection Regulation (GDPR) (EU) – Protection of user data for European residents.",
+                  "California Consumer Privacy Act (CCPA) (USA) – Data privacy rights for California residents.",
+                  "Personal Data Protection Act (PDPA) (Singapore, Malaysia, Thailand) – Compliance with data security laws in Asia.",
+                  "Lei Geral de Proteção de Dados (LGPD) (Brazil) – Ensuring compliance with Brazil's data protection regulations."
+                ]
+              },
+              {
+                "title": "1.2.2 Financial & Payment Security Regulations",
+                "points": [
+                  "Payment Card Industry Data Security Standard (PCI DSS) – Secure payment transactions and fraud prevention.",
+                  "Anti-Money Laundering (AML) & Know Your Customer (KYC) Regulations – Compliance with international financial laws."
+                ]
+              },
+              {
+                "title": "1.2.3 Consumer Protection Laws",
+                "points": [
+                  "Federal Trade Commission Act (USA) – Protection against deceptive practices.",
+                  "E-Privacy Directive (EU) – Compliance with online tracking and cookie regulations."
+                ]
+              }
+            ]
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "Pulisync reserves the right to update compliance policies as per changing legal requirements."
+          }
+        ]
+      },
+      {
+        "title": "2. User Rights & Responsibilities",
+        "description": "",
+        "subsections": [
+          {
+            "title": "2.1 User Rights",
+            "points": [
+              "Right to Access – Obtain a copy of your personal data stored by Pulisync.",
+              "Right to Rectification – Request correction of incorrect or incomplete data.",
+              "Right to Erasure (Right to Be Forgotten) – Request deletion of your personal data.",
+              "Right to Object – Withdraw consent for marketing and data processing.",
+              "Right to Data Portability – Transfer data to another service provider upon request."
+            ],
+            "subSectionOptionalLines": [
+              {
+                "text": "Requests related to user rights can be sent to hello@pulikidz.com"
+              }
+            ]
+          },
+          {
+            "title": "2.2 User Responsibilities",
+            "subDescription": "Users must:",
+            "points": [
+              "Provide accurate personal and payment details.",
+              "Use the platform lawfully and refrain from fraudulent activities.",
+              "Protect account credentials from unauthorized access.",
+              "Follow applicable laws and regulations when using Pulisync."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. Intellectual Property Rights",
+        "subsections": [
+          {
+            "title": "3.1 Ownership of Content",
+            "points": [
+              "Users can make payments for educational fees, school activities, and resource bookings.",
+              "Payments are processed via third-party providers (Stripe, PayPal, Razorpay).",
+              "Users must ensure sufficient funds for transactions.",
+              "Transaction fees may apply based on payment method."
+            ]
+          },
+          {
+            "title": "3.2 User-Generated Content",
+            "points": [
+              "Users retain ownership of their uploaded content (e.g., messages, documents).",
+              "By uploading content to Pulisync, users grant a non-exclusive, royalty-free license for its use in platform operations."
+            ]
+          },
+          {
+            "title": "3.3 Third-Party Intellectual Property",
+            "points": [
+              "Pulisync integrates with third-party services (Google, Stripe, PayPal). Users must adhere to the terms of these third parties.",
+              "Any unauthorized use of third-party trademarks, software, or content is strictly prohibited."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. Limitation of Liability",
+        "subsections": [
+          {
+            "title": "4.1 General Disclaimer",
+            "subSectionOptionalLines": [
+              {
+                "text": "Pulisync is provided \"as is\" and \"as available,\" without warranties of any kind. We do not guarantee:"
+              }
+            ],
+            "points": [
+              "Uninterrupted or error-free service.",
+              "Protection against unauthorized access, hacking, or cyber threats.",
+              "Accuracy or reliability of third-party service integrations."
+            ]
+          },
+          {
+            "title": "4.2 Financial Liability",
+            "points": [
+              "Pulisync is not responsible for bank fees, payment failures, or transaction disputes.",
+              "Users must verify payment details before authorizing transactions."
+            ]
+          },
+          {
+            "title": "4.3 Data Breach Disclaimer",
+            "subDescription": "In the event of a security breach, Pulisync will:",
+            "points": [
+              "Notify affected users within the legally required timeframe.",
+              "Take necessary security measures to contain and prevent further issues.",
+              "Work with regulatory authorities to investigate the breach."
+            ]
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "However, Pulisync is not liable for damages resulting from third-party security breaches."
+          }
+        ]
+      },
+      {
+        "title": "5. Dispute Resolution",
+        "subsections": [
+          {
+            "title": "5.1 Internal Resolution Process",
+            "subSectionOptionalLines": [
+              {
+                "text": "Users should first attempt to resolve disputes by contacting Pulisync via:"
+              },
+              {
+                "iconSrc": "/icons/mail.png",
+                "text": "hello@pulikidz.com",
+                "specialWord": "hello@pulikidz.com",
+                "link": "mailto:hello@pulikidz.com"
+              },
+              {
+                "iconSrc": "/icons/cell-phone.png",
+                "text": "03333050039",
+                "link": "tel:03333050039"
+              },
+              {
+                "iconSrc": "/icons/button-phone.png",
+                "text": "07852151678",
+                "link": "tel:07852151678"
+              }
+            ]
+          },
+          {
+            "title": "5.2 Arbitration & Mediation",
+            "subDescription": "If a dispute cannot be resolved internally:",
+            "points": [
+              "Both parties agree to mediation or arbitration in Insert Jurisdiction.",
+              "Legal proceedings will be conducted in English"
+            ]
+          },
+          {
+            "title": "5.3 Class Action Waiver",
+            "subSectionOptionalLines": [
+              {
+                "text": "Users waive the right to participate in any class-action lawsuit against Pulisync. Disputes must be handled individually."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. Account Termination & Service Restrictions",
+        "subsections": [
+          {
+            "title": "6.1 Grounds for Termination",
+            "subDescription": "Pulisync reserves the right to terminate or restrict user accounts under the following conditions:",
+            "points": [
+              "Violations of Terms of Service (fraud, abuse, illegal activity).",
+              "Failure to comply with financial obligations (chargebacks, fraudulent payments).",
+              "Engaging in unauthorized data scraping, hacking, or security breaches."
+            ]
+          },
+          {
+            "title": "6.2 Appeal Process"
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "Users may appeal account suspension by emailing hello@pulikidz.com",
+            "specialWord": "hello@pulikidz.com",
+            "link": "mailto:hello@pulikidz.com"
+          },
+          {
+            "text": "For full details, see our Privacy Policy."
+          }
+        ]
+      },
+      {
+        "title": "7. Legal Notices & Updates",
+        "subsections": [
+          {
+            "title": "7.1 Changes to This Policy",
+            "subDescription": "We may update this Legal Policy to reflect changes in regulations or business practices. Users will be notified via:",
+            "points": ["Email notifications.", "Platform announcements."]
+          },
+          {
+            "title": "7.2 Contact Information"
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "For legal inquiries, contact:"
+          },
+          {
+            "iconSrc": "/icons/mail.png",
+            "text": "hello@pulikidz.com",
+            "specialWord": "hello@pulikidz.com",
+            "link": "mailto:hello@pulikidz.com"
+          },
+          {
+            "iconSrc": "/icons/cell-phone.png",
+            "text": "03333050039",
+            "link": "tel:03333050039"
+          },
+          {
+            "iconSrc": "/icons/button-phone.png",
+            "text": "07852151678",
+            "link": "tel:07852151678"
+          }
+        ]
+      }
+    ]
+  },
+
+  "privacyPolicy": {
+    "title": "Privacy Policy for Pulisync",
+    "effectiveDate": "Jan 1, 2023",
+    "lastUpdated": "Jan 15, 2023",
+    "introduction": "At Pulisync, we are committed to safeguarding your privacy and protecting your personal data. This Privacy Policy explains how we collect, store, process, and share your information when you use our services.",
+    "acknowledgement": "By using Pulisync, you acknowledge that you have read and understood this Privacy Policy and agree to how we handle your data. If you do not agree, please discontinue using our services.",
+    "sections": [
+      {
+        "title": "1. Information We Collect",
+        "description": "We collect various types of personal and non-personal information to improve our platform's functionality and user experience.",
+        "subsections": [
+          {
+            "title": "1.1 Personal Information",
+            "description": "We collect personally identifiable information (PII) when you register, make payments, or interact with our services, including but not limited to:",
+            "points": [
+              "Name (first name, last name)",
+              "Email address",
+              "Phone number",
+              "Billing and shipping address",
+              "Payment information (credit card details, digital wallet IDs, transaction history)",
+              "Institution details (school name, student details, affiliation)",
+              "Identity verification data (if required for regulatory compliance)"
+            ]
+          },
+          {
+            "title": "1.2 Non-Personal Information",
+            "description": "We automatically collect non-personal data through cookies, analytics tools, and log files, including:",
+            "points": [
+              "Device information (IP address, browser type, OS, device model)",
+              "Usage data (pages visited, time spent, features used)",
+              "Location data (with user consent for location-based services)"
+            ]
+          },
+          {
+            "title": "1.3 Data Collected from Third Parties",
+            "description": "We may collect additional data from:",
+            "points": [
+              "Payment providers (for successful or failed transactions)",
+              "Educational institutions (for account verification and service integration)",
+              "Third-party analytics tools (Google Analytics, Hotjar, etc.)"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. How We Use Your Information",
+        "description": "We process your personal data for the following purposes:",
+        "subsections": [
+          {
+            "title": "2.1 Service Delivery and Account Management",
+            "points": [
+              "To create and manage user accounts",
+              "To authenticate users and enable secure logins",
+              "To facilitate financial transactions and manage payments",
+              "To provide customer support and resolve issues"
+            ]
+          },
+          {
+            "title": "2.2 Communication and Notifications",
+            "points": [
+              "To send account verification, payment confirmations, and security alerts",
+              "To notify users of service updates, policy changes, and technical issues",
+              "To deliver marketing communications (if consent is provided)"
+            ]
+          },
+          {
+            "title": "2.3 Security and Fraud Prevention",
+            "description": "We may collect additional data from:",
+            "points": [
+              "To prevent unauthorized access, data breaches, and fraudulent activities",
+              "To conduct security monitoring and detect suspicious behavior",
+              "To comply with legal obligations (AML/KYC verification, if applicable)"
+            ]
+          },
+          {
+            "title": "2.4 Analytics and Platform Optimization",
+            "points": [
+              "To analyze user behavior and improve website functionality",
+              "To generate reports on system usage and performance",
+              "To conduct A/B testing for UI/UX enhancements"
+            ]
+          }
+        ]
+      },
+      {
+        "title": "3. Legal Basis for Data Processing",
+        "description": "We process your data under the following legal grounds:",
+        "subsections": [
+          {
+            "title": "",
+            "points": [
+              "We process your data under the following legal grounds:",
+              "Contractual Necessity: Processing data to fulfill our service obligations.",
+              "Legitimate Interests: Analyzing usage patterns to improve the platform.",
+              "Consent: When users explicitly agree to marketing communications.",
+              "Legal Compliance: Adhering to data protection laws and financial regulations."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. How We Share Your Information",
+        "description": "Pulisync does not sell or rent user data. We only share information under the following circumstances:",
+        "subsections": [
+          {
+            "title": "4.1 With Third-Party Service Providers",
+            "subDescription": "We partner with:",
+            "points": [
+              "Payment processors (Stripe, PayPal, Razorpay) for secure transactions.",
+              "Hosting providers (AWS, DigitalOcean) for data storage.",
+              "Communication services (SendGrid, Twilio) for emails and SMS notifications."
+            ]
+          },
+          {
+            "title": "4.2 With Educational Institutions",
+            "subDescription": "If your account is linked to a school, some data may be shared with school administrators for account management and service integration."
+          },
+          {
+            "title": "4.3 Legal Disclosures",
+            "subDescription": "We may disclose user data:",
+            "points": [
+              "To comply with legal obligations (court orders, regulatory requirements).",
+              "To prevent fraud or security threats."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "5. Data Security Measures",
+        "description": "We implement advanced security protocols to protect user data from unauthorized access, breaches, and cyber threats.",
+        "subsections": [
+          {
+            "title": "",
+            "points": [
+              "Encryption: AES-256 encryption for stored data and TLS 1.2 for secure data transmission.",
+              "Multi-Factor Authentication (MFA): Required for high-risk transactions.",
+              "Access Controls: Role-based access to sensitive data.",
+              "Regular Security Audits: Routine vulnerability testing and penetration testing.",
+              "Data Anonymization: Personally identifiable data is masked when not required."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. Data Retention Policy",
+        "description": "We retain user data only for as long as necessary:",
+        "subsections": [
+          {
+            "title": "",
+            "points": [
+              "Account Information: Stored until user requests deletion.",
+              "Payment Records: Retained for 7 years (for regulatory compliance).",
+              "Log Files & Analytics Data: Stored for 12 months."
+            ]
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "Users can request account deletion by contacting info@pulisync.com.",
+            "specialWord": "info@pulisync.com",
+            "link": "mailto:info@pulisync.com"
+          }
+        ]
+      },
+      {
+        "title": "7. User Rights & Control",
+        "description": "Depending on your region, you have the following rights under GDPR, CCPA, and other privacy laws:",
+        "subsections": [
+          {
+            "title": "",
+            "points": [
+              "Account Information: Stored until user requests deletion.",
+              "Payment Records: Retained for 7 years (for regulatory compliance).",
+              "Log Files & Analytics Data: Stored for 12 months."
+            ]
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "Users can request account deletion by contacting info@pulisync.com.",
+            "specialWord": "info@pulisync.com",
+            "link": "mailto:info@pulisync.com"
+          }
+        ]
+      },
+      {
+        "title": "8. Cookies and Tracking Technologies",
+        "description": "We use cookies and tracking tools for:",
+        "subsections": [
+          {
+            "title": "",
+            "points": [
+              "Essential functions: Authentication, user preferences.",
+              "Performance tracking: Google Analytics, Hotjar.",
+              "Advertising (if applicable): Google Ads, Facebook Pixel."
+            ]
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "Users can manage cookie preferences via browser settings. For full details, see our Cookies Policy."
+          }
+        ]
+      },
+      {
+        "title": "9. International Data Transfers",
+        "description": "If you access Pulisync from outside UK, your data may be transferred to servers in the United States, European Union, or other jurisdictions where our service providers operate.",
+        "subsections": [
+          {
+            "title": "",
+            "subDescription": "We ensure compliance through:",
+            "points": [
+              "Standard Contractual Clauses (SCCs) for EU users.",
+              "Privacy Shield (if applicable) for US-based transfers."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "10. Policy Updates",
+        "description": "If you access Pulisync from outside UK, your data may be transferred to servers in the United States, European Union, or other jurisdictions where our service providers operate.",
+        "subsections": [
+          {
+            "title": "",
+            "subDescription": "We reserve the right to modify this Privacy Policy periodically. If changes occur:",
+            "points": [
+              "We will notify users via email or app alerts.",
+              "Continued use of Pulisync after updates constitutes acceptance."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "11. Contact Information",
+        "optionalLines": [
+          {
+            "text": "For inquiries regarding these Terms of Service, contact us at:",
+            "specialWord": "Terms of Service",
+            "link": "/terms-of-service"
+          },
+          {
+            "iconSrc": "/icons/mail.png",
+            "text": "hello@pulikidz.com",
+            "specialWord": "hello@pulikidz.com",
+            "link": "mailto:hello@pulikidz.com"
+          },
+          {
+            "iconSrc": "/icons/cell-phone.png",
+            "text": "03333050039",
+            "link": "tel:03333050039"
+          },
+          {
+            "iconSrc": "/icons/button-phone.png",
+            "text": "07852151678",
+            "link": "tel:07852151678"
+          }
+        ]
+      }
+    ]
+  },
+
+  "termsService": {
+    "title": "Terms of Service for Pulisync",
+    "effectiveDate": "Feb 20, 2025",
+    "lastUpdated": "Feb 20, 2035",
+    "introduction": "Welcome to Pulisync! These Terms of Service (Terms) govern your use of Pulisync's digital payment, communication, and resource management platform. By accessing or using Pulisync, you agree to comply with these Terms of Service. If you do not agree to these Terms, you must stop using our services immediately.",
+    "sections": [
+      {
+        "title": "1. Definitions",
+        "description": "For the purpose of these Terms of Service:",
+        "subsections": [
+          {
+            "title": "",
+            "description": "We collect personally identifiable information (PII) when you register, make payments, or interact with our services, including but not limited to:",
+            "points": [
+              "\"Pulisync\" refers to the online platform, software, website, and services operated by PuliKidz.",
+              "\"User\" refers to anyone accessing or using Pulisync, including parents, school administrators, and third-party service providers.",
+              "\"Services\" refers to all digital payment processing, communication, resource booking, and account management features offered by Pulisync.",
+              "\"Content\" includes text, images, videos, software, and other materials available on Pulisync.",
+              "\"Third-Party Services\" refers to external payment processors, hosting providers, and integrations that interact with Pulisync."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. User Accounts & Responsibilities",
+        "description": "",
+        "subsections": [
+          {
+            "title": "2.1 Account Registration",
+            "points": [
+              "Users must provide accurate and complete information when signing up.",
+              "Users under 18 years of age require parental or legal guardian consent.",
+              "Pulisync reserves the right to verify user identities and deny registration if necessary."
+            ]
+          },
+          {
+            "title": "2.2 Account Security",
+            "points": [
+              "Users are responsible for maintaining account confidentiality.",
+              "Multi-Factor Authentication (MFA) is recommended for additional security.",
+              "Users must immediately report unauthorized access to hello@pulikidz.com."
+            ]
+          },
+          {
+            "title": "2.3 Prohibited Activities",
+            "subDescription": "Users may not:",
+            "points": [
+              "Use Pulisync for illegal or fraudulent transactions.",
+              "Engage in unauthorized access, hacking, or data scraping.",
+              "Use automated scripts, bots, or exploits to interfere with our services.",
+              "Upload or share harmful, defamatory, or offensive content.",
+              "Violate any applicable laws or regulations."
+            ]
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "Violations may result in account suspension or termination."
+          }
+        ]
+      },
+      {
+        "title": "3. Services Provided",
+        "description": "Pulisync offers the following key services:",
+        "subsections": [
+          {
+            "title": "3.1 Payment Processing",
+            "points": [
+              "Users can make payments for educational fees, school activities, and resource bookings.",
+              "Payments are processed via third-party providers (Stripe, PayPal, Razorpay).",
+              "Users must ensure sufficient funds for transactions.",
+              "Transaction fees may apply based on payment method."
+            ]
+          },
+          {
+            "title": "3.2 Communication & Notifications",
+            "points": [
+              "Users receive real-time notifications for payments, bookings, and system updates.",
+              "Messages between parents and school administrators are securely stored.",
+              "Pulisync is not responsible for miscommunication between users."
+            ]
+          },
+          {
+            "title": "3.3 Resource Management",
+            "points": [
+              "Users can book and manage school facilities (e.g., meals, extracurricular activities).",
+              "Double bookings or cancellations are subject to availability policies set by schools.",
+              "Pulisync reserves the right to restrict access to overbooked services."
+            ]
+          },
+          {
+            "title": "3.4 Reporting & Analytics",
+            "points": [
+              "Administrators have access to detailed financial reports, transaction history, and student activity logs.",
+              "Data analytics tools help schools optimize resources and improve decision-making."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "4. Payment Terms & Refund Policy",
+        "subsections": [
+          {
+            "title": "4.1 Payment Authorization",
+            "points": [
+              "Users authorize Pulisync to process payments using their selected payment method.",
+              "Transactions are final unless eligible for a refund (see Section 4.3)."
+            ]
+          },
+          {
+            "title": "4.2 Transaction Fees",
+            "points": [
+              "Certain transaction fees may apply based on the chosen payment method.",
+              "Any additional fees imposed by banks or third-party payment processors are non-refundable."
+            ]
+          },
+          {
+            "title": "4.3 Refund Policy",
+            "description": "Refunds are subject to the refund policy set by each educational institution.",
+            "groupedPoints": [
+              {
+                "groupTitle": "Eligible Refunds",
+                "items": [
+                  "Overpayments",
+                  "Erroneous charges",
+                  "Service cancellations due to system errors"
+                ]
+              },
+              {
+                "groupTitle": "Non-Refundable Transactions",
+                "items": [
+                  "Completed payments for school services",
+                  "Late payment penalties",
+                  "Transaction fees imposed by third-party providers"
+                ]
+              }
+            ]
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "Refund requests must be submitted to hello@pulikidz.com. Processing times may vary.",
+            "specialWord": "hello@pulikidz.com",
+            "link": "mailto:hello@pulikidz.com"
+          }
+        ]
+      },
+      {
+        "title": "5. Service Availability & Interruptions",
+        "subsections": [
+          {
+            "title": "5.1 System Uptime",
+            "points": [
+              "Pulisync aims for 99.9% uptime, but service disruptions may occur due to maintenance, cyberattacks, or third-party provider failures.",
+              "Scheduled maintenance will be announced in advance."
+            ]
+          },
+          {
+            "title": "5.2 Limitation of Liability",
+            "points": [
+              "Pulisync is not liable for service interruptions, financial losses, or data breaches caused by external providers.",
+              "Users are advised to keep backup records of transactions for their records."
+            ]
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "Pulisync is not responsible for disruptions caused by natural disasters, government actions, cyberattacks, or unforeseen circumstances beyond our control."
+          }
+        ]
+      },
+      {
+        "title": "6. Data Privacy & Security",
+        "subsections": [
+          {
+            "title": "6.1 Data Protection",
+            "points": [
+              "User data is encrypted (AES-256) and stored securely.",
+              "Pulisync does not sell or rent user data to third parties.",
+              "Payments comply with PCI DSS standards."
+            ]
+          },
+          {
+            "title": "6.2 User Rights",
+            "points": [
+              "Users can request data deletion or account termination.",
+              "Users may opt out of marketing communications."
+            ]
+          }
+        ],
+        "optionalLines": [
+          {
+            "text": "For full details, see our Privacy Policy."
+          }
+        ]
+      },
+      {
+        "title": "7. Intellectual Property & Content Ownership",
+        "subsections": [
+          {
+            "title": "7.1 Ownership",
+            "points": [
+              "All content, trademarks, and logos on Pulisync are owned by Company Name.",
+              "Unauthorized reproduction, modification, or distribution is prohibited."
+            ]
+          },
+          {
+            "title": "7.2 User-Generated Content",
+            "points": [
+              "Users retain ownership of content they upload but grant Pulisync a non-exclusive, royalty-free license to use it for platform improvements."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "8. Dispute Resolution & Governing Law",
+        "subsections": [
+          {
+            "title": "8.1 Resolution Process",
+            "points": [
+              "Users must first attempt to resolve disputes through customer support.",
+              "If unresolved, disputes may be settled via mediation or arbitration."
+            ]
+          },
+          {
+            "title": "8.2 Governing Law",
+            "points": [
+              "These Terms of Service are governed by the laws of Insert Jurisdiction.",
+              "Any disputes will be handled in Insert Court/Jurisdiction."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "9. Modifications to Terms of Service",
+        "subsections": [
+          {
+            "title": "",
+            "points": [
+              "Pulisync reserves the right to modify these Terms at any time.",
+              "Users will be notified via email or platform announcements.",
+              "Continued use of the service after updates constitutes acceptance of new Terms."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "10. Contact Information",
+        "optionalLines": [
+          {
+            "text": "For inquiries regarding these Terms of Service, contact us at:"
+          },
+          {
+            "iconSrc": "/icons/mail.png",
+            "text": "hello@pulikidz.com",
+            "specialWord": "hello@pulikidz.com",
+            "link": "mailto:hello@pulikidz.com"
+          },
+          {
+            "iconSrc": "/icons/cell-phone.png",
+            "text": "03333050039",
+            "link": "tel:03333050039"
+          },
+          {
+            "iconSrc": "/icons/button-phone.png",
+            "text": "07852151678",
+            "link": "tel:07852151678"
+          }
+        ]
+      }
+    ]
+  },
+  "emailConfirmation": {
+    "title": "Email Confirmation",
+    "description": "Enter your email to continue your account!"
+  },
+  "emailVerification": {
+    "title": "Verify Your Email",
+    "sentMessage": "We've sent a code to",
+    "verifyButton": "Verify Code",
+    "verifying": "Verifying...",
+    "noCodeMessage": "Didn't receive the code?",
+    "resendButton": "Resend",
+    "resending": "Resending...",
+    "invalidOtp": "Please enter a valid 6-digit verification code.",
+    "emailRequired": "Email address is required to resend the verification code.",
+    "successMessage": "Email verification successful!"
+  },
+  "accountSetup": {
+    "title": "Welcome to Pulisync",
+    "description": "Secure payment platform for your child's school needs",
+    "nameLabel": "Name",
+    "namePlaceholder": "Enter your full name",
+    "contactLabel": "Contact",
+    "passwordLabel": "Password",
+    "passwordPlaceholder": "Enter your password",
+    "confirmPasswordLabel": "Confirm Password",
+    "confirmPasswordPlaceholder": "Confirm your password",
+    "confirm": "Confirm",
+    "confirming": "Confirming...",
+    "nameRequired": "Please enter your full name",
+    "phoneRequired": "Please enter your phone number"
+  },
+  "school": {
+    "profile": {
+      "header": {
+        "schoolId": "School ID",
+        "principalInfo": "Principal Information",
+        "address": "Address"
+      },
+      "stats": {
+        "totalStudents": "Total Students",
+        "totalTeachers": "Total Teachers",
+        "totalStaff": "Total Staff",
+        "classrooms": "Classrooms"
+      },
+      "charts": {
+        "enrollment": {
+          "title": "Student Enrollment",
+          "subtitle": "Monthly enrollment statistics",
+          "newStudents": "New Students",
+          "totalEnrolled": "Total Enrolled"
+        },
+        "staffDistribution": {
+          "title": "Staff Distribution",
+          "subtitle": "Distribution by department",
+          "departments": {
+            "teaching": "Teaching",
+            "administrative": "Administrative",
+            "support": "Support",
+            "management": "Management"
+          }
+        }
+      },
+      "facilities": {
+        "title": "Facilities Overview",
+        "subtitle": "School infrastructure and amenities",
+        "updateButton": "Update Facilities",
+        "types": {
+          "classroom": "Classrooms",
+          "laboratory": "Laboratories",
+          "library": "Library",
+          "playground": "Playground",
+          "cafeteria": "Cafeteria",
+          "gymnasium": "Gymnasium"
+        }
+      },
+      "overview": {
+        "title": "School Overview",
+        "description": "General information and key highlights",
+        "sections": {
+          "history": "History",
+          "mission": "Mission",
+          "vision": "Vision",
+          "values": "Core Values"
+        }
+      },
+      "accreditations": {
+        "title": "Accreditations",
+        "updateButton": "Update Accreditations",
+        "noAccreditations": "No accreditations added yet"
+      },
+      "quickActions": {
+        "title": "Quick Actions",
+        "updateInfo": "Update School Info",
+        "manageStaff": "Manage Staff",
+        "manageClasses": "Manage Classes",
+        "viewReports": "View Reports"
+      },
+      "updateSchoolInfo": {
+        "title": "Update School Info",
+        "lastUpdated": "Last updated: {date}",
+        "buttons": {
+          "save": "Save",
+          "discard": "Discard"
+        },
+        "sections": {
+          "pictures": {
+            "title": "Picture",
+            "coverAlt": "School Cover",
+            "logoAlt": "School Logo"
+          },
+          "details": {
+            "title": "Details",
+            "fields": {
+              "schoolName": "School Name",
+              "schoolId": "School ID",
+              "email": "Email",
+              "phone": "Phone number",
+              "website": "Website",
+              "type": "School Type"
+            },
+            "placeholders": {
+              "schoolName": "Enter school name",
+              "schoolId": "Enter school ID",
+              "email": "Enter email address",
+              "phone": "Enter phone number",
+              "website": "Enter website URL",
+              "type": "Select school type"
+            }
+          },
+          "principal": {
+            "title": "Principal Info",
+            "fields": {
+              "firstName": "First Name",
+              "lastName": "Last Name",
+              "email": "Email"
+            },
+            "placeholders": {
+              "firstName": "Enter first name",
+              "lastName": "Enter last name",
+              "email": "Enter email address"
+            }
+          },
+          "address": {
+            "title": "School Address",
+            "fields": {
+              "street": "Street",
+              "city": "City",
+              "region": "Region",
+              "postalCode": "Postal Code",
+              "country": "Country"
+            },
+            "placeholders": {
+              "street": "Enter street address",
+              "city": "Enter city",
+              "region": "Enter region",
+              "postalCode": "Enter postal code",
+              "country": "Select country"
+            }
+          }
+        }
+      },
+      "updateFacilities": {
+        "title": "Update Facilities Overview",
+        "lastUpdated": "Last edit on {date}",
+        "buttons": {
+          "save": "Save",
+          "discard": "Discard"
+        },
+        "fields": {
+          "classrooms": "Number of Classrooms",
+          "laboratories": "Number of Laboratories",
+          "transportations": "Number of Transportations",
+          "healthcare": "Number of Healthcare",
+          "books": "Number of Books",
+          "playground": "Number of Playground"
+        },
+        "placeholders": {
+          "classrooms": "Enter number of classrooms",
+          "laboratories": "Enter number of laboratories",
+          "transportations": "Enter number of transportations",
+          "healthcare": "Enter number of healthcare facilities",
+          "books": "Enter number of books",
+          "playground": "Enter number of playgrounds"
+        }
+      },
+      "updateAccreditations": {
+        "title": "Update Accreditation Info",
+        "subtitle": "Current Accreditation List",
+        "lastUpdated": "Last edit on {date}",
+        "buttons": {
+          "save": "Save",
+          "discard": "Discard"
+        },
+        "fields": {
+          "name": "Accreditation Name",
+          "year": "Year of Accreditation"
+        },
+        "placeholders": {
+          "name": "Enter accreditation name",
+          "year": "Enter year"
+        }
+      },
+      "classRoutine": {
+        "title": "Class Routine Management",
+        "gradePrefix": "Grade",
+        "sectionPrefix": "Section",
+        "sectionColumn": "Section",
+        "actionsColumn": "Actions"
+      }
+    },
+    "classRoutine": {
+      "title": "Class Routine Management",
+      "gradePrefix": "Grade",
+      "sectionPrefix": "Section",
+      "sectionColumn": "Section",
+      "actionsColumn": "Actions"
+    }
+  },
+  "meals": {
+    "preOrder": {
+      "infoMessage": "Changes must be made 8AM on the day of the meal",
+      "viewTimeReport": "View Time Report",
+      "studentSelection": "Select Student",
+      "allergenInfo": "Allergen Information",
+      "foodTypes": {
+        "all": "All",
+        "vegetarian": "Vegetarian",
+        "nonVegetarian": "Non-Vegetarian"
+      },
+      "weekSelection": "Week of January 15-21, 2024",
+      "addMeal": "Add Meal",
+      "removeSlot": "Remove slot",
+      "selectedMeals": {
+        "title": "Selected Meals",
+        "noMealsMessage": "No meals selected yet",
+        "subtotal": "Subtotal",
+        "serviceFee": "Service Fee",
+        "total": "Total",
+        "clearSelection": "Clear Selection",
+        "confirmPayment": "Confirm Payment"
+      }
+    }
+  },
+  "mealReport": {
+    "title": "Meal Report",
+    "search": "Search...",
+    "noReportsFound": "No meal reports found",
+    "exportData": "Export Data",
+    "totalMealsBooked": "Total Meals Booked",
+    "totalSpentOnMeals": "Total Spent on Meals",
+    "categories": {
+      "breakfast": "Breakfast",
+      "lunch": "Lunch",
+      "dinner": "Dinner",
+      "snacks": "Snacks"
+    },
+    "table": {
+      "date": "Date",
+      "bookedFor": "Booked For",
+      "category": "Category",
+      "amount": "Amount",
+      "transactionId": "Transaction ID",
+      "paymentMethod": "Payment Method"
+    },
+    "actions": {
+      "edit": "Edit",
+      "view": "View"
+    }
+  },
+
+  "learnMoreEducation": {
+    "title": "Empower Your Institution with Pulisync",
+    "author": "Pulisync Team",
+    "intro": "Managing an educational institution involves countless tasks, from handling administrative duties to ensuring effective communication between teachers, students, and parents. Pulisync is designed to bring all these elements together, eliminating messy spreadsheets, scattered emails, and miscommunication. By serving as a central hub, Pulisync streamlines operations and enhances collaboration for schools, teachers, parents, and students.",
+    "sections": {
+      "forSchoolsTitle": "For Schools: Seamless Control Over Administration",
+      "forSchoolsContent": "School management can be complex, but Pulisync simplifies the process by offering a fully integrated platform that covers attendance, performance tracking, payments, and scheduling. Administrators can easily oversee daily operations, ensuring everything runs smoothly without the need for multiple disconnected tools. With automated reminders and real-time updates, schools can enhance efficiency and reduce the burden of manual tasks.",
+      "forTeachersTitle": "For Teachers: Focus on Teaching, Not Paperwork",
+      "forTeachersContent": "Educators should spend more time teaching and less time on administrative work. Pulisync automates grading, attendance tracking, and communication, allowing teachers to focus on student engagement and learning outcomes. With an intuitive dashboard, teachers can access student progress reports, communicate with parents, and manage lesson plans effortlessly—all in one place.",
+      "forParentsTitle": "For Parents: Stay Involved in Your Child's Education",
+      "forParentsContent": "Pulisync keeps parents in the loop with real-time updates on their child's progress, attendance, and school events. The platform offers a convenient way to pay fees, schedule meetings, and receive notifications, ensuring they remain actively engaged in their child's education without the hassle of scattered communication.",
+      "forStudentsTitle": "For Students: A Smarter Way to Stay Organized",
+      "forStudentsContent": "From assignments and schedules to progress tracking, Pulisync helps students manage their academic responsibilities effectively. The platform consolidates all necessary information into a single dashboard, ensuring students never miss a deadline and stay on top of their coursework. By fostering organization and accountability, Pulisync empowers students to take control of their learning experience.",
+      "transformTitle": "Transform Your Institution with Pulisync",
+      "transformContent": "By bridging the gap between schools, teachers, parents, and students, Pulisync creates a collaborative and efficient educational ecosystem. Say goodbye to administrative headaches and hello to a smarter, more connected way of managing education."
+    }
+  },
+  "learnMoreEventManagement": {
+    "title": "Effortless Event Management with Pulisync",
+    "author": "Pulisync Team",
+    "intro": "Managing events has never been easier. With Pulisync's powerful built-in Booking System, you can seamlessly schedule, organize, and track event reservations all in one place. Say goodbye to double bookings, lost appointments, and the hassle of manual tracking. Whether it's school functions, parent-teacher meetings, or student activities, Pulisync ensures everything runs smoothly and efficiently.",
+    "sections": {
+      "stayOrganizedTitle": "Stay Organized and In Control",
+      "stayOrganizedContent": "Pulisync simplifies the entire event management process by offering a centralized platform where schools, teachers, and administrators can oversee upcoming events with ease. From scheduling important meetings to managing attendance, the system ensures that no detail is overlooked.",
+      "streamlineRegistrationsTitle": "Streamline Registrations and Communication",
+      "streamlineRegistrationsContent": "With automated reminders and real-time updates, Pulisync keeps everyone informed. Participants can easily browse upcoming events, register with a single click, and receive timely notifications, reducing confusion and missed appointments.",
+      "enhanceEfficiencyTitle": "Enhance Efficiency with Smart Scheduling",
+      "enhanceEfficiencyContent": "No more conflicts or last-minute changes going unnoticed. Pulisync's intelligent scheduling system prevents double bookings, allowing institutions to plan efficiently. With a well-structured interface, tracking reservations and managing event logistics becomes effortless.",
+      "takeEventManagementTitle": "Take Event Management to the Next Level",
+      "takeEventManagementContent": "Whether it's for academic workshops, extracurricular activities, or institutional meetings, Pulisync provides a streamlined, user-friendly solution that saves time and enhances coordination. Experience a smarter, more efficient way to manage events effortlessly."
+    }
+  },
+  "learnMoreFeatures": {
+    "title": "Unlocking the Full Potential of Pulisync",
+    "author": "Pulisync Team",
+    "intro": "Education is evolving, and so should the way schools manage payments, events, and bookings. Pulisync is designed to streamline administrative processes, ensuring a seamless experience for schools, teachers, parents, and students. Let's dive into the core features that make Pulisync a game-changer in school management.",
+    "sections": {
+      "flexiblePaymentsTitle": "Flexible Payment Solutions - Say Goodbye to Payment Hassles",
+      "flexiblePaymentsContent": "Managing school fees and invoices can be a time-consuming and frustrating process. Pulisync streamlines financial transactions by offering a centralized system where schools can track all payments in one place. Parents can make payments conveniently through multiple options, including credit/debit cards, bank transfers, and digital wallets. The platform also ensures that no payment goes unnoticed by sending automated reminders, keeping both parents and administrators informed. With real-time payment tracking, schools can instantly see which fees have been paid, which are pending, and which need follow-up, creating a smoother, stress-free financial process.",
+      "eventManagementTitle": "Comprehensive Event Management: Plan, Schedule, and Track with Ease",
+      "eventManagementContent": "Events play a crucial role in school life, from academic conferences to sports days and cultural programs. Pulisync makes event management seamless by allowing schools to plan, schedule, and track events in real-time. Automated invitations and reminders ensure that parents, students, and staff stay informed about upcoming activities. With built-in calendar integration, events can be synced with personal schedules to avoid conflicts, while attendance tracking helps schools monitor participation. Whether it's a school-wide seminar or a small group workshop, Pulisync ensures that everything runs smoothly.",
+      "reportingInsightsTitle": "Powerful Reporting & Insights: Making Data-Driven Decisions",
+      "reportingInsightsContent": "In an era where data plays a crucial role in decision-making, Pulisync empowers schools with powerful reporting tools. Administrators can access detailed reports on student attendance, fee collections, and event participation, allowing them to make informed choices. The platform's customizable dashboards provide a clear overview of school performance, helping educators identify trends and areas for improvement. With predictive analytics, schools can proactively address potential issues, such as declining attendance rates or irregular fee payments. More importantly, Pulisync ensures that all sensitive data remains secure, complying with the highest standards of privacy and protection.",
+      "bookingSystemTitle": "Seamless Booking System: Effortless Scheduling for Everyone",
+      "bookingSystemContent": "Coordinating parent-teacher conferences, scheduling school facilities, and managing reservations can often be a logistical nightmare. Pulisync eliminates this hassle with a seamless booking system that allows users to schedule meetings and reserve spaces with ease. Parents can book time slots for parent-teacher meetings without endless back-and-forth communication, while school staff can efficiently allocate rooms, auditoriums, and other facilities. Automated confirmations and cancellations prevent scheduling conflicts, ensuring a smooth and organized booking process."
+    }
+  },
+  "booking": {
+    "stats": {
+      "new": "New",
+      "than_last_day": "Than Last Day",
+      "total_bookings": {
+        "title": "Total Bookings Today"
+      },
+      "available_slots": {
+        "title": "Available Slots"
+      },
+      "canceled_bookings": {
+        "title": "Canceled Bookings"
+      },
+      "most_booked": {
+        "title": "Most Booked Facilities"
+      }
+    },
+    "dashboard": {
+      "quickActions": {
+        "title": "Quick Actions",
+        "newFacility": "New Facility",
+        "manageFacility": "Manage Facility",
+        "viewSchedule": "View Schedule",
+        "generateReport": "Generate Report"
+      },
+      "recentBookings": {
+        "title": "Recent Bookings",
+        "facilityView": "Facility View",
+        "exportCsv": "Export CSV",
+        "viewAll": "View All",
+        "emptyState": "No bookings found",
+        "columns": {
+          "bookingId": "Booking ID",
+          "studentName": "Student Name",
+          "bookingDate": "Booking Date",
+          "facility": "Facility",
+          "payment": "Payment",
+          "status": "Status",
+          "actions": "Actions"
+        }
+      },
+      "facilitySchedule": {
+        "title": "Facility Schedule",
+        "periods": {
+          "weekly": "Weekly",
+          "biWeekly": "Bi-weekly",
+          "monthly": "Monthly"
+        },
+        "legend": {
+          "booked": "Booked",
+          "available": "Available"
+        }
+      },
+      "facilityUsage": {
+        "title": "Facility Usage",
+        "periods": {
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "biWeekly": "Bi-weekly",
+          "monthly": "Monthly"
+        }
+      },
+      "bookingStatus": {
+        "confirmed": "Confirmed",
+        "pending": "Pending",
+        "cancelled": "Cancelled"
+      },
+      "changeSchedule": {
+        "title": "Change Schedule",
+        "bookingPlan": "Booking Plan",
+        "selectDate": "Select Date",
+        "dailyBookingDuration": "Daily Booking Duration",
+        "selectTimeSlot": "Select Time Slot",
+        "addSlot": "Add Slot",
+        "cancel": "Cancel",
+        "confirm": "Confirm"
+      },
+      "changeInvigilator": {
+        "title": "Change Invigilator",
+        "description": "You are about to change the invigilator for this facility. Search for an invigilator below.",
+        "searchPlaceholder": "Search by name, ID, email...",
+        "noInvigilatorsFound": "No invigilators found",
+        "errorLoadingInvigilators": "Error loading invigilators",
+        "selectInvigilatorError": "Please select an invigilator",
+        "assignError": "Failed to assign invigilator. Please try again.",
+        "cancel": "Cancel",
+        "confirm": "Confirm Change",
+        "changing": "Changing...",
+        "selectInvigilator": "Select Invigilator"
+      },
+      "invigilatorDetails": {
+        "title": "Invigilator Details",
+        "changeInvigilator": "Change Invigilator",
+        "sendMessage": "Send Message"
+      }
+    },
+    "facility": {
+      "manage": {
+        "title": "Facility Management",
+        "addNew": "Add New",
+        "details": {
+          "units": "Units",
+          "vigilator": "Vigilator",
+          "availability": "Availability",
+          "ageRange": "Age Range",
+          "capacity": "Capacity",
+          "prerequisite": "Prerequisite"
+        }
+      },
+      "form": {
+        "title": {
+          "add": "Add Facility",
+          "edit": "Edit Facility"
+        },
+        "labels": {
+          "categoryName": "Category",
+          "facilityName": "Facility Name",
+          "units": "Units",
+          "capacity": "Capacity",
+          "differentCapacity": "Different capacity per unit",
+          "invigilatorName": "Invigilator Name",
+          "availability": "Availability",
+          "ageRange": "Age Range",
+          "prerequisite": "Prerequisite",
+          "availablePlan": "Available Plan",
+          "chargePerHour": "Charge per Hour"
+        },
+        "placeholders": {
+          "categoryName": "Select a category",
+          "facilityName": "Select a facility",
+          "units": "Number of units",
+          "capacity": "Total capacity",
+          "invigilatorName": "Invigilator name",
+          "chargePerHour": "Charge per hour"
+        },
+        "availablePlans": {
+          "daily": "Daily",
+          "weekly": "Weekly",
+          "monthly": "Monthly",
+          "yearly": "Yearly"
+        },
+        "buttons": {
+          "addMore": "Add More",
+          "discard": "Discard",
+          "saveChanges": "Save Changes",
+          "addNow": "Add Now"
+        }
+      },
+      "dashboard": {
+        "editFacility": "Edit Facility",
+        "details": {
+          "units": "Units",
+          "capacity": "Capacity"
+        }
+      },
+      "category": {
+        "select": "Select Category",
+        "requestNew": "Request New Category",
+        "newCategoryName": "Enter new category name",
+        "requiredFields": "Required Fields",
+        "buttons": {
+          "cancel": "Cancel",
+          "sendRequest": "Send Request"
+        }
+      }
+    }
+  },
+  "cookiePolicy": {
+    "title": "Cookies Policy for Pulisync",
+    "effectiveDate": "Effective Date: Feb 20, 2025",
+    "lastUpdated": "Last Update: Feb 20, 2025",
+    "introduction": "At Pulisync, we use cookies and similar tracking technologies to improve user experience, enhance platform performance, and ensure secure transactions. This Cookies Policy explains what cookies are, how we use them, and how you can control your preferences.",
+    "sections": [
+      {
+        "title": "1. What Are Cookies?",
+        "subsections": [
+          {
+            "subSectionOptionalLines": [
+              {
+                "text": "Cookies are small text files stored on your device (computer, tablet, or mobile) when you visit a website. They help websites remember user preferences, improve site performance, and enhance security."
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "2. Types of Cookies We Use",
+        "subsections": [
+          {
+            "subSectionOptionalLines": [
+              {
+                "text": "Pulisync uses the following types of cookies:"
+              }
+            ]
+          },
+          {
+            "title": "2.1 Essential Cookies (Strictly Necessary)",
+            "subSectionOptionalLines": [
+              {
+                "text": "These cookies are required for the platform to function correctly. Without them, certain services (e.g., secure logins, payments) may not work."
+              }
+            ],
+            "points": [
+              "Authentication cookies for secure logins",
+              "Payment session cookies (to process transactions safely)",
+              "Security cookies (to prevent fraud and unauthorized access)"
+            ],
+            "subDescription": "Can I disable these cookies? No, because they are necessary for the basic functionality of Pulisync."
+          },
+          {
+            "title": "2.2 Performance & Analytics Cookies",
+            "subSectionOptionalLines": [
+              {
+                "text": "These cookies help us understand user behavior, track website traffic, and improve site performance."
+              }
+            ],
+            "points": [
+              "Google Analytics (tracks user interaction & website performance)",
+              "Hotjar (heatmaps and session recordings for UI improvements)",
+              "WebSocket session tracking (real-time data updates)"
+            ],
+            "subDescription": "Can I disable these cookies? Yes, you can opt out of analytics tracking in the cookie settings panel or via browser preferences."
+          },
+          {
+            "title": "2.3 Functionality Cookies",
+            "subSectionOptionalLines": [
+              {
+                "text": "These cookies store user preferences (e.g., language selection, display settings) and enhance usability."
+              }
+            ],
+            "points": [
+              "Remembering login details for faster access",
+              "Customizing user dashboard preferences",
+              "Retaining payment methods for one-click transactions"
+            ],
+            "subDescription": "Can I disable these cookies? Yes, but some preferences may reset each time you visit the site."
+          },
+          {
+            "title": "2.4 Advertising & Marketing Cookies",
+            "subSectionOptionalLines": [
+              {
+                "text": "We may use cookies for personalized ads and remarketing campaigns. These cookies track user activity across websites to deliver relevant advertisements."
+              }
+            ],
+            "points": [
+              "Facebook Pixel (tracks conversions from ads)",
+              "Google Ads (personalized advertising based on browsing behavior)",
+              "Retargeting cookies for abandoned cart recovery"
+            ],
+            "subDescription": "Can I disable these cookies? Yes, you can opt out of targeted ads via Google Ads settings, Facebook ad preferences, or our cookie settings panel."
+          }
+        ]
+      },
+      {
+        "title": "3. Third-Party Cookies",
+        "subsections": [
+          {
+            "subSectionOptionalLines": [
+              {
+                "text": "Some third-party providers place cookies on your device when using Pulisync. These cookies help with analytics, security, and payments."
+              }
+            ],
+            "subDescription": "Examples of Third-Party Cookies Used: Google Analytics (tracks user behavior & site performance), Facebook Pixel (measures ad performance & retargeting), Stripe/PayPal (processes payments securely), Hotjar (records user interactions for UX improvements)"
+          }
+        ]
+      },
+      {
+        "title": "4. How to Manage Cookies",
+        "subsections": [
+          {
+            "subSectionOptionalLines": [
+              {
+                "text": "You have full control over cookies and can adjust preferences anytime."
+              }
+            ]
+          },
+          {
+            "title": "4.1 Browser Settings",
+            "subSectionOptionalLines": [
+              {
+                "text": "You can disable or delete cookies via your web browser settings:"
+              }
+            ],
+            "points": [
+              "Google Chrome – Go to Settings → Privacy & Security → Cookies & Other Site Data",
+              "Mozilla Firefox – Go to Preferences → Privacy & Security → Cookies",
+              "Microsoft Edge – Go to Settings → Site Permissions → Manage Cookies",
+              "Safari (Mac/iOS) – Go to Preferences → Privacy → Manage Website Data"
+            ]
+          },
+          {
+            "title": "4.2 Pulisync Cookie Settings Panel",
+            "subSectionOptionalLines": [
+              {
+                "text": "We provide an in-app cookie settings panel where you can:"
+              }
+            ],
+            "points": [
+              "Enable or disable non-essential cookies",
+              "Opt out of targeted ads",
+              "Adjust analytics preferences"
+            ],
+            "subDescription": "How to Access: Go to Pulisync Settings → Privacy → Cookie Preferences"
+          },
+          {
+            "title": "4.3 Opting Out of Advertising Cookies",
+            "subSectionOptionalLines": [
+              {
+                "text": "You can disable personalized ads via:"
+              }
+            ],
+            "points": [
+              "Google Ads Preferences: Click here",
+              "Facebook Ads Settings: Click here",
+              "Network Advertising Initiative: Click here"
+            ],
+            "links": {
+              "0": "Click here",
+              "1": "Click here",
+              "2": "Click here"
+            }
+          }
+        ]
+      },
+      {
+        "title": "5. How Long Do Cookies Last?",
+        "subsections": [
+          {
+            "subSectionOptionalLines": [
+              {
+                "text": "Different cookies have different expiration periods:"
+              },
+              {
+                "text": "Session Cookies (deleted when you close your browser), Persistent Cookies (30 days to 1 year varies by type), Analytics Cookies (up to 2 years Google Analytics), Marketing Cookies (90 days Facebook, Google Ads)"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "title": "6. Data Protection & Compliance",
+        "subsections": [
+          {
+            "subSectionOptionalLines": [
+              {
+                "text": "We ensure that our cookie usage aligns with global privacy laws:"
+              }
+            ]
+          },
+          {
+            "title": "6.1 GDPR (EU Users)",
+            "points": [
+              "Users must provide explicit consent before non-essential cookies are stored.",
+              "Users can withdraw consent at any time via cookie settings."
+            ]
+          },
+          {
+            "title": "6.2 CCPA (California Users)",
+            "points": [
+              "Users can opt out of the sale or sharing of personal data.",
+              "A \"Do Not Sell My Data\" link is available in settings."
+            ]
+          },
+          {
+            "title": "6.3 Other Regional Laws",
+            "points": [
+              "ePrivacy Directive (EU) – Strict consent for tracking cookies.",
+              "LGPD (Brazil) – Users must have full transparency on tracking.",
+              "PDPA (Singapore, Thailand, Malaysia) – Businesses must protect user data and provide opt-out options."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "7. Changes to This Cookies Policy",
+        "subsections": [
+          {
+            "subSectionOptionalLines": [
+              {
+                "text": "We may update this Cookies Policy periodically to reflect changes in regulations, technology, or user preferences. If significant changes occur, we will:"
+              }
+            ],
+            "points": [
+              "Notify users via email or platform alerts",
+              "Update the policy date at the top of this page",
+              "Continued use of Pulisync after updates means you accept the revised policy."
+            ]
+          }
+        ]
+      },
+      {
+        "title": "8. Contact Information",
+        "optionalLines": [
+          {
+            "text": "For questions regarding this Cookies Policy, contact us:",
+            "specialWord": "Cookies Policy",
+            "link": "/cookie-policy"
+          },
+          {
+            "iconSrc": "/icons/mail.png",
+            "text": "Contact us at ",
+            "specialWord": "hello@pulikidz.com",
+            "link": "mailto:hello@pulikidz.com"
+          },
+          {
+            "iconSrc": "/icons/cell-phone.png",
+            "text": "03333050039",
+            "link": "tel:03333050039"
+          },
+          {
+            "iconSrc": "/icons/button-phone.png",
+            "text": "07852151678",
+            "link": "tel:07852151678"
+          }
+        ]
+      }
+    ]
+  }
+}

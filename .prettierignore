@@ -1,0 +1,10 @@
+.git
+.next
+.cache
+build
+coverage
+node_modules
+public
+pnpm-lock.yaml
+dist
+.env*

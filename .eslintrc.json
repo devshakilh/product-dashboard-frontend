@@ -1,0 +1,19 @@
+{
+  "extends": [
+    "next/core-web-vitals",
+    "next/typescript",
+    "plugin:@typescript-eslint/recommended",
+    "plugin:tailwindcss/recommended",
+    "prettier",
+    "plugin:storybook/recommended"
+  ],
+  "plugins": ["@typescript-eslint", "tailwindcss"],
+  "rules": {
+    "@typescript-eslint/no-unused-vars": "error",
+    "@typescript-eslint/no-explicit-any": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "no-console": "error",
+    "@next/next/no-img-element": "error",
+    "tailwindcss/no-custom-classname": "warn"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "$schema": "https://swc.rs/schema.json",
+  "jsc": {
+    "parser": {
+      "syntax": "typescript",
+      "tsx": true,
+      "decorators": false,
+      "dynamicImport": true
+    },
+    "transform": {
+      "react": {
+        "runtime": "automatic"
+      }
+    },
+    "target": "es2017",
+    "loose": false,
+    "externalHelpers": false
+  },
+  "module": {
+    "type": "es6"
+  },
+  "minify": false,
+  "isModule": true
+}
