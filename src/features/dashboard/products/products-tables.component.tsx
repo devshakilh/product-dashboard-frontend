@@ -29,6 +29,11 @@ export default function ProductTable({
 
   const columns: ColumnDef<Product>[] = [
     {
+      id: 'serial',
+      header: '#',
+      cell: ({ row }) => <div className="text-gray-900">{row.index + 1}</div>,
+    },
+    {
       accessorKey: 'name',
       header: 'Name',
       cell: ({ row }) => (

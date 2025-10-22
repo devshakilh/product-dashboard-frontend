@@ -13,6 +13,10 @@ import {
   DialogHeader,
   DialogTitle,
   DialogTrigger,
+  DropdownMenu,
+  DropdownMenuContent,
+  DropdownMenuItem,
+  DropdownMenuTrigger,
   Input,
   Table,
   TableBody,
@@ -31,7 +35,7 @@ import {
   SortingState,
   useReactTable,
 } from '@tanstack/react-table';
-import { Edit, Search, ToggleLeft, Trash2 } from 'lucide-react';
+import { Edit, MoreVertical, Search, ToggleLeft, Trash2 } from 'lucide-react';
 import { toast, Toaster } from 'sonner';
 
 interface ReusableTableProps<T> {
@@ -83,70 +87,76 @@ export default function ReusableTable<T>({
     setIsDialogOpen(true);
   };
 
-  // Define action column dynamically if any action handlers are provided
+  // Define action column with a three-dot menu
   const actionColumn: ColumnDef<T> = {
     id: 'actions',
     header: 'Actions',
     cell: ({ row }) => (
-      <div className="flex items-center space-x-2">
-        {onEdit && (
+      <DropdownMenu>
+        <DropdownMenuTrigger asChild>
           <Button
             variant="ghost"
             size="sm"
-            onClick={() => onEdit(row.original)}
-            className="size-8 p-0 hover:bg-blue-50 hover:text-blue-600"
-            title="Edit"
+            className="size-8 p-0 hover:bg-gray-100"
+            title="More actions"
           >
-            <Edit className="size-4" />
+            <MoreVertical className="size-4" />
           </Button>
-        )}
-        {onStatusChange && (
-          <Button
-            variant="ghost"
-            size="sm"
-            onClick={() => onStatusChange(row.original)}
-            className="size-8 p-0 hover:bg-purple-50 hover:text-purple-600"
-            title="Change Status"
-          >
-            <ToggleLeft className="size-4" />
-          </Button>
-        )}
-        {onDelete && (
-          <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
-            <DialogTrigger asChild>
-              <Button
-                variant="ghost"
-                size="sm"
-                onClick={() => openDeleteDialog((row.original as any).id)}
-                className="size-8 p-0 text-red-600 hover:bg-red-50 hover:text-red-700"
-                title="Delete"
-              >
-                <Trash2 className="size-4" />
-              </Button>
-            </DialogTrigger>
-            <DialogContent>
-              <DialogHeader>
-                <DialogTitle>Confirm Deletion</DialogTitle>
-                <DialogDescription>
-                  Are you sure you want to delete this item? This action cannot
-                  be undone.
-                </DialogDescription>
-              </DialogHeader>
-              <DialogFooter>
-                <Button
-                  variant="outline"
-                  onClick={() => setIsDialogOpen(false)}
+        </DropdownMenuTrigger>
+        <DropdownMenuContent align="end">
+          {onEdit && (
+            <DropdownMenuItem
+              onClick={() => onEdit(row.original)}
+              className="flex items-center gap-2"
+            >
+              <Edit className="size-4" />
+              Edit
+            </DropdownMenuItem>
+          )}
+          {onStatusChange && (
+            <DropdownMenuItem
+              onClick={() => onStatusChange(row.original)}
+              className="flex items-center gap-2"
+            >
+              <ToggleLeft className="size-4" />
+              Change Status
+            </DropdownMenuItem>
+          )}
+          {onDelete && (
+            <Dialog open={isDialogOpen} onOpenChange={setIsDialogOpen}>
+              <DialogTrigger asChild>
+                <DropdownMenuItem
+                  onSelect={() => openDeleteDialog((row.original as any).id)}
+                  className="flex items-center gap-2 text-red-600 hover:text-red-700"
                 >
-                  Cancel
-                </Button>
-                <Button variant="destructive" onClick={handleDelete}>
+                  <Trash2 className="size-4" />
                   Delete
-                </Button>
-              </DialogFooter>
-            </DialogContent>
-          </Dialog>
-        )}
-      </div>
+                </DropdownMenuItem>
+              </DialogTrigger>
+              <DialogContent>
+                <DialogHeader>
+                  <DialogTitle>Confirm Deletion</DialogTitle>
+                  <DialogDescription>
+                    Are you sure you want to delete this item? This action
+                    cannot be undone.
+                  </DialogDescription>
+                </DialogHeader>
+                <DialogFooter>
+                  <Button
+                    variant="outline"
+                    onClick={() => setIsDialogOpen(false)}
+                  >
+                    Cancel
+                  </Button>
+                  <Button variant="destructive" onClick={handleDelete}>
+                    Delete
+                  </Button>
+                </DialogFooter>
+              </DialogContent>
+            </Dialog>
+          )}
+        </DropdownMenuContent>
+      </DropdownMenu>
     ),
   };
 
