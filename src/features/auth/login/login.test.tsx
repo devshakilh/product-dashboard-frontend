@@ -5,7 +5,7 @@ import { fireEvent, render, screen, waitFor } from '@testing-library/react';
 import { signIn } from 'next-auth/react';
 import { NextIntlClientProvider } from 'next-intl';
 
-import LoginPage from './login-page.component';
+import LoginPage from './login.component';
 
 // Mock next/navigation
 jest.mock('next/navigation', () => ({
