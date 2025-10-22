@@ -1,5 +1,6 @@
 'use client';
 
+import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import {
   Button,
@@ -8,10 +9,17 @@ import {
   CardDescription,
   CardHeader,
   CardTitle,
+  Form,
+  FormControl,
+  FormField,
+  FormItem,
+  FormLabel,
+  FormMessage,
   Input,
-  Label,
 } from '@/features/ui';
 import { zodResolver } from '@hookform/resolvers/zod';
+import { AnimatePresence, motion } from 'framer-motion';
+import { Eye, EyeOff, Loader2 } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { toast } from 'sonner';
@@ -21,9 +29,10 @@ import { ApiError } from '@/types/api-response';
 import { useLoginMutation } from '@/lib/store/api/authApi';
 import { setCredentials } from '@/lib/store/slices/authSlice';
 
+// Validation schema
 const loginSchema = z.object({
   email: z.string().email('Invalid email address'),
-  password: z.string().min(1, 'Password is required'),
+  password: z.string().min(8, 'Password must be at least 8 characters long'),
 });
 
 type LoginForm = z.infer<typeof loginSchema>;
@@ -32,12 +41,10 @@ export default function Login() {
   const router = useRouter();
   const dispatch = useDispatch();
   const [login, { isLoading }] = useLoginMutation();
+  const [showPassword, setShowPassword] = useState(false);
 
-  const {
-    register,
-    handleSubmit,
-    formState: { errors },
-  } = useForm<LoginForm>({
+  // Initialize form with react-hook-form and zod
+  const form = useForm<LoginForm>({
     resolver: zodResolver(loginSchema),
     defaultValues: {
       email: 'admin@example.com',
@@ -45,6 +52,7 @@ export default function Login() {
     },
   });
 
+  // Handle form submission
   const onSubmit = async (data: LoginForm) => {
     try {
       const result = await login(data).unwrap();
@@ -53,7 +61,7 @@ export default function Login() {
         description: 'You are now signed in.',
       });
       router.push('/products');
-    } catch (err: unknown) {
+    } catch (err) {
       const apiError = err as ApiError;
       toast.error('Login failed', {
         description:
@@ -64,62 +72,170 @@ export default function Login() {
   };
 
   return (
-    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-blue-50 to-indigo-100">
-      <Card className="w-full max-w-md shadow-xl">
-        <CardHeader className="space-y-1 text-center">
-          <CardTitle className="bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-3xl font-bold text-transparent">
-            Product Management
-          </CardTitle>
-          <CardDescription className="text-base">
-            Enter your credentials to access the dashboard
-          </CardDescription>
-        </CardHeader>
-        <CardContent className="p-6">
-          <form onSubmit={handleSubmit(onSubmit)} className="space-y-4">
-            <div className="space-y-2">
-              <Label htmlFor="email">Email</Label>
-              <Input
-                id="email"
-                type="email"
-                placeholder="admin@example.com"
-                {...register('email')}
-                className="h-11"
-              />
-              {errors.email && (
-                <p className="text-sm text-red-500">{errors.email.message}</p>
-              )}
-            </div>
+    <div className="flex min-h-screen items-center justify-center bg-gradient-to-br from-gray-50 to-gray-100 p-4">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        animate={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5, ease: 'easeOut' }}
+        className="w-full max-w-md"
+      >
+        <Card className="border-0 bg-white/95 shadow-lg backdrop-blur-sm">
+          <CardHeader className="space-y-1 pb-6 text-center">
+            <motion.div
+              initial={{ scale: 0.95, opacity: 0 }}
+              animate={{ scale: 1, opacity: 1 }}
+              transition={{ duration: 0.3 }}
+            >
+              <CardTitle className="text-3xl font-bold text-gray-900">
+                Product Management
+              </CardTitle>
+              <CardDescription className="text-gray-500">
+                Sign in to access your dashboard
+              </CardDescription>
+            </motion.div>
+          </CardHeader>
+          <CardContent className="p-6">
+            <Form {...form}>
+              <form
+                onSubmit={form.handleSubmit(onSubmit)}
+                className="space-y-5"
+              >
+                {/* Email Field */}
+                <FormField
+                  control={form.control}
+                  name="email"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Email</FormLabel>
+                      <FormControl>
+                        <motion.div
+                          whileFocus={{ scale: 1.01 }}
+                          transition={{ duration: 0.2 }}
+                        >
+                          <Input
+                            type="email"
+                            placeholder="admin@example.com"
+                            className={`h-10 ${
+                              form.formState.errors.email
+                                ? 'border-red-500 focus-visible:ring-red-500'
+                                : 'border-gray-200 focus-visible:ring-blue-500'
+                            } transition-all duration-200`}
+                            disabled={isLoading}
+                            {...field}
+                          />
+                        </motion.div>
+                      </FormControl>
+                      <AnimatePresence>
+                        {form.formState.errors.email && (
+                          <motion.div
+                            initial={{ opacity: 0, y: -5 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -5 }}
+                          >
+                            <FormMessage />
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </FormItem>
+                  )}
+                />
 
-            <div className="space-y-2">
-              <Label htmlFor="password">Password</Label>
-              <Input
-                id="password"
-                type="password"
-                placeholder="••••••••"
-                {...register('password')}
-                className="h-11"
-              />
-              {errors.password && (
-                <p className="text-sm text-red-500">
-                  {errors.password.message}
-                </p>
-              )}
-            </div>
+                {/* Password Field */}
+                <FormField
+                  control={form.control}
+                  name="password"
+                  render={({ field }) => (
+                    <FormItem>
+                      <FormLabel>Password</FormLabel>
+                      <FormControl>
+                        <div className="relative">
+                          <motion.div
+                            whileFocus={{ scale: 1.01 }}
+                            transition={{ duration: 0.2 }}
+                          >
+                            <Input
+                              type={showPassword ? 'text' : 'password'}
+                              placeholder="••••••••"
+                              className={`h-10 pr-10 ${
+                                form.formState.errors.password
+                                  ? 'border-red-500 focus-visible:ring-red-500'
+                                  : 'border-gray-200 focus-visible:ring-blue-500'
+                              } transition-all duration-200`}
+                              disabled={isLoading}
+                              {...field}
+                            />
+                          </motion.div>
+                          <Button
+                            type="button"
+                            variant="ghost"
+                            size="icon"
+                            className="absolute right-1 top-1/2 size-8 -translate-y-1/2"
+                            onClick={() => setShowPassword(!showPassword)}
+                            disabled={isLoading}
+                          >
+                            {showPassword ? (
+                              <EyeOff className="size-4" />
+                            ) : (
+                              <Eye className="size-4" />
+                            )}
+                          </Button>
+                        </div>
+                      </FormControl>
+                      <AnimatePresence>
+                        {form.formState.errors.password && (
+                          <motion.div
+                            initial={{ opacity: 0, y: -5 }}
+                            animate={{ opacity: 1, y: 0 }}
+                            exit={{ opacity: 0, y: -5 }}
+                          >
+                            <FormMessage />
+                          </motion.div>
+                        )}
+                      </AnimatePresence>
+                    </FormItem>
+                  )}
+                />
 
-            <Button type="submit" className="h-11 w-full" disabled={isLoading}>
-              {isLoading ? 'Signing in...' : 'Sign In'}
-            </Button>
+                {/* Submit Button */}
+                <motion.div
+                  whileHover={{ scale: 1.02 }}
+                  whileTap={{ scale: 0.98 }}
+                  transition={{ duration: 0.2 }}
+                >
+                  <Button
+                    type="submit"
+                    className="h-10 w-full bg-blue-600 text-white hover:bg-blue-700"
+                    disabled={isLoading}
+                  >
+                    {isLoading ? (
+                      <span className="flex items-center">
+                        <Loader2 className="mr-2 size-4 animate-spin" />
+                        Signing in...
+                      </span>
+                    ) : (
+                      'Sign In'
+                    )}
+                  </Button>
+                </motion.div>
 
-            <div className="rounded-md bg-gray-50 p-3 text-center text-sm text-gray-500">
-              <strong>Demo Credentials:</strong>
-              <br />
-              Email: admin@example.com
-              <br />
-              Password: admin123
-            </div>
-          </form>
-        </CardContent>
-      </Card>
+                {/* Demo Credentials */}
+                <motion.div
+                  initial={{ opacity: 0 }}
+                  animate={{ opacity: 1 }}
+                  transition={{ delay: 0.3, duration: 0.3 }}
+                  className="rounded-md bg-gray-50 p-3 text-center text-sm text-gray-600"
+                >
+                  <strong>Demo Credentials:</strong>
+                  <br />
+                  Email: admin@example.com
+                  <br />
+                  Password: admin123
+                </motion.div>
+              </form>
+            </Form>
+          </CardContent>
+        </Card>
+      </motion.div>
     </div>
   );
 }
