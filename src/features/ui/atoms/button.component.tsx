@@ -1,136 +1,57 @@
-'use client';
-
-import { ButtonHTMLAttributes, forwardRef } from 'react';
-import { cva, VariantProps } from 'class-variance-authority';
-import { Loader2 } from 'lucide-react';
+import * as React from 'react';
+import { Slot } from '@radix-ui/react-slot';
+import { cva, type VariantProps } from 'class-variance-authority';
 
 import { cn } from '@/lib/utils';
 
 const buttonVariants = cva(
-  'inline-flex items-center justify-center rounded-lg transition-all duration-200 ease-in-out focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-offset-2 disabled:pointer-events-none disabled:opacity-50',
+  'inline-flex items-center justify-center gap-2 whitespace-nowrap rounded-md text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-1 focus-visible:ring-ring disabled:pointer-events-none disabled:opacity-50 [&_svg]:pointer-events-none [&_svg]:size-4 [&_svg]:shrink-0',
   {
     variants: {
       variant: {
-        primary:
-          'bg-primary-500 text-white hover:shadow-md active:bg-primary-600 active:shadow-none',
+        default:
+          'bg-primary text-primary-foreground shadow hover:bg-primary/90',
+        destructive:
+          'bg-destructive text-destructive-foreground shadow-sm hover:bg-destructive/90',
+        outline:
+          'border border-input bg-background shadow-sm hover:bg-accent hover:text-accent-foreground',
         secondary:
-          'border border-gray-200 bg-white text-gray-700 hover:border-primary-500 hover:text-primary-500 active:border-transparent active:bg-primary-50',
-        'icon-primary':
-          'size-10 bg-primary-500 text-white hover:shadow-md active:bg-primary-600 active:shadow-none',
-        'icon-secondary':
-          'size-10 border border-gray-200 bg-white text-gray-700 hover:border-primary-500 hover:text-primary-500 active:border-transparent active:bg-primary-50',
+          'bg-secondary text-secondary-foreground shadow-sm hover:bg-secondary/80',
+        ghost: 'hover:bg-accent hover:text-accent-foreground',
+        link: 'text-primary underline-offset-4 hover:underline',
       },
       size: {
-        default: 'h-10 px-4 py-2 text-sm',
-        sm: 'h-8 px-3 py-1.5 text-xs',
-      },
-      iconPosition: {
-        none: '',
-        left: 'flex-row gap-2',
-        right: 'flex-row-reverse gap-2',
+        default: 'h-9 px-4 py-2',
+        sm: 'h-8 rounded-md px-3 text-xs',
+        lg: 'h-10 rounded-md px-8',
+        icon: 'size-9',
       },
     },
     defaultVariants: {
-      variant: 'primary',
+      variant: 'default',
       size: 'default',
-      iconPosition: 'none',
     },
   }
 );
 
-interface ButtonProps
-  extends ButtonHTMLAttributes<HTMLButtonElement>,
+export interface ButtonProps
+  extends React.ButtonHTMLAttributes<HTMLButtonElement>,
     VariantProps<typeof buttonVariants> {
-  /**
-   * Optional icon element to be rendered inside the button
-   * @example icon={<PlusIcon className="size-4" />}
-   */
-  icon?: React.ReactNode;
-  /**
-   * Loading state of the button
-   */
-  loading?: boolean;
+  asChild?: boolean;
 }
 
-/**
- * Primary UI component for user interaction
- *
- * @component
- * @example
- * // Primary button
- * <Button>Click me</Button>
- *
- * // Secondary button
- * <Button variant="secondary">Click me</Button>
- *
- * // Small button with left icon
- * <Button size="sm" icon={<PlusIcon />} iconPosition="left">
- *   Add item
- * </Button>
- *
- * // Icon only button
- * <Button icon={<PlusIcon />} aria-label="Add item" />
- *
- * @param {Object} props - Component props
- * @param {ReactNode} props.children - Button content
- * @param {'primary' | 'secondary'} [props.variant='primary'] - Button variant
- * @param {'default' | 'sm'} [props.size='default'] - Button size
- * @param {ReactNode} [props.icon] - Optional icon element
- * @param {'none' | 'left' | 'right'} [props.iconPosition='none'] - Icon position
- * @param {string} [props.className] - Additional CSS classes
- * @param {boolean} [props.disabled] - Disabled state
- */
-const Button = forwardRef<HTMLButtonElement, ButtonProps>(
-  (
-    {
-      className,
-      variant,
-      size,
-      iconPosition,
-      icon,
-      children,
-      loading,
-      disabled,
-      ...props
-    },
-    ref
-  ) => {
-    // If there's only an icon, use the icon variants
-    const isIconOnly = icon && !children;
-    const finalVariant = isIconOnly
-      ? (`icon-${variant === 'secondary' ? 'secondary' : 'primary'}` as const)
-      : variant;
-
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(
+  ({ className, variant, size, asChild = false, ...props }, ref) => {
+    const Comp = asChild ? Slot : 'button';
     return (
-      <button
-        className={cn(
-          buttonVariants({
-            variant: finalVariant,
-            size: isIconOnly ? undefined : size,
-            iconPosition: isIconOnly ? 'none' : iconPosition,
-            className,
-          })
-        )}
+      <Comp
+        className={cn(buttonVariants({ variant, size, className }))}
         ref={ref}
-        disabled={disabled || loading}
         {...props}
-      >
-        {loading ? (
-          <>
-            <Loader2 className="size-4 animate-spin" />
-            {children && <span>{children}</span>}
-          </>
-        ) : (
-          <>
-            {icon}
-            {children}
-          </>
-        )}
-      </button>
+      />
     );
   }
 );
-
 Button.displayName = 'Button';
 
-export default Button;
+export { Button, buttonVariants };
