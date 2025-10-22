@@ -46,8 +46,6 @@ export {
   SelectTrigger,
   SelectValue,
 } from './select.component';
-export { default as LineChartSkeleton } from './skeleton/line-chart-skeleton.component';
-export { default as PieChartSkeleton } from './skeleton/pie-chart-skeleton.component';
-export { default as Skeleton } from './skeleton/skeleton.component';
+export { Skeleton } from './skeletons/skeleton.component';
 export { Toaster } from './sonner.component';
 export { default as TextArea } from './text-area.component';
