@@ -1,6 +1,7 @@
 'use client';
 
-import { useRouter } from 'next/navigation';
+import { useEffect, useState } from 'react';
+import { useRouter, useSearchParams } from 'next/navigation';
 import {
   BaseForm,
   CardContent,
@@ -10,6 +11,7 @@ import {
 } from '@/features/ui';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { motion } from 'framer-motion';
+import { AlertCircle } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { useDispatch } from 'react-redux';
 import { toast } from 'sonner';
@@ -22,15 +24,21 @@ import { setCredentials } from '@/lib/store/slices/authSlice';
 // Validation schema
 const loginSchema = z.object({
   email: z.string().email('Invalid email address'),
-  password: z.string().min(8, 'Password must be at least 8 characters long'),
+  password: z.string().min(1, 'Password is required'),
 });
 
 type LoginForm = z.infer<typeof loginSchema>;
 
 export default function Login() {
   const router = useRouter();
+  const searchParams = useSearchParams();
   const dispatch = useDispatch();
   const [login, { isLoading }] = useLoginMutation();
+  const [error, setError] = useState('');
+
+  // Extract query parameters
+  const redirect = searchParams.get('redirect') || '/dashboard/products';
+  const sessionExpired = searchParams.get('session') === 'expired';
 
   // Initialize form
   const form = useForm<LoginForm>({
@@ -41,22 +49,29 @@ export default function Login() {
     },
   });
 
+  // Handle session expiration
+  useEffect(() => {
+    if (sessionExpired) {
+      setError('Your session has expired. Please login again.');
+    }
+  }, [sessionExpired]);
+
   // Handle form submission
   const onSubmit = async (data: LoginForm) => {
     try {
+      setError('');
       const result = await login(data).unwrap();
       dispatch(setCredentials(result.user));
       toast.success('Login successful!', {
         description: 'You are now signed in.',
+        duration: 3000,
       });
-      router.push('/products');
+      router.push(redirect);
     } catch (err) {
       const apiError = err as ApiError;
-      toast.error('Login failed', {
-        description:
-          apiError?.data?.message ||
-          'Please check your credentials and try again.',
-      });
+      const errorMessage =
+        apiError?.data?.message || 'Login failed. Please try again.';
+      setError(errorMessage);
     }
   };
 
@@ -110,6 +125,20 @@ export default function Login() {
             </motion.div>
           </CardHeader>
           <CardContent className="p-6">
+            {sessionExpired && (
+              <div className="mb-4 flex items-start space-x-2 rounded-md border border-yellow-200 bg-yellow-50 p-3">
+                <AlertCircle className="mt-0.5 size-5 text-yellow-600" />
+                <div className="text-sm text-yellow-800">
+                  Your session has expired. Please login again to continue.
+                </div>
+              </div>
+            )}
+            {error && !sessionExpired && (
+              <div className="mb-4 flex items-start space-x-2 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-500">
+                <AlertCircle className="mt-0.5 size-5" />
+                <div>{error}</div>
+              </div>
+            )}
             <BaseForm
               form={form}
               onSubmit={onSubmit}
