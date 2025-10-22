@@ -42,7 +42,7 @@ interface ProductFormProps {
   onCancel: () => void;
 }
 
-export default function CreateEdotProductForm({
+export default function AddEditProductForm({
   product,
   mode,
   onSuccess,
