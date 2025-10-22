@@ -42,8 +42,8 @@ const Navbar = () => {
           {/* Logo */}
           <Link href="/" className="relative" data-testid="logo-link">
             <Image
-              src="/logos/Pulisync-Blue.png"
-              alt="Pulisync Logo"
+              src="/logos/.png"
+              alt="Logo"
               width={110}
               height={45}
               priority

@@ -19,12 +19,19 @@ import {
 const productSchema = z.object({
   name: z.string().min(1, 'Name is required').max(100, 'Name is too long'),
   category: z.string().min(1, 'Category is required'),
-  price: z.number().min(0, 'Price must be positive'),
-  stock: z.number().int().min(0, 'Stock must be non-negative'),
+  price: z
+    .string()
+    .min(1, 'Price is required')
+    .transform((val) => parseFloat(val))
+    .refine((val) => !isNaN(val) && val >= 0, 'Price must be positive'),
+  stock: z
+    .string()
+    .min(1, 'Stock is required')
+    .transform((val) => parseInt(val, 10))
+    .refine((val) => !isNaN(val) && val >= 0, 'Stock must be non-negative'),
   status: z.enum(['active', 'inactive', 'out-of-stock']),
   description: z.string().optional(),
 });
-
 type ProductFormData = z.infer<typeof productSchema>;
 
 interface ProductFormProps {

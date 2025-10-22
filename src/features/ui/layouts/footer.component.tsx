@@ -17,8 +17,8 @@ const Footer: NextPage<FooterType> = ({ className = '' }) => {
         <div className="mb-8">
           <Image
             className="mx-auto"
-            src="/logos/Pulikidz Logo.png"
-            alt="Pulikidz Logo"
+            src="/logos/Logo.png"
+            alt="Logo"
             width={127}
             height={45}
           />

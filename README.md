@@ -1,6 +1,6 @@
-# PuliSync Frontend
+# Managment Frontend
 
-Modern frontend for the PuliSync platform built with Next.js and TypeScript.
+Modern frontend for the Managmentt platform built with Next.js and TypeScript.
 
 ## Prerequisites
 
@@ -12,8 +12,8 @@ Modern frontend for the PuliSync platform built with Next.js and TypeScript.
 1. Clone this repository:
 
    ```bash
-   git clone https://github.com/Pulikidz/pulisync-frontend.git
-   cd pulisync-frontend
+   git clone https://github.com/Pulikidz/Managmentt-frontend.git
+   cd Managmentt-frontend
    ```
 
 2. Install dependencies:
@@ -46,7 +46,7 @@ Modern frontend for the PuliSync platform built with Next.js and TypeScript.
 ## Project Structure
 
 ```
-pulisync-frontend/
+Managmentt-frontend/
 ├── public/             # Static assets
 ├── src/                # Source code
 │   ├── app/            # Next.js App Router
@@ -71,9 +71,9 @@ Create a `.env.local` file in the root directory with the following variables:
 ```
 NEXTAUTH_SECRET=Abc123
 NEXTAUTH_URL=http://localhost:3000
-NEXT_PUBLIC_API_URL=https://api.pulisync.xyz/api/v1
+NEXT_PUBLIC_API_URL=https://api.Managmentt.xyz/api/v1
 ```
 
 ## WebSocket Configuration
 
-WebSocket connections are configured to automatically reconnect on failure. The default URL for the messaging WebSocket is `wss://api.pulisync.xyz/messaging`.
+WebSocket connections are configured to automatically reconnect on failure. The default URL for the messaging WebSocket is `wss://api.Managmentt.xyz/messaging`.

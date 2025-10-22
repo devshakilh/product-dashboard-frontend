@@ -8,8 +8,8 @@ services:
     env_file:
       - .env.local
     networks:
-      - pulisync
-      
+      - Managment
+
 networks:
-  pulisync:
+  Managment:
     external: true

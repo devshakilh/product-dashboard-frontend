@@ -81,8 +81,8 @@
     },
     "education": {
       "badgeLabel": "Solution Tout-en-Un",
-      "headingTitle": "Renforcez votre établissement avec Pulisync",
-      "headingDescription": "Dites adieu aux feuilles de calcul désordonnées, aux courriels dispersés et aux problèmes de communication. Pulisync",
+      "headingTitle": "Renforcez votre établissement avec Managment",
+      "headingDescription": "Dites adieu aux feuilles de calcul désordonnées, aux courriels dispersés et aux problèmes de communication. Managmentt",
       "headingDescriptionBr": "offre aux écoles, aux enseignants et aux parents un centre de ressources pour tout ce dont ils ont besoin.",
       "features": {
         "schools": {
@@ -108,12 +108,12 @@
       }
     },
     "testimonial": {
-      "subheading": "3940+ utilisateurs heureux de Pulisync",
-      "description": "Les écoles qui ont adopté Pulisync—",
+      "subheading": "3940+ utilisateurs heureux de Managmentt",
+      "description": "Les écoles qui ont adopté Managmentt—",
       "heading": "Et n'ont jamais regardé en arrière",
       "testimonials": {
         "one": {
-          "text": "Nous traitions les paiements manuellement, et c'était le chaos. Avec Pulisync, tout est automatisé, transparent et facile à suivre. Cela a complètement changé la façon dont nous gérons les finances.",
+          "text": "Nous traitions les paiements manuellement, et c'était le chaos. Avec Managmentt, tout est automatisé, transparent et facile à suivre. Cela a complètement changé la façon dont nous gérons les finances.",
           "name": "Michael R.",
           "position": "Directeur des opérations scolaires"
         },
@@ -123,12 +123,12 @@
           "position": "Gestionnaire financier de l'école"
         },
         "three": {
-          "text": "Pulisync a rendu les paiements de frais de scolarité sans effort pour notre école. Les parents apprécient la commodité, et nous aimons la précision et le suivi en temps réel.",
+          "text": "Managmentt a rendu les paiements de frais de scolarité sans effort pour notre école. Les parents apprécient la commodité, et nous aimons la précision et le suivi en temps réel.",
           "name": "Sarah P.",
           "position": "Directrice"
         },
         "four": {
-          "text": "Passer à Pulisync a été la meilleure décision que nous avons prise cette année. Notre département financier est enfin sans stress, et nos processus sont plus efficaces que jamais.",
+          "text": "Passer à Managmentt a été la meilleure décision que nous avons prise cette année. Notre département financier est enfin sans stress, et nos processus sont plus efficaces que jamais.",
           "name": "Jonathan K.",
           "position": "Directeur financier"
         }
@@ -138,16 +138,16 @@
     "explorer": {
       "badgeLabel": "Exploratrice",
       "title": "Simplifiez les paiements scolaires",
-      "description": "Pulisync est conçu pour améliorer le traitement des paiements pour les écoles et les garderies, offrant une collecte des frais sans effort, un suivi clair des transactions et une expérience fluide pour les parents et les administrateurs.",
+      "description": "Managmentt est conçu pour améliorer le traitement des paiements pour les écoles et les garderies, offrant une collecte des frais sans effort, un suivi clair des transactions et une expérience fluide pour les parents et les administrateurs.",
       "features": {
         "watchNow": {
           "title": "Regardez maintenant",
-          "description": "Découvrez comment Pulisync transforme la gestion des paiements, en fournissant des transactions sécurisées, des rappels automatisés et des rapports financiers complets.",
+          "description": "Découvrez comment Managmentt transforme la gestion des paiements, en fournissant des transactions sécurisées, des rappels automatisés et des rapports financiers complets.",
           "buttonLabel": "Lire la vidéo"
         },
         "getStarted": {
           "title": "Commencez",
-          "description": "Inscrivez-vous à Pulisync dès aujourd'hui et profitez d'une plateforme unifiée pour gérer facilement les paiements, les événements et les tâches administratives.",
+          "description": "Inscrivez-vous à Managmentt dès aujourd'hui et profitez d'une plateforme unifiée pour gérer facilement les paiements, les événements et les tâches administratives.",
           "buttonLabel": "Commencer"
         }
       }
@@ -218,8 +218,8 @@
     },
     "eventManagement": {
       "badgeLabel": "Découvrir",
-      "heading": "Gestion d'événements fluide avec Pulisync",
-      "description": "Le système de réservation intégré de Pulisync vous permet de planifier, gérer et suivre les réservations sans effort. Fini les doubles réservations, les rendez-vous perdus ou le suivi manuel. Tout est géré en un seul endroit.",
+      "heading": "Gestion d'événements fluide avec Managmentt",
+      "description": "Le système de réservation intégré de Managmentt vous permet de planifier, gérer et suivre les réservations sans effort. Fini les doubles réservations, les rendez-vous perdus ou le suivi manuel. Tout est géré en un seul endroit.",
       "buttons": {
         "learnMore": "En savoir plus",
         "contact": "Contactez-nous"
@@ -235,12 +235,12 @@
       },
       "faqItems": {
         "one": {
-          "question": "Qu'est-ce que Pulisync ?",
-          "answer": "Pulisync est une plateforme complète conçue pour simplifier la gestion des écoles et des services de garde. De la planification d'événements au traitement des paiements et aux analyses en temps réel, elle regroupe toutes vos opérations dans une solution facile à utiliser."
+          "question": "Qu'est-ce que Managmentt ?",
+          "answer": "Managmentt est une plateforme complète conçue pour simplifier la gestion des écoles et des services de garde. De la planification d'événements au traitement des paiements et aux analyses en temps réel, elle regroupe toutes vos opérations dans une solution facile à utiliser."
         },
         "two": {
           "question": "Est-ce sécurisé ?",
-          "answer": "Pulisync priorise la sécurité des données avec un chiffrement de pointe, des audits réguliers et la conformité aux normes mondiales pour garantir que vos données sont toujours protégées."
+          "answer": "Managmentt priorise la sécurité des données avec un chiffrement de pointe, des audits réguliers et la conformité aux normes mondiales pour garantir que vos données sont toujours protégées."
         },
         "three": {
           "question": "Comment fonctionne le tarif ?",
@@ -248,7 +248,7 @@
         },
         "four": {
           "question": "Puis-je obtenir une démonstration ?",
-          "answer": "Oui ! Nous proposons des démonstrations personnalisées pour vous montrer comment Pulisync peut bénéficier à votre établissement. Planifiez-en une via notre formulaire de contact."
+          "answer": "Oui ! Nous proposons des démonstrations personnalisées pour vous montrer comment Managmentt peut bénéficier à votre établissement. Planifiez-en une via notre formulaire de contact."
         }
       },
       "contactSection": {
@@ -261,8 +261,8 @@
       "heading": "Restez branchés",
       "headingSpan": "avec votre",
       "headingBr": "Communauté scolaire",
-      "description": "Pulisync ne concerne pas seulement la gestion—il s'agit de créer un écosystème scolaire plus solide.",
-      "buttonLabel": "Essayez Pulisync dès aujourd'hui"
+      "description": "Managmentt ne concerne pas seulement la gestion—il s'agit de créer un écosystème scolaire plus solide.",
+      "buttonLabel": "Essayez Managmentt dès aujourd'hui"
     },
     "contact": {
       "badgeLabel": "Coordonnés",
@@ -287,8 +287,8 @@
     "subscribeMessage": "Abonnez-vous à notre newsletter pour les mises à jour",
     "emailPlaceholder": "Votre adresse e-mail",
     "join": "Rejoindre",
-    "consentMessage": "En vous abonnant, vous acceptez notre politique de confidentialité et consentez à recevoir des mises à jour de Pulisync.",
-    "copyright": "© 2025 Pulisync. Tous droits réservés.",
+    "consentMessage": "En vous abonnant, vous acceptez notre politique de confidentialité et consentez à recevoir des mises à jour de Managmentt.",
+    "copyright": "© 2025 Managmentt. Tous droits réservés.",
     "links": {
       "privacyPolicy": "Politique de Confidentialité",
       "termsOfService": "Conditions d'Utilisation",
@@ -1216,7 +1216,7 @@
         "title": "Revenu annuel"
       },
       "accessPro": {
-        "title": "Passez à Pulisync+",
+        "title": "Passez à Managmentt+",
         "subtitle": "Plus de contrôle. Moins de tracas.",
         "description": "Automatisez les tâches, suivez les insights et restez en avance.",
         "buttonText": "Obtenez Plus Maintenant !"
@@ -1308,10 +1308,10 @@
     }
   },
   "legalPolicy": {
-    "policy": "Politique juridique de Pulisync",
+    "policy": "Politique juridique de Managmentt",
     "effectiveDate": "Date d'entrée en vigueur : 20 février 2025",
     "lastUpdate": "Dernière mise à jour : 20 février 2035",
-    "introduction": "Cette politique légale régit l'utilisation de Pulisync et expose les obligations légales, droits et responsabilités de Pulisync, de ses utilisateurs et des fournisseurs de services tiers. En utilisant Pulisync, vous acceptez de vous conformer à cette politique légale conjointement avec notre Politique de Confidentialité, Conditions Générales et Politique de Cookies. Si vous n'acceptez pas une partie de cette politique légale, vous devez cesser immédiatement d'utiliser Pulisync.",
+    "introduction": "Cette politique légale régit l'utilisation de Managmentt et expose les obligations légales, droits et responsabilités deManagmentnt, de ses utilisateurs et des fournisseurs de services tiers. En utilisanManagmentent, vous acceptez de vous conformer à cette politique légale conjointement avec notre Politique de Confidentialité, Conditions Générales et Politique de Cookies. Si vous n'acceptez pas une partie de cette politique légale, vous devez cesser immédiatement d'utilisManagmentment.",
     "sections": [
       {
         "title": "Conformité légale et juridiction",
@@ -1329,7 +1329,7 @@
             "title": "1.2 Conformité réglementaire",
             "subSectionOptionalLines": [
               {
-                "text": "Pulisync se conforme aux réglementations suivantes :"
+                "text": "Managmentt se conforme aux réglementations suivantes :"
               }
             ],
             "subSubsections": [
@@ -1361,7 +1361,7 @@
         ],
         "optionalLines": [
           {
-            "text": "Pulisync se réserve le droit de mettre à jour les politiques de conformité en fonction des exigences légales changeantes."
+            "text": "Managmentt se réserve le droit de mettre à jour les politiques de conformité en fonction des exigences légales changeantes."
           }
         ]
       },
@@ -1372,7 +1372,7 @@
           {
             "title": "2.1 Droits des utilisateurs",
             "points": [
-              "Droit d'accès – Obtenir une copie des données personnelles stockées par Pulisync.",
+              "Droit d'accès – Obtenir une copie des données personnelles stockées par Managmentt.",
               "Droit de rectification – Demander la correction des données incorrectes ou incomplètes.",
               "Droit à l'effacement (droit à l'oubli) – Demander la suppression de vos données personnelles.",
               "Droit d'opposition – Retirer le consentement pour le marketing et le traitement des données.",
@@ -1391,7 +1391,7 @@
               "Fournir des informations personnelles et de paiement précises.",
               "Utiliser la plateforme légalement et s'abstenir d'activités frauduleuses.",
               "Protéger les identifiants de compte contre tout accès non autorisé.",
-              "Respecter les lois et réglementations applicables lors de l'utilisation de Pulisync."
+              "Respecter les lois et réglementations applicables lors de l'utilisation de Managmentt."
             ]
           }
         ]
@@ -1412,13 +1412,13 @@
             "title": "3.2 Contenu généré par les utilisateurs",
             "points": [
               "Les utilisateurs conservent la propriété de leur contenu téléchargé (par exemple, messages, documents).",
-              "En téléchargeant du contenu sur Pulisync, les utilisateurs accordent une licence non exclusive et gratuite pour son utilisation dans le fonctionnement de la plateforme."
+              "En téléchargeant du contenu sur Managmentt, les utilisateurs accordent une licence non exclusive et gratuite pour son utilisation dans le fonctionnement de la plateforme."
             ]
           },
           {
             "title": "3.3 Propriété intellectuelle tierce",
             "points": [
-              "Pulisync s'intègre avec des services tiers (Google, Stripe, PayPal). Les utilisateurs doivent respecter les conditions de ces tiers.",
+              "Managmentt s'intègre avec des services tiers (Google, Stripe, PayPal). Les utilisateurs doivent respecter les conditions de ces tiers.",
               "Toute utilisation non autorisée de marques déposées, logiciels ou contenus tiers est strictement interdite."
             ]
           }
@@ -1431,7 +1431,7 @@
             "title": "4.1 Clause générale de non-responsabilité",
             "subSectionOptionalLines": [
               {
-                "text": "Pulisync est fourni « tel quel » et « tel que disponible », sans garantie d'aucune sorte. Nous ne garantissons pas :"
+                "text": "Managmentt est fourni « tel quel » et « tel que disponible », sans garantie d'aucune sorte. Nous ne garantissons pas :"
               }
             ],
             "points": [
@@ -1443,13 +1443,13 @@
           {
             "title": "4.2 Responsabilité financière",
             "points": [
-              "Pulisync n'est pas responsable des frais bancaires, des échecs de paiement ou des litiges de transaction.",
+              "Managmentt n'est pas responsable des frais bancaires, des échecs de paiement ou des litiges de transaction.",
               "Les utilisateurs doivent vérifier les détails de paiement avant d'autoriser les transactions."
             ]
           },
           {
             "title": "4.3 Clause de non-responsabilité en cas de violation de données",
-            "subDescription": "En cas de violation de sécurité, Pulisync :",
+            "subDescription": "En cas de violation de sécurité, Managmentt :",
             "points": [
               "Informera les utilisateurs concernés dans le délai légalement requis.",
               "Prendra les mesures de sécurité nécessaires pour contenir et prévenir d'autres problèmes.",
@@ -1459,7 +1459,7 @@
         ],
         "optionalLines": [
           {
-            "text": "Cependant, Pulisync n'est pas responsable des dommages résultant de violations de sécurité tierces."
+            "text": "Cependant, Managmentt n'est pas responsable des dommages résultant de violations de sécurité tierces."
           }
         ]
       },
@@ -1470,7 +1470,7 @@
             "title": "5.1 Processus de résolution interne",
             "subSectionOptionalLines": [
               {
-                "text": "Les utilisateurs doivent d'abord tenter de résoudre les litiges en contactant Pulisync via :"
+                "text": "Les utilisateurs doivent d'abord tenter de résoudre les litiges en contactant Managmentt via :"
               },
               {
                 "iconSrc": "/icons/mail.png",
@@ -1502,7 +1502,7 @@
             "title": "5.3 Renonciation aux actions collectives",
             "subSectionOptionalLines": [
               {
-                "text": "Les utilisateurs renoncent au droit de participer à toute action collective contre Pulisync. Les litiges doivent être traités individuellement."
+                "text": "Les utilisateurs renoncent au droit de participer à toute action collective contre Managmentt. Les litiges doivent être traités individuellement."
               }
             ]
           }
@@ -1513,7 +1513,7 @@
         "subsections": [
           {
             "title": "6.1 Motifs de résiliation",
-            "subDescription": "Pulisync se réserve le droit de résilier ou de restreindre les comptes des utilisateurs dans les conditions suivantes :",
+            "subDescription": "Managmentt se réserve le droit de résilier ou de restreindre les comptes des utilisateurs dans les conditions suivantes :",
             "points": [
               "Violations des Conditions Générales (fraude, abus, activité illégale).",
               "Non-respect des obligations financières (chargebacks, paiements frauduleux).",
@@ -1576,11 +1576,11 @@
   },
 
   "privacyPolicy": {
-    "title": "Politique de confidentialité pour Pulisync",
+    "title": "Politique de confidentialité pour Managmentt",
     "effectiveDate": "1er janvier 2023",
     "lastUpdated": "15 janvier 2023",
-    "introduction": "Chez Pulisync, nous nous engageons à protéger votre vie privée et à sécuriser vos données personnelles. Cette politique de confidentialité explique comment nous collectons, stockons, traitons et partageons vos informations lorsque vous utilisez nos services.",
-    "acknowledgement": "En utilisant Pulisync, vous reconnaissez avoir lu et compris cette politique de confidentialité et acceptez la manière dont nous traitons vos données. Si vous n'êtes pas d'accord, veuillez cesser d'utiliser nos services.",
+    "introduction": "Chez Managmentt, nous nous engageons à protéger votre vie privée et à sécuriser vos données personnelles. Cette politique de confidentialité explique comment nous collectons, stockons, traitons et partageons vos informations lorsque vous utilisez nos services.",
+    "acknowledgement": "En utilisant Managmentt, vous reconnaissez avoir lu et compris cette politique de confidentialité et acceptez la manière dont nous traitons vos données. Si vous n'êtes pas d'accord, veuillez cesser d'utiliser nos services.",
     "sections": [
       {
         "title": "1. Informations que nous collectons",
@@ -1677,7 +1677,7 @@
       },
       {
         "title": "4. Comment nous partageons vos informations",
-        "description": "Pulisync ne vend ni ne loue les données des utilisateurs. Nous ne partageons les informations que dans les circonstances suivantes :",
+        "description": "Managmentt ne vend ni ne loue les données des utilisateurs. Nous ne partageons les informations que dans les circonstances suivantes :",
         "subsections": [
           {
             "title": "4.1 Avec des fournisseurs de services tiers",
@@ -1733,9 +1733,9 @@
         ],
         "optionalLines": [
           {
-            "text": "Les utilisateurs peuvent demander la suppression de leur compte en contactant info@pulisync.com.",
-            "specialWord": "info@pulisync.com",
-            "link": "mailto:info@pulisync.com"
+            "text": "Les utilisateurs peuvent demander la suppression de leur compte en contactant info@Managmentt.com.",
+            "specialWord": "info@Managmentt.com",
+            "link": "mailto:info@Managmentt.com"
           }
         ]
       },
@@ -1754,9 +1754,9 @@
         ],
         "optionalLines": [
           {
-            "text": "Les utilisateurs peuvent demander la suppression de leur compte en contactant info@pulisync.com.",
-            "specialWord": "info@pulisync.com",
-            "link": "mailto:info@pulisync.com"
+            "text": "Les utilisateurs peuvent demander la suppression de leur compte en contactant info@Managmentt.com.",
+            "specialWord": "info@Managmentt.com",
+            "link": "mailto:info@Managmentt.com"
           }
         ]
       },
@@ -1781,7 +1781,7 @@
       },
       {
         "title": "9. Transferts internationaux de données",
-        "description": "Si vous accédez à Pulisync depuis l'extérieur du Royaume-Uni, vos données peuvent être transférées vers des serveurs aux États-Unis, dans l'Union européenne ou dans d'autres juridictions où nos prestataires de services opèrent.",
+        "description": "Si vous accédez à Managmentt depuis l'extérieur du Royaume-Uni, vos données peuvent être transférées vers des serveurs aux États-Unis, dans l'Union européenne ou dans d'autres juridictions où nos prestataires de services opèrent.",
         "subsections": [
           {
             "title": "",
@@ -1795,14 +1795,14 @@
       },
       {
         "title": "10. Mises à jour de la politique",
-        "description": "Si vous accédez à Pulisync depuis l'extérieur du Royaume-Uni, vos données peuvent être transférées vers des serveurs aux États-Unis, dans l'Union européenne ou dans d'autres juridictions où nos prestataires de services opèrent.",
+        "description": "Si vous accédez à Managmentt depuis l'extérieur du Royaume-Uni, vos données peuvent être transférées vers des serveurs aux États-Unis, dans l'Union européenne ou dans d'autres juridictions où nos prestataires de services opèrent.",
         "subsections": [
           {
             "title": "",
             "subDescription": "Nous nous réservons le droit de modifier périodiquement cette politique de confidentialité. En cas de changement :",
             "points": [
               "Nous informerons les utilisateurs par e-mail ou via des alertes dans l'application.",
-              "La poursuite de l'utilisation de Pulisync après les mises à jour constitue une acceptation."
+              "La poursuite de l'utilisation de Managmentt après les mises à jour constitue une acceptation."
             ]
           }
         ]
@@ -1837,10 +1837,10 @@
   },
 
   "termsService": {
-    "title": "Conditions générales de service pour Pulisync",
+    "title": "Conditions générales de service pour Managmentt",
     "effectiveDate": "20 février 2025",
     "lastUpdated": "20 février 2035",
-    "introduction": "Bienvenue sur Pulisync ! Ces Conditions générales de service (CGU) régissent l'utilisation de la plateforme de paiement numérique, de communication et de gestion des ressources de Pulisync. En accédant ou en utilisant Pulisync, vous acceptez de vous conformer à ces CGU. Si vous n'acceptez pas ces CGU, vous devez cesser immédiatement d'utiliser nos services.",
+    "introduction": "Bienvenue sur Managmentt ! Ces Conditions générales de service (CGU) régissent l'utilisation de la plateforme de paiement numérique, de communication et de gestion des ressources deManagmentnt. En accédant ou en utilisanManagmentent, vous acceptez de vous conformer à ces CGU. Si vous n'acceptez pas ces CGU, vous devez cesser immédiatement d'utiliser nos services.",
     "sections": [
       {
         "title": "1. Définitions",
@@ -1850,11 +1850,11 @@
             "title": "",
             "description": "We collect personally identifiable information (PII) when you register, make payments, or interact with our services, including but not limited to:",
             "points": [
-              "\"Pulisync\" fait référence à la plateforme en ligne, au logiciel, au site web et aux services exploités par PuliKidz.",
-              "\"Utilisateur\" désigne toute personne accédant ou utilisant Pulisync, y compris les parents, les administrateurs scolaires et les prestataires de services tiers.",
-              "\"Services\" fait référence à toutes les fonctionnalités de traitement des paiements numériques, de communication, de réservation de ressources et de gestion de compte offertes par Pulisync.",
-              "\"Contenu\" inclut les textes, images, vidéos, logiciels et autres matériaux disponibles sur Pulisync.",
-              "\"Services tiers\" fait référence aux processeurs de paiement externes, aux fournisseurs d'hébergement et aux intégrations qui interagissent avec Pulisync."
+              "\"Managmentt\" fait référence à la plateforme en ligne, au logiciel, au site web et aux services exploités par PuliKidz.",
+              "\"Utilisateur\" désigne toute personne accédant ou utilisant Managmentt, y compris les parents, les administrateurs scolaires et les prestataires de services tiers.",
+              "\"Services\" fait référence à toutes les fonctionnalités de traitement des paiements numériques, de communication, de réservation de ressources et de gestion de compte offertes par Managmentt.",
+              "\"Contenu\" inclut les textes, images, vidéos, logiciels et autres matériaux disponibles sur Managmentt.",
+              "\"Services tiers\" fait référence aux processeurs de paiement externes, aux fournisseurs d'hébergement et aux intégrations qui interagissent avec Managmentt."
             ]
           }
         ]
@@ -1868,7 +1868,7 @@
             "points": [
               "Les utilisateurs doivent fournir des informations précises et complètes lors de l'inscription.",
               "Les utilisateurs de moins de 18 ans nécessitent le consentement parental ou d'un tuteur légal.",
-              "Pulisync se réserve le droit de vérifier les identités des utilisateurs et de refuser l'inscription si nécessaire."
+              "Managmentt se réserve le droit de vérifier les identités des utilisateurs et de refuser l'inscription si nécessaire."
             ]
           },
           {
@@ -1883,7 +1883,7 @@
             "title": "2.3 Activités interdites",
             "subDescription": "Les utilisateurs ne doivent pas :",
             "points": [
-              "Utiliser Pulisync pour des transactions illégales ou frauduleuses.",
+              "Utiliser Managmentt pour des transactions illégales ou frauduleuses.",
               "Participer à des accès non autorisés, piratages ou extraction de données.",
               "Utiliser des scripts automatisés, bots ou exploits pour interférer avec nos services.",
               "Télécharger ou partager du contenu nuisible, diffamatoire ou offensant.",
@@ -1899,7 +1899,7 @@
       },
       {
         "title": "3. Services fournis",
-        "description": "Pulisync propose les services clés suivants :",
+        "description": "Managmentt propose les services clés suivants :",
         "subsections": [
           {
             "title": "3.1 Traitement des paiements",
@@ -1915,7 +1915,7 @@
             "points": [
               "Les utilisateurs reçoivent des notifications en temps réel pour les paiements, les réservations et les mises à jour du système.",
               "Les messages entre les parents et les administrateurs scolaires sont stockés de manière sécurisée.",
-              "Pulisync n'est pas responsable des erreurs de communication entre les utilisateurs."
+              "Managmentt n'est pas responsable des erreurs de communication entre les utilisateurs."
             ]
           },
           {
@@ -1923,7 +1923,7 @@
             "points": [
               "Les utilisateurs peuvent réserver et gérer les installations scolaires (par exemple, repas, activités parascolaires).",
               "Les doubles réservations ou annulations sont soumises aux politiques de disponibilité fixées par les écoles.",
-              "Pulisync se réserve le droit de restreindre l'accès aux services surbookés."
+              "Managmentt se réserve le droit de restreindre l'accès aux services surbookés."
             ]
           },
           {
@@ -1941,7 +1941,7 @@
           {
             "title": "4.1 Autorisation de paiement",
             "points": [
-              "Les utilisateurs autorisent Pulisync à traiter les paiements en utilisant leur méthode de paiement sélectionnée.",
+              "Les utilisateurs autorisent Managmentt à traiter les paiements en utilisant leur méthode de paiement sélectionnée.",
               "Les transactions sont définitives sauf si elles sont éligibles à un remboursement (voir Section 4.3)."
             ]
           },
@@ -1989,21 +1989,21 @@
           {
             "title": "5.1 Temps de fonctionnement du système",
             "points": [
-              "Pulisync vise un taux de disponibilité de 99,9 %, mais des perturbations peuvent survenir en raison de la maintenance, des cyberattaques ou des pannes des fournisseurs tiers.",
+              "Managmentt vise un taux de disponibilité de 99,9 %, mais des perturbations peuvent survenir en raison de la maintenance, des cyberattaques ou des pannes des fournisseurs tiers.",
               "Les maintenances programmées seront annoncées à l'avance."
             ]
           },
           {
             "title": "5.2 Limitation de responsabilité",
             "points": [
-              "Pulisync n'est pas responsable des interruptions de service, des pertes financières ou des violations de données causées par des fournisseurs externes.",
+              "Managmentt n'est pas responsable des interruptions de service, des pertes financières ou des violations de données causées par des fournisseurs externes.",
               "Il est conseillé aux utilisateurs de conserver des copies de sauvegarde des transactions pour leurs dossiers."
             ]
           }
         ],
         "optionalLines": [
           {
-            "text": "Pulisync n'est pas responsable des perturbations causées par des catastrophes naturelles, des actions gouvernementales, des cyberattaques ou des circonstances imprévues hors de notre contrôle."
+            "text": "Managmentt n'est pas responsable des perturbations causées par des catastrophes naturelles, des actions gouvernementales, des cyberattaques ou des circonstances imprévues hors de notre contrôle."
           }
         ]
       },
@@ -2014,7 +2014,7 @@
             "title": "6.1 Protection des données",
             "points": [
               "Les données des utilisateurs sont cryptées (AES-256) et stockées de manière sécurisée.",
-              "Pulisync ne vend ni ne loue les données des utilisateurs à des tiers.",
+              "Managmentt ne vend ni ne loue les données des utilisateurs à des tiers.",
               "Les paiements sont conformes aux normes PCI DSS."
             ]
           },
@@ -2038,14 +2038,14 @@
           {
             "title": "7.1 Propriété",
             "points": [
-              "Tout le contenu, marques commerciales et logos sur Pulisync sont la propriété de Company Name.",
+              "Tout le contenu, marques commerciales et logos sur Managmentt sont la propriété de Company Name.",
               "La reproduction, modification ou distribution non autorisée est interdite."
             ]
           },
           {
             "title": "7.2 Contenu généré par les utilisateurs",
             "points": [
-              "Les utilisateurs conservent la propriété du contenu qu'ils téléchargent, mais accordent à Pulisync une licence non exclusive et gratuite pour l'utiliser afin d'améliorer la plateforme."
+              "Les utilisateurs conservent la propriété du contenu qu'ils téléchargent, mais accordent à Managmentt une licence non exclusive et gratuite pour l'utiliser afin d'améliorer la plateforme."
             ]
           }
         ]
@@ -2075,7 +2075,7 @@
           {
             "title": "",
             "points": [
-              "Pulisync se réserve le droit de modifier ces Conditions à tout moment.",
+              "Managmentt se réserve le droit de modifier ces Conditions à tout moment.",
               "Les utilisateurs seront informés par e-mail ou via des annonces sur la plateforme.",
               "La poursuite de l'utilisation du service après les mises à jour constitue l'acceptation des nouvelles Conditions."
             ]
@@ -2121,7 +2121,7 @@
     "successMessage": "Vérification de l'e-mail réussie !"
   },
   "accountSetup": {
-    "title": "Bienvenue à Pulisync",
+    "title": "Bienvenue à Managmentt",
     "description": "Plateforme de paiement sécurisée pour les besoins scolaires de votre enfant",
     "nameLabel": "Nom",
     "namePlaceholder": "Entrez votre nom complet",
@@ -2368,50 +2368,50 @@
   },
 
   "learnMoreEducation": {
-    "title": "Renforcez votre établissement avec Pulisync",
-    "author": "Équipe Pulisync",
-    "intro": "Gérer un établissement éducatif implique d'innombrables tâches, de la gestion administrative à l'assurance d'une communication efficace entre enseignants, élèves et parents. Pulisync est conçu pour rassembler tous ces éléments, éliminant ainsi les tableurs désordonnés, les e-mails dispersés et les malentendus. En servant de centre névralgique, Pulisync rationalise les opérations et améliore la collaboration pour les écoles, les enseignants, les parents et les élèves.",
+    "title": "Renforcez votre établissement avec Managmentt",
+    "author": "Équipe Managmentt",
+    "intro": "Gérer un établissement éducatif implique d'innombrables tâches, de la gestion administrative à l'assurance d'une communication efficace entre enseignants, élèves et parents. Managmentt est conçu pour rassembler tous ces éléments, éliminant ainsi les tableurs désordonnés, les e-mails dispersés et les malentendus. En servant de centre névralgique,Managmentnt rationalise les opérations et améliore la collaboration pour les écoles, les enseignants, les parents et les élèves.",
     "sections": {
       "forSchoolsTitle": "Pour les écoles : Contrôle fluide de l'administration",
-      "forSchoolsContent": "La gestion scolaire peut être complexe, mais Pulisync simplifie le processus en offrant une plateforme entièrement intégrée qui couvre la présence, le suivi des performances, les paiements et la planification. Les administrateurs peuvent facilement superviser les opérations quotidiennes, garantissant que tout fonctionne sans heurts sans avoir besoin de plusieurs outils déconnectés. Avec des rappels automatisés et des mises à jour en temps réel, les écoles peuvent améliorer l'efficacité et réduire la charge des tâches manuelles.",
+      "forSchoolsContent": "La gestion scolaire peut être complexe, mais Managmentt simplifie le processus en offrant une plateforme entièrement intégrée qui couvre la présence, le suivi des performances, les paiements et la planification. Les administrateurs peuvent facilement superviser les opérations quotidiennes, garantissant que tout fonctionne sans heurts sans avoir besoin de plusieurs outils déconnectés. Avec des rappels automatisés et des mises à jour en temps réel, les écoles peuvent améliorer l'efficacité et réduire la charge des tâches manuelles.",
       "forTeachersTitle": "Pour les enseignants : Concentrez-vous sur l'enseignement, pas sur la paperasse",
-      "forTeachersContent": "Les éducateurs devraient passer plus de temps à enseigner et moins de temps à faire du travail administratif. Pulisync automatise les notes, le suivi de la présence et la communication, permettant aux enseignants de se concentrer sur l'engagement des élèves et les résultats d'apprentissage. Avec un tableau de bord intuitif, les enseignants peuvent accéder aux rapports de progression des élèves, communiquer avec les parents et gérer les plans de cours sans effort — tout cela en un seul endroit.",
+      "forTeachersContent": "Les éducateurs devraient passer plus de temps à enseigner et moins de temps à faire du travail administratif. Managmentt automatise les notes, le suivi de la présence et la communication, permettant aux enseignants de se concentrer sur l'engagement des élèves et les résultats d'apprentissage. Avec un tableau de bord intuitif, les enseignants peuvent accéder aux rapports de progression des élèves, communiquer avec les parents et gérer les plans de cours sans effort — tout cela en un seul endroit.",
       "forParentsTitle": "Pour les parents : Restez impliqués dans l'éducation de votre enfant",
-      "forParentsContent": "Pulisync garde les parents informés avec des mises à jour en temps réel sur la progression, la présence et les événements scolaires de leur enfant. La plateforme offre un moyen pratique de payer les frais, de planifier des réunions et de recevoir des notifications, assurant qu'ils restent activement engagés dans l'éducation de leur enfant sans la confusion des communications dispersées.",
+      "forParentsContent": "Managmentt garde les parents informés avec des mises à jour en temps réel sur la progression, la présence et les événements scolaires de leur enfant. La plateforme offre un moyen pratique de payer les frais, de planifier des réunions et de recevoir des notifications, assurant qu'ils restent activement engagés dans l'éducation de leur enfant sans la confusion des communications dispersées.",
       "forStudentsTitle": "Pour les étudiants : Une manière plus intelligente de rester organisé",
-      "forStudentsContent": "Des devoirs et des horaires au suivi des progrès, Pulisync aide les étudiants à gérer efficacement leurs responsabilités académiques. La plateforme regroupe toutes les informations nécessaires dans un seul tableau de bord, garantissant que les étudiants ne manquent jamais une échéance et restent au courant de leurs travaux. En favorisant l'organisation et la responsabilité, Pulisync permet aux étudiants de prendre en main leur expérience d'apprentissage.",
-      "transformTitle": "Transformez votre institution avec Pulisync",
-      "transformContent": "En comblant l'écart entre les écoles, les enseignants, les parents et les élèves, Pulisync crée un écosystème éducatif collaboratif et efficace. Dites adieu aux maux de tête administratifs et bonjour à une manière plus intelligente et connectée de gérer l'éducation."
+      "forStudentsContent": "Des devoirs et des horaires au suivi des progrès, Managmentt aide les étudiants à gérer efficacement leurs responsabilités académiques. La plateforme regroupe toutes les informations nécessaires dans un seul tableau de bord, garantissant que les étudiants ne manquent jamais une échéance et restent au courant de leurs travaux. En favorisant l'organisation et la responsabilité,Managmentnt permet aux étudiants de prendre en main leur expérience d'apprentissage.",
+      "transformTitle": "Transformez votre institution avec Managmentt",
+      "transformContent": "En comblant l'écart entre les écoles, les enseignants, les parents et les élèves, Managmentt crée un écosystème éducatif collaboratif et efficace. Dites adieu aux maux de tête administratifs et bonjour à une manière plus intelligente et connectée de gérer l'éducation."
     }
   },
   "learnMoreEventManagement": {
-    "title": "Gestion d'événements simplifiée avec Pulisync",
-    "author": "Équipe Pulisync",
-    "intro": "La gestion des événements n'a jamais été aussi facile. Avec le puissant système de réservation intégré de Pulisync, vous pouvez planifier, organiser et suivre les réservations d'événements en un seul endroit. Dites adieu aux doubles réservations, aux rendez-vous perdus et à la gestion manuelle fastidieuse. Que ce soit pour des fonctions scolaires, des réunions parents-professeurs ou des activités étudiantes, Pulisync garantit que tout se déroule sans accroc et efficacement.",
+    "title": "Gestion d'événements simplifiée avec Managmentt",
+    "author": "Équipe Managmentt",
+    "intro": "La gestion des événements n'a jamais été aussi facile. Avec le puissant système de réservation intégré de Managmentt, vous pouvez planifier, organiser et suivre les réservations d'événements en un seul endroit. Dites adieu aux doubles réservations, aux rendez-vous perdus et à la gestion manuelle fastidieuse. Que ce soit pour des fonctions scolaires, des réunions parents-professeurs ou des activités étudiantes,Managmentnt garantit que tout se déroule sans accroc et efficacement.",
     "sections": {
       "stayOrganizedTitle": "Restez organisé et en contrôle",
-      "stayOrganizedContent": "Pulisync simplifie l'ensemble du processus de gestion des événements en offrant une plateforme centralisée où les écoles, enseignants et administrateurs peuvent superviser facilement les événements à venir. De la planification de réunions importantes à la gestion des présences, le système garantit qu'aucun détail ne passe inaperçu.",
+      "stayOrganizedContent": "Managmentt simplifie l'ensemble du processus de gestion des événements en offrant une plateforme centralisée où les écoles, enseignants et administrateurs peuvent superviser facilement les événements à venir. De la planification de réunions importantes à la gestion des présences, le système garantit qu'aucun détail ne passe inaperçu.",
       "streamlineRegistrationsTitle": "Rationalisez les inscriptions et la communication",
-      "streamlineRegistrationsContent": "Avec des rappels automatisés et des mises à jour en temps réel, Pulisync garde tout le monde informé. Les participants peuvent facilement parcourir les événements à venir, s'inscrire en un clic et recevoir des notifications opportunes, réduisant ainsi la confusion et les rendez-vous manqués.",
+      "streamlineRegistrationsContent": "Avec des rappels automatisés et des mises à jour en temps réel, Managmentt garde tout le monde informé. Les participants peuvent facilement parcourir les événements à venir, s'inscrire en un clic et recevoir des notifications opportunes, réduisant ainsi la confusion et les rendez-vous manqués.",
       "enhanceEfficiencyTitle": "Améliorez l'efficacité grâce à un planning intelligent",
-      "enhanceEfficiencyContent": "Finis les conflits ou les changements de dernière minute qui passent inaperçus. Le système de planification intelligente de Pulisync empêche les doubles réservations, permettant aux institutions de planifier efficacement. Avec une interface bien structurée, le suivi des réservations et la gestion de la logistique des événements deviennent sans effort.",
+      "enhanceEfficiencyContent": "Finis les conflits ou les changements de dernière minute qui passent inaperçus. Le système de planification intelligente de Managmentt empêche les doubles réservations, permettant aux institutions de planifier efficacement. Avec une interface bien structurée, le suivi des réservations et la gestion de la logistique des événements deviennent sans effort.",
       "takeEventManagementTitle": "Passez la gestion des événements au niveau supérieur",
-      "takeEventManagementContent": "Que ce soit pour des ateliers académiques, des activités parascolaires ou des réunions institutionnelles, Pulisync offre une solution rationalisée et conviviale qui fait gagner du temps et améliore la coordination. Expérimentez une manière plus intelligente et efficace de gérer les événements sans effort."
+      "takeEventManagementContent": "Que ce soit pour des ateliers académiques, des activités parascolaires ou des réunions institutionnelles, Managmentt offre une solution rationalisée et conviviale qui fait gagner du temps et améliore la coordination. Expérimentez une manière plus intelligente et efficace de gérer les événements sans effort."
     }
   },
   "learnMoreFeatures": {
-    "title": "Libérez tout le potentiel de Pulisync",
-    "author": "Équipe Pulisync",
-    "intro": "L'éducation évolue, et il en va de même pour la manière dont les écoles gèrent les paiements, les événements et les réservations. Pulisync est conçu pour rationaliser les processus administratifs, garantissant une expérience fluide pour les écoles, les enseignants, les parents et les élèves. Plongeons dans les fonctionnalités principales qui font de Pulisync un véritable changement dans la gestion scolaire.",
+    "title": "Libérez tout le potentiel de Managmentt",
+    "author": "Équipe Managmentt",
+    "intro": "L'éducation évolue, et il en va de même pour la manière dont les écoles gèrent les paiements, les événements et les réservations. Managmentt est conçu pour rationaliser les processus administratifs, garantissant une expérience fluide pour les écoles, les enseignants, les parents et les élèves. Plongeons dans les fonctionnalités principales qui font deManagmentnt un véritable changement dans la gestion scolaire.",
     "sections": {
       "flexiblePaymentsTitle": "Solutions de paiement flexibles - Dites adieu aux tracas de paiement",
-      "flexiblePaymentsContent": "La gestion des frais scolaires et des factures peut être un processus long et frustrant. Pulisync simplifie les transactions financières en offrant un système centralisé où les écoles peuvent suivre tous les paiements en un seul endroit. Les parents peuvent effectuer des paiements de manière pratique via plusieurs options, y compris les cartes de crédit/débit, les virements bancaires et les portefeuilles numériques. La plateforme s'assure également qu'aucun paiement ne passe inaperçu en envoyant des rappels automatisés, informant ainsi les parents et les administrateurs. Avec un suivi des paiements en temps réel, les écoles peuvent voir instantanément quelles factures ont été payées, lesquelles sont en attente et lesquelles nécessitent un suivi, créant ainsi un processus financier plus fluide et sans stress.",
+      "flexiblePaymentsContent": "La gestion des frais scolaires et des factures peut être un processus long et frustrant. Managmentt simplifie les transactions financières en offrant un système centralisé où les écoles peuvent suivre tous les paiements en un seul endroit. Les parents peuvent effectuer des paiements de manière pratique via plusieurs options, y compris les cartes de crédit/débit, les virements bancaires et les portefeuilles numériques. La plateforme s'assure également qu'aucun paiement ne passe inaperçu en envoyant des rappels automatisés, informant ainsi les parents et les administrateurs. Avec un suivi des paiements en temps réel, les écoles peuvent voir instantanément quelles factures ont été payées, lesquelles sont en attente et lesquelles nécessitent un suivi, créant ainsi un processus financier plus fluide et sans stress.",
       "eventManagementTitle": "Gestion complète des événements : Planifier, programmer et suivre facilement",
-      "eventManagementContent": "Les événements jouent un rôle crucial dans la vie scolaire, des conférences académiques aux journées sportives et aux programmes culturels. Pulisync rend la gestion des événements fluide en permettant aux écoles de planifier, programmer et suivre les événements en temps réel. Des invitations et rappels automatisés garantissent que les parents, les élèves et le personnel restent informés des activités à venir. Avec une intégration de calendrier intégrée, les événements peuvent être synchronisés avec les agendas personnels pour éviter les conflits, tandis que le suivi des présences aide les écoles à surveiller la participation. Que ce soit pour un séminaire à l'échelle de l'école ou un atelier en petit groupe, Pulisync garantit que tout se déroule sans accroc.",
+      "eventManagementContent": "Les événements jouent un rôle crucial dans la vie scolaire, des conférences académiques aux journées sportives et aux programmes culturels. Managmentt rend la gestion des événements fluide en permettant aux écoles de planifier, programmer et suivre les événements en temps réel. Des invitations et rappels automatisés garantissent que les parents, les élèves et le personnel restent informés des activités à venir. Avec une intégration de calendrier intégrée, les événements peuvent être synchronisés avec les agendas personnels pour éviter les conflits, tandis que le suivi des présences aide les écoles à surveiller la participation. Que ce soit pour un séminaire à l'échelle de l'école ou un atelier en petit groupe,Managmentnt garantit que tout se déroule sans accroc.",
       "reportingInsightsTitle": "Rapports et analyses puissants : Prise de décision basée sur les données",
-      "reportingInsightsContent": "À une époque où les données jouent un rôle crucial dans la prise de décision, Pulisync dote les écoles d'outils de reporting puissants. Les administrateurs peuvent accéder à des rapports détaillés sur la fréquentation des élèves, les recettes des frais et la participation aux événements, leur permettant de prendre des décisions éclairées. Les tableaux de bord personnalisables de la plateforme offrent une vue claire des performances de l'école, aidant les éducateurs à identifier les tendances et les domaines à améliorer. Grâce à des analyses prédictives, les écoles peuvent aborder de manière proactive les problèmes potentiels, tels que des taux de fréquentation en baisse ou des paiements irréguliers. Plus important encore, Pulisync garantit que toutes les données sensibles restent sécurisées, conformément aux normes les plus élevées de confidentialité et de protection.",
+      "reportingInsightsContent": "À une époque où les données jouent un rôle crucial dans la prise de décision, Managmentt dote les écoles d'outils de reporting puissants. Les administrateurs peuvent accéder à des rapports détaillés sur la fréquentation des élèves, les recettes des frais et la participation aux événements, leur permettant de prendre des décisions éclairées. Les tableaux de bord personnalisables de la plateforme offrent une vue claire des performances de l'école, aidant les éducateurs à identifier les tendances et les domaines à améliorer. Grâce à des analyses prédictives, les écoles peuvent aborder de manière proactive les problèmes potentiels, tels que des taux de fréquentation en baisse ou des paiements irréguliers. Plus important encore,Managmentnt garantit que toutes les données sensibles restent sécurisées, conformément aux normes les plus élevées de confidentialité et de protection.",
       "bookingSystemTitle": "Système de réservation fluide : Planification sans effort pour tous",
-      "bookingSystemContent": "La coordination des réunions parents-professeurs, la planification des installations scolaires et la gestion des réservations peuvent souvent être un véritable casse-tête logistique. Pulisync élimine cette difficulté grâce à un système de réservation fluide qui permet aux utilisateurs de planifier des réunions et de réserver des espaces facilement. Les parents peuvent réserver des créneaux horaires pour les réunions parents-professeurs sans interminables échanges de messages, tandis que le personnel scolaire peut allouer efficacement les salles, les auditoriums et autres installations. Des confirmations et annulations automatisées empêchent les conflits de planning, garantissant un processus de réservation fluide et organisé."
+      "bookingSystemContent": "La coordination des réunions parents-professeurs, la planification des installations scolaires et la gestion des réservations peuvent souvent être un véritable casse-tête logistique. Managmentt élimine cette difficulté grâce à un système de réservation fluide qui permet aux utilisateurs de planifier des réunions et de réserver des espaces facilement. Les parents peuvent réserver des créneaux horaires pour les réunions parents-professeurs sans interminables échanges de messages, tandis que le personnel scolaire peut allouer efficacement les salles, les auditoriums et autres installations. Des confirmations et annulations automatisées empêchent les conflits de planning, garantissant un processus de réservation fluide et organisé."
     }
   },
   "booking": {
@@ -2582,10 +2582,10 @@
     }
   },
   "cookiePolicy": {
-    "title": "Politique de Cookies pour Pulisync",
+    "title": "Politique de Cookies pour Managmentt",
     "effectiveDate": "Date d'effet: 20 Fév 2025",
     "lastUpdated": "Dernière mise à jour: 20 Fév 2025",
-    "introduction": "Chez Pulisync, nous utilisons des cookies et des technologies de suivi similaires pour améliorer l'expérience utilisateur, optimiser les performances de la plateforme et assurer des transactions sécurisées. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et comment vous pouvez contrôler vos préférences.",
+    "introduction": "Chez Managmentt, nous utilisons des cookies et des technologies de suivi similaires pour améliorer l'expérience utilisateur, optimiser les performances de la plateforme et assurer des transactions sécurisées. Cette politique de cookies explique ce que sont les cookies, comment nous les utilisons et comment vous pouvez contrôler vos préférences.",
     "sections": [
       {
         "title": "1. Que Sont les Cookies?",
@@ -2605,7 +2605,7 @@
           {
             "subSectionOptionalLines": [
               {
-                "text": "Pulisync utilise les types de cookies suivants:"
+                "text": "Managmentt utilise les types de cookies suivants:"
               }
             ]
           },
@@ -2621,7 +2621,7 @@
               "Cookies de session de paiement (pour traiter les transactions en toute sécurité)",
               "Cookies de sécurité (pour prévenir la fraude et les accès non autorisés)"
             ],
-            "subDescription": "Puis-je désactiver ces cookies? Non, car ils sont nécessaires au fonctionnement de base de Pulisync."
+            "subDescription": "Puis-je désactiver ces cookies? Non, car ils sont nécessaires au fonctionnement de base de Managmentt."
           },
           {
             "title": "2.2 Cookies de Performance et d'Analyse",
@@ -2673,7 +2673,7 @@
           {
             "subSectionOptionalLines": [
               {
-                "text": "Certains fournisseurs tiers placent des cookies sur votre appareil lorsque vous utilisez Pulisync. Ces cookies aident à l'analyse, à la sécurité et aux paiements."
+                "text": "Certains fournisseurs tiers placent des cookies sur votre appareil lorsque vous utilisez Managmentt. Ces cookies aident à l'analyse, à la sécurité et aux paiements."
               }
             ],
             "subDescription": "Exemples de cookies tiers utilisés: Google Analytics (suit le comportement des utilisateurs et les performances du site), Facebook Pixel (mesure les performances publicitaires et le reciblage), Stripe/PayPal (traite les paiements en toute sécurité), Hotjar (enregistre les interactions des utilisateurs pour les améliorations UX)"
@@ -2705,7 +2705,7 @@
             ]
           },
           {
-            "title": "4.2 Panneau des Paramètres de Cookies Pulisync",
+            "title": "4.2 Panneau des Paramètres de Cookies Managmentt",
             "subSectionOptionalLines": [
               {
                 "text": "Nous fournissons un panneau de paramètres de cookies dans l'application où vous pouvez:"
@@ -2716,7 +2716,7 @@
               "Désactiver les publicités ciblées",
               "Ajuster les préférences d'analyse"
             ],
-            "subDescription": "Comment y accéder: Allez dans Paramètres Pulisync → Confidentialité → Préférences de cookies"
+            "subDescription": "Comment y accéder: Allez dans Paramètres Managmentt → Confidentialité → Préférences de cookies"
           },
           {
             "title": "4.3 Désactivation des Cookies Publicitaires",
@@ -2799,7 +2799,7 @@
             "points": [
               "Notifierons les utilisateurs par e-mail ou alertes sur la plateforme",
               "Mettrons à jour la date de la politique en haut de cette page",
-              "L'utilisation continue de Pulisync après les mises à jour signifie que vous acceptez la politique révisée."
+              "L'utilisation continue de Managmentt après les mises à jour signifie que vous acceptez la politique révisée."
             ]
           }
         ]

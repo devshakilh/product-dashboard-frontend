@@ -10,7 +10,7 @@ const nextConfig: NextConfig = {
   images: {
     remotePatterns: [
       { hostname: 'api.dicebear.com' },
-      { hostname: 'pulisync.lon1.digitaloceanspaces.com' },
+      { hostname: 'Managment.lon1.digitaloceanspaces.com' },
       { hostname: 'example.com' },
       { hostname: 'placehold.co' },
       { hostname: 'images.unsplash.com' },

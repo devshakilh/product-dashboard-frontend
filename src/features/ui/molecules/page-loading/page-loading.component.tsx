@@ -7,7 +7,7 @@ export default function PageLoading() {
     <div className="inset-0 z-50 flex size-full flex-col items-center justify-center gap-8 bg-white backdrop-blur-md transition-opacity duration-300">
       <div className="relative p-2">
         <Image
-          src="/logos/pulisync_fav-64.png"
+          src="/logos/logo-64.png"
           alt="Profile"
           className="size-12 rounded-full"
           width={48}
