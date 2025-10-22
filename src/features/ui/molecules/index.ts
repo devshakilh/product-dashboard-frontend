@@ -1,5 +1,4 @@
-export { default as OtpInput } from './otp-input.component';
-
+export { default as RichTextEditor } from './rich-text-editor/rich-text-editor.component';
 export {
   Table,
   TableBody,

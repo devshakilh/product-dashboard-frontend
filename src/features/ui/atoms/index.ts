@@ -22,12 +22,8 @@ export {
   DialogTitle,
   DialogTrigger,
 } from './dialog.component';
-export { default as DropFileInput } from './drop-file-input.component';
-export { default as Dropdown } from './dropdown.component';
-export { default as InputField } from './input-field.component';
 export { Input } from './input.component';
 export { Label } from './label.component';
-export { default as LogoutButton } from './logout-button.component';
 export { default as Popover } from './popover/popover.component';
 export { default as RadioButton } from './radio-button.component';
 export {

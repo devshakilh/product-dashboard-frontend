@@ -1,17 +1,17 @@
 import { Metadata } from 'next';
-import { LoginPage } from '@/features/auth/login-page';
+import { Login } from '@/features/auth/login';
 import ConnectionMonitor from '@/features/ui/error-pages/connection-monitor.component';
 
 export const metadata: Metadata = {
   title: 'User | Login',
 };
 
-const Login = () => {
+const LoginPage = () => {
   return (
     <ConnectionMonitor>
-      <LoginPage />
+      <Login />
     </ConnectionMonitor>
   );
 };
 
-export default Login;
+export default LoginPage;
