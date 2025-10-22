@@ -34,9 +34,15 @@ export const authApi = createApi({
         success: boolean;
         data: { user: User };
       }) => response.data,
+      // Retry once on failure
+      extraOptions: { maxRetries: 1 },
     }),
   }),
 });
 
-export const { useLoginMutation, useLogoutMutation, useVerifyTokenQuery } =
-  authApi;
+export const {
+  useLoginMutation,
+  useLogoutMutation,
+  useVerifyTokenQuery,
+  useLazyVerifyTokenQuery,
+} = authApi;
