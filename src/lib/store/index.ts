@@ -1,0 +1,21 @@
+// import { configureStore } from '@reduxjs/toolkit';
+
+// import { authApi } from './api/authApi';
+// import { productsApi } from './api/productsApi';
+// import authReducer from './slices/authSlice';
+
+// export const makeStore = () => {
+//   return configureStore({
+//     reducer: {
+//       auth: authReducer,
+//       [authApi.reducerPath]: authApi.reducer,
+//       [productsApi.reducerPath]: productsApi.reducer,
+//     },
+//     middleware: (getDefaultMiddleware) =>
+//       getDefaultMiddleware().concat(authApi.middleware, productsApi.middleware),
+//   });
+// };
+
+// export type AppStore = ReturnType<typeof makeStore>;
+// export type RootState = ReturnType<AppStore['getState']>;
+// export type AppDispatch = AppStore['dispatch'];
