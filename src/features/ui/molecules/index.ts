@@ -1,5 +1,5 @@
 export { BaseForm } from './forms/base-form.component';
-export { default as RichTextEditor } from './rich-text-editor/rich-text-editor.component';
+
 export {
   Table,
   TableBody,
@@ -10,3 +10,4 @@ export {
   TableHeader,
   TableRow,
 } from './table/table.component';
+export { default as ReusableTable } from './table/ternstack-table.component';
