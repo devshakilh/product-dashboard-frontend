@@ -1,9 +1,12 @@
+/* eslint-disable @typescript-eslint/no-explicit-any */
 'use client';
 
-import { useEffect } from 'react';
+import { useEffect, useState } from 'react';
+import { useRouter } from 'next/navigation';
 import { BaseForm, Button } from '@/features/ui';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { motion } from 'framer-motion';
+import { AlertCircle } from 'lucide-react';
 import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 import * as z from 'zod';
@@ -19,19 +22,29 @@ import {
 const productSchema = z.object({
   name: z.string().min(1, 'Name is required').max(100, 'Name is too long'),
   category: z.string().min(1, 'Category is required'),
-  price: z
-    .string()
-    .min(1, 'Price is required')
-    .transform((val) => parseFloat(val))
-    .refine((val) => !isNaN(val) && val >= 0, 'Price must be positive'),
-  stock: z
-    .string()
-    .min(1, 'Stock is required')
-    .transform((val) => parseInt(val, 10))
-    .refine((val) => !isNaN(val) && val >= 0, 'Stock must be non-negative'),
+  price: z.preprocess(
+    (val) => (typeof val === 'string' ? parseFloat(val) : val),
+    z
+      .number()
+      .min(0, 'Price must be positive')
+      .refine((val) => !isNaN(val), {
+        message: 'Price must be a valid number',
+      })
+  ),
+  stock: z.preprocess(
+    (val) => (typeof val === 'string' ? parseInt(val, 10) : val),
+    z
+      .number()
+      .int()
+      .min(0, 'Stock must be non-negative')
+      .refine((val) => !isNaN(val), {
+        message: 'Stock must be a valid number',
+      })
+  ),
   status: z.enum(['active', 'inactive', 'out-of-stock']),
   description: z.string().optional(),
 });
+
 type ProductFormData = z.infer<typeof productSchema>;
 
 interface ProductFormProps {
@@ -47,10 +60,12 @@ export default function AddEditProductForm({
   onSuccess,
   onCancel,
 }: ProductFormProps) {
+  const router = useRouter();
   const [createProduct, { isLoading: isCreating }] = useCreateProductMutation();
   const [updateProduct, { isLoading: isUpdating }] = useUpdateProductMutation();
   const [updateStatus, { isLoading: isUpdatingStatus }] =
     useUpdateProductStatusMutation();
+  const [error, setError] = useState<string>('');
 
   const form = useForm<ProductFormData>({
     resolver: zodResolver(productSchema),
@@ -89,7 +104,7 @@ export default function AddEditProductForm({
 
     if (promise) {
       try {
-        await toast.promise(promise, {
+        await toast.promise(promise.unwrap(), {
           loading: 'Saving...',
           success: () => {
             onSuccess();
@@ -99,9 +114,25 @@ export default function AddEditProductForm({
                 ? 'Product updated successfully!'
                 : `Product status updated to ${data.status}!`;
           },
-          error: 'Failed to save product. Please try again.',
+          error: (err: any) => {
+            let errorMessage = 'Failed to save product. Please try again.';
+            if (err.status === 401) {
+              errorMessage = 'Your session has expired. Please log in again.';
+              // Redirect to login with session=expired
+              router.push('/login?session=expired');
+            } else if (err.data?.message) {
+              errorMessage = err.data.message;
+            }
+            setError(errorMessage);
+            return errorMessage;
+          },
         });
-      } catch {}
+      } catch {
+        // Fallback for unexpected errors
+        const errorMessage = 'An unexpected error occurred. Please try again.';
+        setError(errorMessage);
+        toast.error(errorMessage);
+      }
     }
   };
 
@@ -156,7 +187,7 @@ export default function AddEditProductForm({
     },
   ];
 
-  // Extra content for Cancel button only
+  // Extra content for Cancel button
   const extraContent = (
     <motion.div className="flex justify-end">
       <Button
@@ -177,6 +208,15 @@ export default function AddEditProductForm({
       transition={{ duration: 0.3 }}
       className="mt-4"
     >
+      {error && (
+        <div
+          role="alert"
+          className="mb-4 flex items-start space-x-2 rounded-md border border-red-200 bg-red-50 p-3 text-sm text-red-500"
+        >
+          <AlertCircle className="mt-0.5 size-5" />
+          <div>{error}</div>
+        </div>
+      )}
       <BaseForm
         form={form}
         onSubmit={onSubmit}
