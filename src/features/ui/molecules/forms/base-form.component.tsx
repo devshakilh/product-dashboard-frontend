@@ -9,6 +9,11 @@ import {
   FormLabel,
   FormMessage,
   Input,
+  Select,
+  SelectContent,
+  SelectItem,
+  SelectTrigger,
+  SelectValue,
   Form as ShadcnForm,
 } from '@/features/ui';
 import { AnimatePresence, motion } from 'framer-motion';
@@ -19,9 +24,10 @@ import { Path, UseFormReturn } from 'react-hook-form';
 interface FormFieldConfig<T> {
   name: Path<T>;
   label: string;
-  type: 'text' | 'email' | 'password' | 'number' | 'tel' | 'url';
+  type: 'text' | 'email' | 'password' | 'number' | 'tel' | 'url' | 'select';
   placeholder?: string;
   disabled?: boolean;
+  options?: { value: string; label: string }[];
 }
 
 // Props for the reusable Form component
@@ -65,27 +71,53 @@ export function BaseForm<T extends Record<string, unknown>>({
                 <FormLabel>{field.label}</FormLabel>
                 <FormControl>
                   <div className="relative">
-                    <motion.div
-                      whileFocus={{ scale: 1.01 }}
-                      transition={{ duration: 0.2 }}
-                    >
-                      <Input
-                        type={
-                          field.type === 'password' && showPassword[field.name]
-                            ? 'text'
-                            : field.type
-                        }
-                        placeholder={field.placeholder}
-                        className={`h-10 ${
-                          form.formState.errors[field.name]
-                            ? 'border-red-500 focus-visible:ring-red-500'
-                            : 'border-gray-200 focus-visible:ring-blue-500'
-                        } transition-all duration-200`}
+                    {field.type === 'select' ? (
+                      <Select
+                        value={formField.value as string}
+                        onValueChange={formField.onChange}
                         disabled={isLoading || field.disabled}
-                        {...formField}
-                        value={formField.value as string | number | undefined}
-                      />
-                    </motion.div>
+                      >
+                        <SelectTrigger
+                          className={`h-10 ${
+                            form.formState.errors[field.name]
+                              ? 'border-red-500 focus-visible:ring-red-500'
+                              : 'border-gray-200 focus-visible:ring-blue-500'
+                          } transition-all duration-200`}
+                        >
+                          <SelectValue placeholder={field.placeholder} />
+                        </SelectTrigger>
+                        <SelectContent>
+                          {field.options?.map((option) => (
+                            <SelectItem key={option.value} value={option.value}>
+                              {option.label}
+                            </SelectItem>
+                          ))}
+                        </SelectContent>
+                      </Select>
+                    ) : (
+                      <motion.div
+                        whileFocus={{ scale: 1.01 }}
+                        transition={{ duration: 0.2 }}
+                      >
+                        <Input
+                          type={
+                            field.type === 'password' &&
+                            showPassword[field.name]
+                              ? 'text'
+                              : field.type
+                          }
+                          placeholder={field.placeholder}
+                          className={`h-10 ${
+                            form.formState.errors[field.name]
+                              ? 'border-red-500 focus-visible:ring-red-500'
+                              : 'border-gray-200 focus-visible:ring-blue-500'
+                          } transition-all duration-200`}
+                          disabled={isLoading || field.disabled}
+                          {...formField}
+                          value={formField.value as string | number | undefined}
+                        />
+                      </motion.div>
+                    )}
                     {field.type === 'password' && (
                       <Button
                         type="button"

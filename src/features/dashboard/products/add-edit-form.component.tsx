@@ -1,22 +1,14 @@
 'use client';
 
 import { useEffect } from 'react';
-import {
-  BaseForm,
-  Button,
-  Select,
-  SelectContent,
-  SelectItem,
-  SelectTrigger,
-  SelectValue,
-} from '@/features/ui';
+import { BaseForm, Button } from '@/features/ui';
 import { zodResolver } from '@hookform/resolvers/zod';
 import { motion } from 'framer-motion';
 import { useForm } from 'react-hook-form';
 import { toast } from 'sonner';
 import * as z from 'zod';
 
-import { Product, ProductStatus } from '@/types/product';
+import { Product } from '@/types/product';
 import {
   useCreateProductMutation,
   useUpdateProductMutation,
@@ -65,8 +57,7 @@ export default function AddEditProductForm({
     },
   });
 
-  const { setValue, watch } = form;
-  const statusValue = watch('status');
+  const { setValue } = form;
 
   useEffect(() => {
     if (product) {
@@ -110,8 +101,8 @@ export default function AddEditProductForm({
   const isLoading = isCreating || isUpdating || isUpdatingStatus;
 
   // Define fields
-  const fields =
-    mode !== 'status'
+  const fields = [
+    ...(mode !== 'status'
       ? [
           {
             name: 'name' as const,
@@ -144,44 +135,32 @@ export default function AddEditProductForm({
             placeholder: 'Enter product description',
           },
         ]
-      : [];
+      : []),
+    {
+      name: 'status' as const,
+      label: 'Status',
+      type: 'select' as const,
+      placeholder: 'Select status',
+      options: [
+        { value: 'active', label: 'Active' },
+        { value: 'inactive', label: 'Inactive' },
+        { value: 'out-of-stock', label: 'Out of Stock' },
+      ],
+    },
+  ];
 
-  // Extra content for status select and buttons
+  // Extra content for Cancel button only
   const extraContent = (
-    <div className="space-y-5">
-      <div className="space-y-2">
-        <label className="text-sm font-medium">Status</label>
-        <Select
-          value={statusValue}
-          onValueChange={(value) => setValue('status', value as ProductStatus)}
-          disabled={isLoading}
-        >
-          <SelectTrigger>
-            <SelectValue placeholder="Select status" />
-          </SelectTrigger>
-          <SelectContent>
-            <SelectItem value="active">Active</SelectItem>
-            <SelectItem value="inactive">Inactive</SelectItem>
-            <SelectItem value="out-of-stock">Out of Stock</SelectItem>
-          </SelectContent>
-        </Select>
-        {form.formState.errors.status && (
-          <p className="text-sm text-red-500">
-            {form.formState.errors.status.message}
-          </p>
-        )}
-      </div>
-      <motion.div className="flex justify-end space-x-2">
-        <Button
-          type="button"
-          variant="outline"
-          onClick={onCancel}
-          disabled={isLoading}
-        >
-          Cancel
-        </Button>
-      </motion.div>
-    </div>
+    <motion.div className="flex justify-end">
+      <Button
+        type="button"
+        variant="outline"
+        onClick={onCancel}
+        disabled={isLoading}
+      >
+        Cancel
+      </Button>
+    </motion.div>
   );
 
   return (
