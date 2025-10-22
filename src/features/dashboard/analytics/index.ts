@@ -1,1 +1,1 @@
-// export { default as Analytics } from './analytics.component';
+export { default as Analytics } from './analytics.component';
