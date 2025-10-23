@@ -84,8 +84,11 @@ export default function CategoryChart({ products }: CategoryChartProps) {
               innerRadius={50}
               outerRadius={80}
               labelLine={false}
-              label={({ name, percent }) =>
-                `${name}: ${(percent * 100).toFixed(0)}%`
+              label={
+                categoryData.length > 0
+                  ? ({ name, percent }) =>
+                      `${name}: ${(percent * 100).toFixed(0)}%`
+                  : false
               }
             >
               {categoryData.map((entry, index) => (
