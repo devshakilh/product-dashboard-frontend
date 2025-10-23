@@ -1,79 +1,196 @@
-# Managment Frontend
+# Product Management Dashboard - Frontend
 
-Modern frontend for the Managmentt platform built with Next.js and TypeScript.
+## Overview
+
+A modern, real-time product management dashboard built with Next.js (latest), TypeScript, and Firebase Firestore.
+
+## Tech Stack
+
+- **Framework**: Next.js (latest, App Router)
+- **Language**: TypeScript
+- **State Management**: Redux Toolkit + RTK Query
+- **UI Components**: ShadCN UI
+- **Forms**: React Hook Form + Zod
+- **Tables**: TanStack Table (React Table v8)
+- **Charts**: Recharts (via ShadCN)
+- **Real-time Database**: Firebase
+  Firestore
+- **Styling**: Tailwind CSS
+- **Real-time Database**: Firebase
+- **Containerization**: Docker
+  Testing
+- **Testing**:Jest
+
+## Features
+
+- 🔐 JWT-based authentication with HTTP-only cookies
+- 🔄 Real-time product updates via Firestore
+- 📊 Interactive analytics dashboard with charts
+- 📝 Form validation with React Hook Form
+- 🎨 Modern, responsive UI with ShadCN components
+- 🚀 Optimized data fetching with RTK Query
+- 📱 Fully responsive design
+- 🎨 Modern, responsive UI with ShadCN
+
+- 🐳 Dockerized application for consistent development and deployment Query
+- 🧪 Unit and integration testing with Jest
 
 ## Prerequisites
 
-- Node.js 18.x or higher
-- pnpm 8.x or higher
+- Node.js ()
+- `pnpm`
+- Firebase project with Firestore enabled
 
-## Getting Started
+- Docker and Docker Compose (for containerized setup)
+- Jest (for testing)
 
-1. Clone this repository:
+## Environment Variables
 
-   ```bash
-   git clone https://github.com/Pulikidz/Managmentt-frontend.git
-   cd Managmentt-frontend
-   ```
+Create a `.env.local` file in the root directory:
+
+```env
+# Backend API
+NEXT_PUBLIC_API_URL=http://localhost:5000/api
+
+# Firebase Configuration
+NEXT_PUBLIC_FIREBASE_API_KEY=your-api-key
+NEXT_PUBLIC_FIREBASE_AUTH_DOMAIN=your-project.firebaseapp.com
+NEXT_PUBLIC_FIREBASE_PROJECT_ID=your-project-id
+NEXT_PUBLIC_FIREBASE_STORAGE_BUCKET=your-project.appspot.com
+NEXT_PUBLIC_FIREBASE_MESSAGING_SENDER_ID=your-sender-id
+NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
+```
+
+## Installation
+
+1. Clone the repository:
+
+```bash
+git clone <https://github.com/devshakilh/product-dashboard/frontend>
+cd frontend
+```
 
 2. Install dependencies:
 
-   ```bash
-   pnpm install
-   ```
+```bash
+pnpm install
+```
 
-3. Start the development server:
+3. Set up Firebase:
+   - Go to Firebase Console
+   - Create a new project or use an existing one
+   - Enable Firestore Database
+   - Get Firebase config from Project Settings
+   - Add credentials to `.env.local`
 
-   ```bash
-   pnpm dev
-   ```
+4. Install ShadCN components:
 
-4. Open [http://localhost:3000](http://localhost:3000) in your browser.
+```bash
+pnpm dlx shadcn-ui@latest init
+pnpm dlx shadcn-ui@latest add button input label table dialog form select card chart
+```
+
+5. Start development server:
+
+```bash
+pnpm dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) in your browser.
 
 ## Available Scripts
 
-- `pnpm dev` - Start the development server
-- `pnpm build` - Build the application for production
-- `pnpm start` - Start the production server
-- `pnpm lint` - Run ESLint to check for code issues
-- `pnpm lint:fix` - Run ESLint and automatically fix issues
-- `pnpm type-check` - Check TypeScript types
-- `pnpm test` - Run tests
-- `pnpm test:watch` - Run tests in watch mode
-- `pnpm format` - Format code with Prettier
-- `pnpm storybook` - Run the storybook ui
+- `pnpm dev` - Start development server
+- `pnpm build` - Build for production
+- `pnpm start` - Start production server
+- `pnpm lint` - Run ESLint
+- `pnpm type-check` - Run TypeScript compiler check
 
 ## Project Structure
 
 ```
-Managmentt-frontend/
-├── public/             # Static assets
-├── src/                # Source code
-│   ├── app/            # Next.js App Router
-│   ├── assets/         # Assets imported in code
-│   ├── features/       # Feature-based modules
-│   ├── hooks/          # Custom React hooks
-│   ├── i18n/           # Localization configs
-│   ├── lib/            # Custom libraries
-│   ├── locales/        # Localization files
-│   ├── services/       # API and service integrations
-│   ├── types/          # TypeScript type definitions
-├── .eslintrc.js        # ESLint configuration
-├── next.config.js      # Next.js configuration
-├── package.json        # Dependencies and scripts
-└── tsconfig.json       # TypeScript configuration
+src/
+├── app/                    # Next.js App Router
+│   ├── (auth)/            # Authentication routes
+│   ├── (landing)/         # Public landing routes
+│   ├── dashboard/         # Protected dashboard routes
+│   └── layout.tsx         # Root layout
+├── features/
+│   ├── auth/              # Auth-related components and logic
+│   ├── dashboard/         # Dashboard-related components and logic
+│   ├── ui/                # Reusable UI components
+├── lib/
+│   ├── firebase/          # Firebase configuration
+│   ├── store/             # Redux store setup
+│   │   ├── slices/        # Redux slices
+│   │   └── api/           # RTK Query APIs
+│   ├── hooks/             # Custom React hooks
+│   ├── utils/             # Utility functions
+│   └── types/             # TypeScript types
+└── middleware.ts          # Next.js middleware for auth
 ```
 
-## Environment Variables
-
-Create a `.env.local` file in the root directory with the following variables:
+## Demo Credentials
 
 ```
-NEXTAUTH_SECRET=Abc123
-NEXTAUTH_URL=http://localhost:3000
-NEXT_PUBLIC_API_URL=https://api.Managmentt.xyz/api/v1
+Email: admin@example.com
+Password: admin123
 ```
 
-## WebSocket Configuration
+## Key Features
 
-WebSocket connections are configured to automatically reconnect on failure. The default URL for the messaging WebSocket is `wss://api.Managmentt.xyz/messaging`.
+### Real-time Updates
+
+Firestore's `onSnapshot` listener enables real-time product updates in the UI.
+
+### State Management
+
+- **Redux Toolkit**: Manages global state
+- **RTK Query**: Handles API calls, caching, and refetching
+
+### Form Handling
+
+- React Hook Form for efficient form management
+- Zod for schema validation
+
+### Authentication
+
+- Login via `/login` with JWT token stored in HTTP-only cookie
+- Middleware protects dashboard routes
+- Token validated on protected requests
+
+## Pages
+
+- **Login (`/login`)**: Email/password authentication with form validation
+- **Products (`/dashboard/products`)**: Real-time product table with CRUD, search, and filter
+- **Analytics (`/dashboard/analytics`)**: Charts for product distribution, status, and price analysis
+- **Landing (`/`)**: Public landing page
+
+## API Integration
+
+- **RTK Query**:
+  - `authApi`: Login, logout, token verification
+  - `productsApi`: Product CRUD operations
+- Firestore for real-time product subscriptions
+
+## Deployment
+
+### Vercel (Recommended)
+
+```bash
+pnpm build
+vercel --prod
+```
+
+Add environment variables in your deployment platform.
+
+```
+
+### CORS Errors
+
+Ensure backend CORS allows requests from your frontend URL.
+
+### Cookie Issues
+
+Verify backend cookie settings (e.g., secure flag for production).
+```
