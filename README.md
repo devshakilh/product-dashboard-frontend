@@ -66,7 +66,7 @@ NEXT_PUBLIC_FIREBASE_APP_ID=your-app-id
 1. Clone the repository:
 
 ```bash
-git clone <https://github.com/devshakilh/product-dashboard/frontend>
+git clone <https://github.com/devshakilh/product-dashboard-frontend>
 cd frontend
 ```
 
@@ -190,7 +190,4 @@ Add environment variables in your deployment platform.
 
 Ensure backend CORS allows requests from your frontend URL.
 
-### Cookie Issues
-
-Verify backend cookie settings (e.g., secure flag for production).
 ```
