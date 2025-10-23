@@ -1,5 +1,6 @@
 import { Metadata } from 'next';
 import { Noto_Serif, Roboto } from 'next/font/google';
+import { Toaster } from 'sonner';
 
 import { plusJakartaSans } from '@/lib/fonts';
 import AuthProvider from '@/lib/providers';
@@ -40,7 +41,10 @@ export default function RootLayout({
         className={`${plusJakartaSans.variable} ${roboto.variable} ${notoSerif.variable} scroll-smooth`}
       >
         <StoreProvider>
-          <AuthProvider>{children}</AuthProvider>
+          <AuthProvider>
+            {children}
+            <Toaster />
+          </AuthProvider>
         </StoreProvider>
       </body>
     </html>
