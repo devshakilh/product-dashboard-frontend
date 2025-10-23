@@ -54,7 +54,10 @@ export default function ProductList() {
             Manage your product inventory in real-time
           </p>
         </div>
-        <Button onClick={handleCreate} className="flex items-center space-x-2">
+        <Button
+          onClick={handleCreate}
+          className="flex items-center space-x-2 bg-[#0D92F4] text-white hover:bg-[#238cd8]"
+        >
           <Plus className="size-4" />
           <span>Add Product</span>
         </Button>

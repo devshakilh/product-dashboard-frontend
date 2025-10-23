@@ -50,7 +50,12 @@ export {
 } from './form.component';
 export { Input } from './input.component';
 export { Label } from './label.component';
-export { default as Popover } from './popover/popover.component';
+export {
+  Popover,
+  PopoverAnchor,
+  PopoverContent,
+  PopoverTrigger,
+} from './popover/popover.component';
 export {
   Select,
   SelectContent,
