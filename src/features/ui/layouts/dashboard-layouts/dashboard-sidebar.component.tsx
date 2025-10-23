@@ -2,7 +2,7 @@
 
 import Link from 'next/link';
 import { usePathname, useRouter } from 'next/navigation';
-import { Button } from '@/features/ui';
+import { Button } from '@/features/ui/atoms';
 import { BarChart3, LogOut, Package, User } from 'lucide-react';
 import { useDispatch } from 'react-redux';
 
@@ -20,15 +20,14 @@ export default function DashboardLayout({
   const dispatch = useDispatch();
   const pathname = usePathname();
   const { user } = useAuth();
-  const [logout, { isLoading }] = useLogoutMutation();
+  const [logout, { isLoading: isLoggingOut }] = useLogoutMutation();
 
   const handleLogout = async () => {
     try {
       await logout().unwrap();
-      dispatch(logoutAction());
-      router.push('/login');
     } catch {
-      // Force logout even if API call fails
+    } finally {
+      // Always clear local state and redirect
       dispatch(logoutAction());
       router.push('/login');
     }
@@ -80,7 +79,7 @@ export default function DashboardLayout({
 
             <div className="flex items-center space-x-4">
               {user && (
-                <div className="hidden items-center space-x-2 text-sm text-gray-600 md:flex">
+                <div className="hidden items-center space-x-2 rounded-md bg-gray-50 px-3 py-1.5 text-sm text-gray-600 md:flex">
                   <User className="size-4" />
                   <span>{user.email}</span>
                 </div>
@@ -89,11 +88,20 @@ export default function DashboardLayout({
                 variant="ghost"
                 size="sm"
                 onClick={handleLogout}
-                disabled={isLoading}
+                disabled={isLoggingOut}
                 className="flex items-center space-x-2 text-red-600 hover:bg-red-50 hover:text-red-700"
               >
-                <LogOut className="size-4" />
-                <span>{isLoading ? 'Logging out...' : 'Logout'}</span>
+                {isLoggingOut ? (
+                  <>
+                    <div className="size-4 animate-spin rounded-full border-b-2 border-red-600"></div>
+                    <span>Logging out...</span>
+                  </>
+                ) : (
+                  <>
+                    <LogOut className="size-4" />
+                    <span>Logout</span>
+                  </>
+                )}
               </Button>
             </div>
           </div>

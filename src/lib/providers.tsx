@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect, useState } from 'react';
-import { usePathname, useRouter } from 'next/navigation';
+import { usePathname } from 'next/navigation';
 import { useDispatch } from 'react-redux';
 
 import { useVerifyTokenQuery } from '@/lib/store/api/authApi';
@@ -12,7 +12,6 @@ export default function AuthProvider({
 }: {
   children: React.ReactNode;
 }) {
-  const router = useRouter();
   const pathname = usePathname();
   const dispatch = useDispatch();
   const [isChecking, setIsChecking] = useState(true);
@@ -22,12 +21,12 @@ export default function AuthProvider({
     pathname.startsWith('/dashboard/analytics');
   const isAuthPage = pathname.startsWith('/login');
 
-  const { data, error, isLoading } = useVerifyTokenQuery(undefined, {
-    skip: isAuthPage,
+  const { data, error, isLoading, isError } = useVerifyTokenQuery(undefined, {
+    skip: isAuthPage || pathname === '/',
   });
 
   useEffect(() => {
-    if (isAuthPage) {
+    if (isAuthPage || pathname === '/') {
       setIsChecking(false);
       return;
     }
@@ -36,24 +35,30 @@ export default function AuthProvider({
       return;
     }
 
-    if (error) {
-      // Token is invalid or expired
+    if (isError || error) {
       dispatch(logout());
-      if (isProtectedRoute) {
-        router.push('/login');
-      }
       setIsChecking(false);
       return;
     }
 
-    if (data) {
-      // Token is valid
+    if (data?.user) {
       dispatch(setCredentials(data.user));
       setIsChecking(false);
+      return;
     }
-  }, [data, error, isLoading, dispatch, router, isProtectedRoute, isAuthPage]);
 
-  // Show loading screen while checking auth
+    setIsChecking(false);
+  }, [
+    data,
+    error,
+    isError,
+    isLoading,
+    dispatch,
+    isProtectedRoute,
+    isAuthPage,
+    pathname,
+  ]);
+
   if (isChecking && isProtectedRoute) {
     return (
       <div className="flex min-h-screen items-center justify-center bg-gray-50">
